@@ -1,0 +1,24 @@
+建模所用参考（现有资产的素材许可另见同目录 JSON）
+
+东京站屋顶与复原技术资料：
+https://www.jtccm.or.jp/sites/default/files/books_pdf/2013/Vol49,No2,2013.pdf
+https://www.jred.co.jp/projects/p007.html
+
+钟面与铜饰：
+https://www.tokyostationcity.com/tokyoekimachi/ebook/vol7/PDF/vol7.pdf
+https://www.seiko-stc.co.jp/works/detail/case_1221.html
+
+入口外观：
+https://www.railwaystation.jp/ekisya/tokyo-sta2.html
+
+E233 编组及外观照片：
+https://railfile.jp/east/formation/2022/11/e233_e-64a_e233_e-03a.html
+
+站台门工程：
+https://www.obayashi.co.jp/works/detail/work_2519.html
+https://jr-central.co.jp/news/release/_pdf/000025638.pdf
+
+场地参考：国土地理院 GSI 2019 航空影像、原 V3 的 OSM 足迹以及已审阅的 Google 街景。
+https://maps.gsi.go.jp/
+https://www.openstreetmap.org/
+Google 街景参考的拍摄年份包含 2022/2023，不能作为全站 2026 现状的证明。

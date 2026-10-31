@@ -1,0 +1,352 @@
+{
+ "templates": {
+  "cab": {
+   "green_faces_moved": {
+    "blue": 143,
+    "door": 976
+   }
+  },
+  "int": {
+   "green_faces_moved": {
+    "blue": 0,
+    "door": 672
+   }
+  },
+  "pantograph_parts": 22,
+  "green_04_slots_switched": 36,
+  "green_05_slots_switched": 36,
+  "collections": {
+   "cab": "V9 E235-1000 style cab (Yokosuka livery)",
+   "int": "V9 E235-1000 style intermediate (Yokosuka livery)",
+   "pan": "V9 E235-1000 style intermediate with pantograph (Yokosuka livery)",
+   "g4": "V9 Green car 04 (E233-3000 double-deck shell, Yokosuka colours)",
+   "g5": "V9 Green car 05 (E233-3000 double-deck shell, Yokosuka colours)"
+  }
+ },
+ "cars": [
+  {
+   "name": "V9 B5 track 1 car 01 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 1,
+   "car": 1,
+   "local_x": -141.75,
+   "kind": "cab",
+   "yaw_deg": 180,
+   "head": true,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 02 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 1,
+   "car": 2,
+   "local_x": -121.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 03 | V9 E235-1000 style intermediate with pan",
+   "track": 1,
+   "car": 3,
+   "local_x": -101.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 04 | V9 Green car 04 (E233-3000 double-deck s",
+   "track": 1,
+   "car": 4,
+   "local_x": -81.0,
+   "kind": "g4",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 05 | V9 Green car 05 (E233-3000 double-deck s",
+   "track": 1,
+   "car": 5,
+   "local_x": -60.75,
+   "kind": "g5",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 06 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 1,
+   "car": 6,
+   "local_x": -40.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 07 | V9 E235-1000 style intermediate with pan",
+   "track": 1,
+   "car": 7,
+   "local_x": -20.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 08 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 1,
+   "car": 8,
+   "local_x": 0.0,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 09 | V9 E235-1000 style intermediate with pan",
+   "track": 1,
+   "car": 9,
+   "local_x": 20.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 10 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 1,
+   "car": 10,
+   "local_x": 40.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 11 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 1,
+   "car": 11,
+   "local_x": 60.75,
+   "kind": "cab",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 12 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 1,
+   "car": 12,
+   "local_x": 81.0,
+   "kind": "cab",
+   "yaw_deg": 180,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 13 | V9 E235-1000 style intermediate with pan",
+   "track": 1,
+   "car": 13,
+   "local_x": 101.25,
+   "kind": "pan",
+   "yaw_deg": 180,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 14 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 1,
+   "car": 14,
+   "local_x": 121.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 1 car 15 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 1,
+   "car": 15,
+   "local_x": 141.75,
+   "kind": "cab",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": true
+  },
+  {
+   "name": "V9 B5 track 4 car 01 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 4,
+   "car": 1,
+   "local_x": -141.75,
+   "kind": "cab",
+   "yaw_deg": 180,
+   "head": false,
+   "tail": true
+  },
+  {
+   "name": "V9 B5 track 4 car 02 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 4,
+   "car": 2,
+   "local_x": -121.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 03 | V9 E235-1000 style intermediate with pan",
+   "track": 4,
+   "car": 3,
+   "local_x": -101.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 04 | V9 Green car 04 (E233-3000 double-deck s",
+   "track": 4,
+   "car": 4,
+   "local_x": -81.0,
+   "kind": "g4",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 05 | V9 Green car 05 (E233-3000 double-deck s",
+   "track": 4,
+   "car": 5,
+   "local_x": -60.75,
+   "kind": "g5",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 06 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 4,
+   "car": 6,
+   "local_x": -40.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 07 | V9 E235-1000 style intermediate with pan",
+   "track": 4,
+   "car": 7,
+   "local_x": -20.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 08 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 4,
+   "car": 8,
+   "local_x": 0.0,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 09 | V9 E235-1000 style intermediate with pan",
+   "track": 4,
+   "car": 9,
+   "local_x": 20.25,
+   "kind": "pan",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 10 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 4,
+   "car": 10,
+   "local_x": 40.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 11 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 4,
+   "car": 11,
+   "local_x": 60.75,
+   "kind": "cab",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 12 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 4,
+   "car": 12,
+   "local_x": 81.0,
+   "kind": "cab",
+   "yaw_deg": 180,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 13 | V9 E235-1000 style intermediate with pan",
+   "track": 4,
+   "car": 13,
+   "local_x": 101.25,
+   "kind": "pan",
+   "yaw_deg": 180,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 14 | V9 E235-1000 style intermediate (Yokosuk",
+   "track": 4,
+   "car": 14,
+   "local_x": 121.5,
+   "kind": "int",
+   "yaw_deg": 0,
+   "head": false,
+   "tail": false
+  },
+  {
+   "name": "V9 B5 track 4 car 15 | V9 E235-1000 style cab (Yokosuka livery)",
+   "track": 4,
+   "car": 15,
+   "local_x": 141.75,
+   "kind": "cab",
+   "yaw_deg": 0,
+   "head": true,
+   "tail": false
+  }
+ ],
+ "people": {
+  "B5 1-2": 46,
+  "B5 3-4": 46,
+  "B4": 34,
+  "B1": 30,
+  "B1 unpaid": 8,
+  "total": 164
+ },
+ "warnings": [],
+ "door_markers": {
+  "e235_doors_x": [
+   -6.7,
+   -2.3,
+   2.3,
+   6.7
+  ],
+  "source": "mesh",
+  "green_doors_x": [
+   -7.6,
+   7.6
+  ],
+  "green_source": "fallback",
+  "count": 224
+ }
+}

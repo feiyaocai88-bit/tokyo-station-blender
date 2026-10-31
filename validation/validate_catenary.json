@@ -1,0 +1,463 @@
+{
+ "contact_wire_segments": 330,
+ "pantographs": {
+  "count": 28,
+  "max_plan_offset_m": 0.262,
+  "max_abs_gap_m": 1.1195,
+  "detail": [
+   {
+    "instance": "Track 01 car 02",
+    "x": -105.96,
+    "wire_plan_offset_from_shoe_centre_m": 0.04,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 01 car 05",
+    "x": -45.17,
+    "wire_plan_offset_from_shoe_centre_m": 0.058,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 01 car 11",
+    "x": 76.32,
+    "wire_plan_offset_from_shoe_centre_m": 0.069,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 03 car 02",
+    "x": -39.91,
+    "wire_plan_offset_from_shoe_centre_m": 0.053,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 03 car 05",
+    "x": 20.84,
+    "wire_plan_offset_from_shoe_centre_m": 0.151,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 03 car 08",
+    "x": 81.58,
+    "wire_plan_offset_from_shoe_centre_m": 0.103,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 04 car 02",
+    "x": -101.79,
+    "wire_plan_offset_from_shoe_centre_m": 0.048,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 04 car 05",
+    "x": -41.03,
+    "wire_plan_offset_from_shoe_centre_m": 0.073,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 04 car 08",
+    "x": 19.72,
+    "wire_plan_offset_from_shoe_centre_m": 0.172,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 05 car 02",
+    "x": -39.78,
+    "wire_plan_offset_from_shoe_centre_m": 0.046,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 05 car 05",
+    "x": 20.97,
+    "wire_plan_offset_from_shoe_centre_m": 0.167,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 05 car 08",
+    "x": 81.72,
+    "wire_plan_offset_from_shoe_centre_m": 0.104,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 08 car 03",
+    "x": -97.84,
+    "wire_plan_offset_from_shoe_centre_m": 0.09,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 08 car 07",
+    "x": -16.83,
+    "wire_plan_offset_from_shoe_centre_m": 0.048,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 08 car 09",
+    "x": 23.67,
+    "wire_plan_offset_from_shoe_centre_m": 0.109,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 08 car 13",
+    "x": 104.67,
+    "wire_plan_offset_from_shoe_centre_m": 0.204,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 08 car 13",
+    "x": 89.83,
+    "wire_plan_offset_from_shoe_centre_m": 0.173,
+    "gap_shoe_top_to_wire_bottom_m": 1.1195
+   },
+   {
+    "instance": "Track 10 car 03",
+    "x": -94.75,
+    "wire_plan_offset_from_shoe_centre_m": 0.085,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 10 car 07",
+    "x": -13.71,
+    "wire_plan_offset_from_shoe_centre_m": 0.009,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 10 car 09",
+    "x": 26.79,
+    "wire_plan_offset_from_shoe_centre_m": 0.044,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 10 car 13",
+    "x": 107.79,
+    "wire_plan_offset_from_shoe_centre_m": 0.262,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 10 car 13",
+    "x": 92.95,
+    "wire_plan_offset_from_shoe_centre_m": 0.209,
+    "gap_shoe_top_to_wire_bottom_m": 1.1195
+   },
+   {
+    "instance": "Track 14 | N700 family approximation",
+    "x": -93.88,
+    "wire_plan_offset_from_shoe_centre_m": 0.167,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 14 | N700 family approximation",
+    "x": 83.62,
+    "wire_plan_offset_from_shoe_centre_m": 0.193,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 18 | N700 family approximation",
+    "x": -79.87,
+    "wire_plan_offset_from_shoe_centre_m": 0.049,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 18 | N700 family approximation",
+    "x": 97.63,
+    "wire_plan_offset_from_shoe_centre_m": 0.025,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 20 | E5 car 04",
+    "x": -27.62,
+    "wire_plan_offset_from_shoe_centre_m": 0.111,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   },
+   {
+    "instance": "Track 20 | E5 car 08",
+    "x": 72.38,
+    "wire_plan_offset_from_shoe_centre_m": 0.016,
+    "gap_shoe_top_to_wire_bottom_m": -0.0
+   }
+  ]
+ },
+ "max_contact_wire_offset_from_track_centre_m": {
+  "01": 0.284,
+  "02": 0.283,
+  "03": 0.281,
+  "04": 0.28,
+  "05": 0.236,
+  "06": 0.231,
+  "07": 0.278,
+  "08": 0.277,
+  "09": 0.243,
+  "10": 0.28,
+  "14": 0.283,
+  "15": 0.284,
+  "16": 0.222,
+  "17": 0.284,
+  "18": 0.284,
+  "19": 0.287,
+  "20": 0.282,
+  "21": 0.286,
+  "22": 0.287,
+  "23": 0.288
+ },
+ "wire_vs_rail_extent": {
+  "01": {
+   "wire": [
+    -206.9,
+    123.7
+   ],
+   "rail": [
+    -207.1,
+    123.8
+   ],
+   "inside": true
+  },
+  "02": {
+   "wire": [
+    -206.9,
+    123.7
+   ],
+   "rail": [
+    -207.1,
+    123.8
+   ],
+   "inside": true
+  },
+  "03": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "04": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "05": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "06": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "07": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "08": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "09": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "10": {
+   "wire": [
+    -206.8,
+    242.8
+   ],
+   "rail": [
+    -207.0,
+    243.0
+   ],
+   "inside": true
+  },
+  "14": {
+   "wire": [
+    -207.1,
+    242.8
+   ],
+   "rail": [
+    -207.2,
+    243.0
+   ],
+   "inside": true
+  },
+  "15": {
+   "wire": [
+    -207.0,
+    242.8
+   ],
+   "rail": [
+    -207.2,
+    243.1
+   ],
+   "inside": true
+  },
+  "16": {
+   "wire": [
+    -206.8,
+    242.9
+   ],
+   "rail": [
+    -207.0,
+    243.1
+   ],
+   "inside": true
+  },
+  "17": {
+   "wire": [
+    -206.8,
+    242.9
+   ],
+   "rail": [
+    -207.0,
+    243.1
+   ],
+   "inside": true
+  },
+  "18": {
+   "wire": [
+    -206.8,
+    242.9
+   ],
+   "rail": [
+    -207.0,
+    243.1
+   ],
+   "inside": true
+  },
+  "19": {
+   "wire": [
+    -206.8,
+    242.9
+   ],
+   "rail": [
+    -207.0,
+    243.2
+   ],
+   "inside": true
+  },
+  "20": {
+   "wire": [
+    -206.9,
+    194.0
+   ],
+   "rail": [
+    -207.1,
+    201.7
+   ],
+   "inside": true
+  },
+  "21": {
+   "wire": [
+    -206.9,
+    194.0
+   ],
+   "rail": [
+    -207.2,
+    201.8
+   ],
+   "inside": true
+  },
+  "22": {
+   "wire": [
+    -207.0,
+    194.0
+   ],
+   "rail": [
+    -207.2,
+    196.8
+   ],
+   "inside": true
+  },
+  "23": {
+   "wire": [
+    -207.0,
+    194.0
+   ],
+   "rail": [
+    -207.2,
+    196.8
+   ],
+   "inside": true
+  }
+ },
+ "masts": {
+  "count": 181,
+  "min_clearance_to_track_centre_m": 2.48,
+  "closest5": [
+   [
+    2.48,
+    "10",
+    -26.0,
+    106.86
+   ],
+   [
+    2.5,
+    "07",
+    -114.0,
+    67.48
+   ],
+   [
+    2.51,
+    "05",
+    -158.0,
+    52.84
+   ],
+   [
+    2.51,
+    "10",
+    -4.0,
+    106.88
+   ],
+   [
+    2.58,
+    "04",
+    18.0,
+    48.26
+   ]
+  ],
+  "below_2.3m_conventional": [],
+  "below_2.6m_shinkansen": []
+ },
+ "contact_wire_hits_other_geometry": {},
+ "contact_wire_hit_count": 0,
+ "train_vs_mast_overlaps": []
+}

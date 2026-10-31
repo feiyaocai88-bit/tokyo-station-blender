@@ -1,0 +1,56 @@
+{
+  "purpose": "第八轮（V8）用到的资料。本轮没有下载任何模型或贴图；下面的照片只用来对照，没有放进包里。V3–V7 的素材见同目录其他文件。",
+  "height_sources": [
+    {
+      "title": "東京駅の歴史",
+      "site": "ja.wikipedia.org",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%A7%85%E3%81%AE%E6%AD%B4%E5%8F%B2",
+      "used_for": "新干线一侧抬高 1.90 m：改造在来线站台给新干线用时“新幹線のレール面は在来線に比べてさらに1.9 mほど高かった”。同文还有：中央线站台设计高度 +17.3 m（东京湾平均潮位），京滨东北・山手线轨面 +9.1 m；京叶线地下站轨面深 28.59 m；总武地下站地下 5 层、深 25–26 m。"
+    },
+    {
+      "title": "東京・大阪…東西の中心駅に「短い階段」多いのはなぜ？",
+      "site": "日本経済新聞",
+      "url": "https://www.nikkei.com/article/DGXZQOUD22A6E0S3A520C2000000/",
+      "used_for": "新干线站台俯视在来线是“高架橋の高さの差”造成的；东海道新干线 16・17 号站台的楼梯高约 6.3 m。"
+    }
+  ],
+  "photo_references_not_included": [
+    {
+      "file": "JRE-Tokyo-STA Home7-8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:JRE-Tokyo-STA_Home7-8.jpg"
+    },
+    {
+      "file": "JR Tokyo Station Platform 9・10 (Tokaido Line).jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:JR_Tokyo_Station_Platform_9・10_(Tokaido_Line).jpg"
+    },
+    {
+      "file": "Tokyo Station platforms 7 and 8.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_platforms_7_and_8.jpg"
+    },
+    {
+      "file": "JR Tokyo Station platforms 3 - 4 - July 2 2021 various.jpeg",
+      "url": "https://commons.wikimedia.org/wiki/File:JR_Tokyo_Station_platforms_3_-_4_-_July_2_2021_various.jpeg"
+    },
+    {
+      "file": "201801 Platform 8,9 of Tokyo Station.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:201801_Platform_8,9_of_Tokyo_Station.jpg"
+    },
+    {
+      "file": "Tokyo Station and high rises 2020-07-19.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_and_high_rises_2020-07-19.jpg"
+    },
+    {
+      "file": "Tokyo Station overhead 2020-10-25.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_overhead_2020-10-25.jpg"
+    },
+    {
+      "file": "View from Kitte 4.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:View_from_Kitte_4.jpg"
+    },
+    {
+      "file": "Bird's‐eye view of Tokyo Station 5.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:Bird's‐eye_view_of_Tokyo_Station_5.jpg"
+    }
+  ],
+  "photo_use": "雨棚：7・8 号站台的 H 型钢横梁、天窗和吊灯；9・10 号站台的铆接格构梁；3・4 号站台的斜梁；柱子上的红白防撞带。接触网：站台区的立柱和雨棚之间的格构横梁（8/9 号线夜景、2020-07-19 KITTE 俯视）；站台外的格构门型架（2020-10-25 俯视）。新干线一侧比在来线高（KITTE 俯视、2020-10-25 俯视）。"
+}

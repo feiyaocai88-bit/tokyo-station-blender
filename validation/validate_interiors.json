@@ -1,0 +1,91 @@
+{
+ "instances_with_interior": 68,
+ "green_car_instances_without_interior": 6,
+ "commuter_instances_missing_interior": [],
+ "containment": {
+  "V7 interior | E233-0 style cab | procedural": {
+   "verts": 41902,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | E233-0 style ordinary car | procedural": {
+   "verts": 46972,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | E233-1000 style cab | procedural": {
+   "verts": 41902,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | E233-1000 style intermediate | procedural": {
+   "verts": 46972,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | E233-3000 style cab | procedural": {
+   "verts": 41902,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | E233-3000 style intermediate | procedural": {
+   "verts": 46972,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | V3 E235-0 cab": {
+   "verts": 41830,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  },
+  "V7 interior | V3 E235-0 intermediate": {
+   "verts": 46972,
+   "outside_roof": 0,
+   "outside_side": 0,
+   "examples": []
+  }
+ },
+ "windows": {
+  "V5 one-piece body | E233-0 style cab | procedural": {
+   "glass_faces": 32,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | E233-0 style ordinary car | procedural": {
+   "glass_faces": 36,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | E233-1000 style cab | procedural": {
+   "glass_faces": 32,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | E233-1000 style intermediate | procedural": {
+   "glass_faces": 36,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | E233-3000 style cab | procedural": {
+   "glass_faces": 32,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | E233-3000 style intermediate | procedural": {
+   "glass_faces": 36,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | V3 E235-0 cab": {
+   "glass_faces": 32,
+   "plates_left_behind_glass": 0
+  },
+  "V5 one-piece body | V3 E235-0 intermediate": {
+   "glass_faces": 36,
+   "plates_left_behind_glass": 0
+  }
+ },
+ "see_through_glass_on_cars_without_interior": {},
+ "pass": true
+}

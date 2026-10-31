@@ -1,0 +1,59 @@
+{
+ "islands": {
+  "01-02": {
+   "lowest_member_above_deck_m": 3.38,
+   "over_track_min_above_rail_m": 4.62,
+   "min_distance_to_wires_m": 1.09,
+   "columns": 18,
+   "columns_in_stairwells": 0,
+   "people_at_columns": 0,
+   "roof_top_z_incl_skylight": 20.75,
+   "pass": true
+  },
+  "03-04": {
+   "lowest_member_above_deck_m": 3.24,
+   "over_track_min_above_rail_m": 4.72,
+   "min_distance_to_wires_m": 1.11,
+   "columns": 20,
+   "columns_in_stairwells": 0,
+   "people_at_columns": 0,
+   "roof_top_z_incl_skylight": 10.45,
+   "pass": true
+  },
+  "05-06": {
+   "lowest_member_above_deck_m": 3.24,
+   "over_track_min_above_rail_m": 4.72,
+   "min_distance_to_wires_m": 1.1,
+   "columns": 21,
+   "columns_in_stairwells": 0,
+   "people_at_columns": 0,
+   "roof_top_z_incl_skylight": 10.45,
+   "pass": true
+  },
+  "07-08": {
+   "lowest_member_above_deck_m": 3.38,
+   "over_track_min_above_rail_m": 4.62,
+   "min_distance_to_wires_m": 1.11,
+   "columns": 30,
+   "columns_in_stairwells": 0,
+   "people_at_columns": 0,
+   "roof_top_z_incl_skylight": 10.97,
+   "pass": true
+  },
+  "09-10": {
+   "lowest_member_above_deck_m": 3.25,
+   "over_track_min_above_rail_m": 4.41,
+   "min_distance_to_wires_m": 1.1,
+   "columns": 31,
+   "columns_in_stairwells": 0,
+   "people_at_columns": 0,
+   "roof_top_z_incl_skylight": 10.45,
+   "pass": true
+  }
+ },
+ "retired": {
+  "n": 104,
+  "all_hidden": true
+ },
+ "pass": true
+}

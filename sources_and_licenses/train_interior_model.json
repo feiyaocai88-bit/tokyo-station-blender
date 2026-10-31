@@ -1,0 +1,60 @@
+{
+  "purpose": "第七轮（V7）新增的外部素材，以及评估过但没有采用的下载模型。V3–V6 的素材见同目录其他文件（downloaded_models.json、escalator_signage_and_fonts.json 等）。",
+  "models": [
+    {
+      "title": "Subway_[interior]",
+      "author": "Comicaroid (@yuuuusukeeee)",
+      "url": "https://sketchfab.com/3d-models/subway-interior-b7f25426ac674a9291ba092fb9fe8406",
+      "sketchfab_uid": "b7f25426ac674a9291ba092fb9fe8406",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "downloaded_on": "2026-10-30",
+      "downloaded_file": "subway-interior.zip (2 004 648 bytes, sha256 fcde5e792f1ff6dd861fff8292b0ddc575cb60a98f9d69ae333a822017b97cdd), contains source/subway.glb",
+      "file_in_package": "scripts/assets/subway_interior_comicaroid.glb (the downloaded source/subway.glb, unmodified)",
+      "sha256_file_in_package": "55c170e82de640eac9651a947a0c1b52b2b63e5cbe24c90062620dfb8ef83455",
+      "attribution_line": "\"Subway_[interior]\" by Comicaroid (@yuuuusukeeee), https://sketchfab.com/3d-models/subway-interior-b7f25426ac674a9291ba092fb9fe8406 , licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+      "changes": [
+        "the model's outer shell, the posters and frames on its walls and its door leaves are not used",
+        "the remaining parts are cut along the car into end, door and seat-bay modules and re-assembled to a 4-door, 20 m layout (doors at x = +-2.3 m and +-6.7 m)",
+        "scaled across the car by 0.90 and in height by 0.868; door modules by 0.79 and seat bays by 0.81 along the car; floor 1.15 m above rail top",
+        "a few hundred vertices per car near the roof edge moved down so that everything stays inside the car body",
+        "materials replaced by scene materials (seat colour kept from the model)",
+        "8 variants (one per car body type) used by 68 car instances through the car master collections"
+      ]
+    }
+  ],
+  "evaluated_not_used": [
+    {
+      "title": "JR東日本E231系電車",
+      "author": "own.guest",
+      "url": "https://sketchfab.com/3d-models/jre231-98d47a9e4aca454d9c02eb2c690fdaee",
+      "license": "CC BY 4.0",
+      "downloaded_for_evaluation": "98d47a9e4aca454d9c02eb2c690fdaee.glb (5 426 020 bytes, sha256 e80dd21b7764f2cd56a7ea1d126b3529b6d1d75f7297da3ea9594a22ad10c700); not included in this package",
+      "reason": "whole 10-car train in one model at 1/1.52 scale; windows and door windows are painted on textures (no view into the car); Chuo-Sobu Line E231-0, which does not stop at Tokyo's surface platforms"
+    },
+    {
+      "title": "Rigged Train Japanese Yamanote E235 Series",
+      "author": "jujuArtz",
+      "url": "https://www.fab.com/listings/05e2d04f-49d2-49f3-ac0d-3d0a5836c9eb",
+      "reason": "paid product without an open licence; not downloaded"
+    },
+    {
+      "title": "Stormworks E235 Yamonote",
+      "author": "IanEarle",
+      "license": "CC BY-NC-SA 4.0",
+      "reason": "game-style block model; already evaluated in round 2"
+    },
+    {
+      "title": "新幹線N700S / 新幹線こだま号大阪行き Shinkansen N700A",
+      "author": "tatematsu",
+      "license": "CC BY-NC-SA 4.0",
+      "reason": "partial scans (one door area), non-commercial licence"
+    },
+    {
+      "title": "Shinkansen E5 / Shinkansen e5 V.2.0",
+      "author": "hilalhikmahvv",
+      "license": "CC BY 4.0",
+      "reason": "SimplePlanes exports, lower detail and wrong colours compared with the E5 already in the scene"
+    }
+  ]
+}

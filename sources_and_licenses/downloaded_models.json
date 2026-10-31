@@ -1,0 +1,93 @@
+{
+  "purpose": "用户已下载素材的本地项目交付，非公共素材再发布",
+  "trains": [
+    {
+      "filename": "E233_Blockbench.glb",
+      "title": "E233",
+      "author": "medamayakineko3",
+      "url": "https://sketchfab.com/3d-models/e233-2b3b8c9ef7064c8288845e4a8f211a32",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "notes": "仅108三角面，下载后发现为绿色 KER 标识的贴图式方盒；不能直接代表东京站中央线/京滨东北线/东海道线各番台，保留为研究参考，不装入复原场景。",
+      "bytes": 393588,
+      "sha256": "02c15411a7905ad9f2c8f9511eb5bcc11b9f55b66dc7852421db5b68097393ea",
+      "V3_usage": "未作为本场景车辆使用；自建E233番台外观。"
+    },
+    {
+      "filename": "E235_Yamanote_Stormworks.glb",
+      "title": "Stormworks E235 Yamonote",
+      "author": "IanEarle",
+      "url": "https://sketchfab.com/3d-models/stormworks-e235-yamonote-c889035e87494847b2dcc0a02b824618",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "notes": "山手线外观，对应4/5道；源自Stormworks，风格化而非精密测绘。原文件保留。修复自定义法线、显式颜色属性，并把顶点颜色量化为40种面材质；修复版 E235_Yamanote_FIXED.glb 为展示归一化长24m，不是实车尺度，使用时应重新校准。",
+      "bytes": 13371816,
+      "sha256": "0624ee44de39ef58ee9dce3fdd1717f48533f04446a062c3544b1865f8237b32",
+      "V3_usage": "V2参考；V3可见车体改为统一自建断面。历史原型可能仍作为未实例化资源保留，署名及限制随档保留。"
+    },
+    {
+      "filename": "N700S_Scan_4K.glb",
+      "title": "新幹線N700S",
+      "author": "tatematsu",
+      "url": "https://sketchfab.com/3d-models/n700s-46602814e52d47eaa86f8f73d9ecdc30",
+      "license": "CC BY-NC-SA 4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "notes": "4K纹理；实际只含3号车门、局部车身与站台扫描。适合门、标识和防滑铺装参考，不能作为整列车使用。",
+      "bytes": 14967792,
+      "sha256": "18fc075a40f5b193d726c4e8a135244326f39395c029c94d9b504c435a5818c3",
+      "V3_usage": "局部门/站台扫描，不作为整列车使用。"
+    },
+    {
+      "filename": "E5_V2.glb",
+      "title": "Shinkansen e5 V.2.0",
+      "author": "hilalhikmahvv",
+      "url": "https://sketchfab.com/3d-models/shinkansen-e5-v20-5cb621afd38c4f6e851ea8ea1ee09caf",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "notes": "对应20–23道东北/北海道新干线组；源自SimplePlanes，下载的是3节展示截段，实车常规10辆编组。细节与涂装需进一步校正，不能据此声称精确复刻。",
+      "bytes": 7376788,
+      "sha256": "166e0461fc2772aa73b4f6bbf711b2cf2f2f3b14a684b373764299a58dbcbe38",
+      "V3_usage": "V2参考；V3可见10节车体、鼻部和连接重新建模。历史原型可能仍未实例化保留。"
+    },
+    {
+      "filename": "N700_3000.glb",
+      "title": "N700-3000 Series Shinkansen",
+      "author": "Layo / bciarfello",
+      "url": "https://sketchfab.com/3d-models/n700-3000-series-shinkansen-f70820be44e0467d8b1614f2aa3045bd",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "notes": "完整长编组N700系车体，可用于14–19道的车体研究。标题为历史N700-3000型，不能重命名成当代N700S；现代运营代表应为N700A/N700S。",
+      "bytes": 27414792,
+      "sha256": "e71a105ba66bda38134d76c5d495550ec17867908a73a0b48233f49a1a677233",
+      "V3_usage": "保留车身并修正转向架、轮轨接触、受电弓和编组标记。"
+    }
+  ],
+  "taxi": {
+    "model": "2018 Toyota JPN Taxi",
+    "author": "ActsOfDoge",
+    "source": "https://sketchfab.com/3d-models/2018-toyota-jpn-taxi-93e0b7845e0a4c97b8ec28669875cc78",
+    "license": "Sketchfab Free Standard",
+    "license_url": "https://sketchfab.com/licenses",
+    "downloaded_on": "2026-10-29",
+    "meshes_used": 18,
+    "triangles_used": 26551,
+    "prepared_length_m": 4.4,
+    "height_including_roof_lamp_m": 1.9568,
+    "dimensions_reference": "https://global.toyota/jp/jpntaxi/specs/",
+    "source_notes": "Artist vehicle, not a Toyota engineering CAD model. Mirror width and roof-lamp height are included in its mesh bounds.",
+    "changes": [
+      "Removed two auxiliary spheres",
+      "Repaired normals and paint/glass shading",
+      "Nominal 4.4 m length and wheel ground alignment",
+      "Five linked collection instances in southern traffic square"
+    ],
+    "license_note": "For the licensed user's local project. Standard license is not CC0; it restricts redistribution of stand-alone or extractable model files."
+  },
+  "OSM": {
+    "author": "OpenStreetMap contributors",
+    "license": "ODbL 1.0",
+    "source": "https://www.openstreetmap.org/relation/4856156",
+    "license_url": "https://www.openstreetmap.org/copyright",
+    "changes": "原始GeoJSON随档保留；场景中投影到局部米制坐标、刚体旋转和平移后作为隐藏参考。"
+  }
+}

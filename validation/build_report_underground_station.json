@@ -1,0 +1,156 @@
+{
+ "objects": [
+  "V9 Sobu | box structure (slabs, walls, end walls, tunnel stubs, ventilation shaft)",
+  "V9 Sobu | box west wall (hide for the cutaway view)",
+  "V9 Sobu | B5 island platforms 1-2 and 3-4",
+  "V9 Sobu | B5 tracks 1-4 (slab track, 50N rails)",
+  "V9 Sobu | B5 columns (guard bands, numbers)",
+  "V9 Sobu | B4-B1 columns",
+  "V9 Sobu | B5 ceilings, bulkheads, track walls, soffit beams",
+  "V9 Sobu | B5 light fittings",
+  "V9 Sobu | rigid overhead conductor (tracks 1-4)",
+  "V9 Sobu | B5-B4 stairs and escalators (island 1-2)",
+  "V9 Sobu | B5-B4 stairs and escalators (island 3-4)",
+  "V9 Sobu | B4-B1 escalator and stair banks (shafts)",
+  "V9 Sobu | B4-B1 bank light strips",
+  "V9 Sobu | lifts (B5-B4, B5-B1)",
+  "V9 Sobu | B4 concourse (ceiling, partitions, doors)",
+  "V9 Sobu | B4 light fittings",
+  "V9 Sobu | B1 concourse (ceiling, walls, ticket gates, ventilation-shaft cladding)",
+  "V9 Sobu | B1 light fittings",
+  "V9 Sobu | B2-B3 machine rooms (partitions, switchgear, tanks, fans)",
+  "V9 Sobu | B2-B3 light fittings",
+  "V9 context | Tokyo Metro Marunouchi Line tunnel crossing (simplified)",
+  "V9 Sobu | signs (station names, departure boards, track numbers, exits, stop boards, signals)",
+  "V9 Sobu | B5 furniture (benches, vending machines)",
+  "V9 Sobu | concourse details (tactile guide lines, lockers, hydrants, hanging signs)"
+ ],
+ "counts": {
+  "sleeper_blocks": 5200,
+  "b5_columns": 232,
+  "upper_columns": 626,
+  "b5_fittings": 1560,
+  "area_lights": 67,
+  "conductor_hangers": 228,
+  "escalator_steps": 532,
+  "escalators": 16,
+  "stair_steps": 610,
+  "stair_groups": 12,
+  "lifts": 2,
+  "b4_fittings": 546,
+  "ticket_gates": 15,
+  "b1_fittings": 400,
+  "switchgear_cabinets": 184,
+  "tanks_and_pumps": 46,
+  "vent_fans": 2,
+  "departure_boards": 12,
+  "track_signs": 24,
+  "stop_boards": 4,
+  "starting_signals": 4,
+  "posters": 72,
+  "station_name_signs": 38,
+  "vending_machines": 8,
+  "benches": 52,
+  "tactile_branches": 12,
+  "coin_lockers": 78,
+  "hydrant_cabinets": 8,
+  "b4_hanging_signs": 8
+ },
+ "warnings": [],
+ "conductor": {
+  "wire_bottom_above_rail": 5.42,
+  "stagger_m": 0.15
+ },
+ "banks": {
+  "A": {
+   "foot_x": -6.0,
+   "dir": -1,
+   "rise_m": 12.7,
+   "soffit_starts_u": 1.5
+  },
+  "B": {
+   "foot_x": 40.0,
+   "dir": 1,
+   "rise_m": 12.7,
+   "soffit_starts_u": 1.5
+  }
+ },
+ "marunouchi_tunnel_segments": 8,
+ "station": {
+  "frame_origin_model_xy": [
+   -54.086,
+   -72.605
+  ],
+  "axis_x_model": [
+   -0.9362,
+   0.3514
+  ],
+  "axis_y_model": [
+   -0.3514,
+   -0.9362
+  ],
+  "shift_west_of_osm_m": 25.0,
+  "rail_top_z": -28.0,
+  "platform_z": -26.96,
+  "b4_floor_z": -20.9,
+  "b1_floor_z": -8.2,
+  "platform_x": [
+   -153.0,
+   153.0
+  ],
+  "tracks_y": {
+   "1": -16.28,
+   "2": -2.5,
+   "3": 2.5,
+   "4": 16.28
+  },
+  "islands_y": {
+   "1-2": [
+    -14.69,
+    -4.09
+   ],
+   "3-4": [
+    4.09,
+    14.69
+   ]
+  },
+  "upper_part_x": [
+   -60.0,
+   150.0
+  ],
+  "groups_x": [
+   -107.1,
+   -64.3,
+   -18.4,
+   21.4,
+   64.3,
+   110.2
+  ],
+  "lifts": {
+   "1-2": [
+    -4.0,
+    -9.39,
+    "B1"
+   ],
+   "3-4": [
+    1.0,
+    9.39,
+    "B4"
+   ]
+  },
+  "banks": {
+   "A": [
+    -6.0,
+    -1
+   ],
+   "B": [
+    40.0,
+    1
+   ]
+  },
+  "vent_shaft_local": [
+   0.72,
+   7.37
+  ]
+ }
+}

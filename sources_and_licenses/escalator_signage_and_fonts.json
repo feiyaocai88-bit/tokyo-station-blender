@@ -1,0 +1,69 @@
+{
+  "purpose": "第六轮（V6）新增的外部素材与参考资料。V3–V5 的素材见同目录 downloaded_models.json、GSI_Layout_Sources.txt、Reference_Links.txt。",
+  "models": [
+    {
+      "title": "Escalator / Эскалатор KONE TravelMaster 110",
+      "author": "Sergey Burov (@s-burov)",
+      "url": "https://sketchfab.com/3d-models/escalator-kone-travelmaster-110-d1e9d7e1b80d42dc9872d5ba6d8e2307",
+      "sketchfab_uid": "d1e9d7e1b80d42dc9872d5ba6d8e2307",
+      "license": "CC BY 4.0",
+      "license_url": "https://creativecommons.org/licenses/by/4.0/",
+      "downloaded_on": "2026-10-30",
+      "downloaded_file": "escalator-kone-travelmaster-110.zip (7 021 351 bytes), contains source/Sketchfab_2017_03_17_17_50_11.blend and one stainless texture",
+      "file_in_package": "scripts/assets/escalator_kone_tm110.blend (copy of the downloaded source .blend)",
+      "sha256_file_in_package": "754c6d66188aebec852ed93660325fc84206a8e5128d8c475d6569f5cfd40e77",
+      "attribution_line": "\"Escalator / Эскалатор KONE TravelMaster 110\" by Sergey Burov (@s-burov), https://sketchfab.com/3d-models/escalator-kone-travelmaster-110-d1e9d7e1b80d42dc9872d5ba6d8e2307 , licensed under CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)",
+      "changes": [
+        "modules assembled to a 4 m rise (top and bottom modules plus three 1 m middle modules, 30 degrees)",
+        "all parts merged into one mesh",
+        "materials replaced by the scene's stainless steel, rubber, glass and step-edge materials; the original texture is not used",
+        "placed 30 times by collection instancing (collection 'V6 escalator master', excluded from the view layer)"
+      ],
+      "note": "Artist model of a KONE TravelMaster 110; the escalators at Tokyo station are not claimed to be this product."
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Noto Sans JP (Bold, Medium)",
+      "source": "https://github.com/notofonts/noto-cjk (Sans/SubsetOTF/JP)",
+      "license": "SIL Open Font License 1.1",
+      "license_file": "scripts/fonts/LICENSE_OFL.txt",
+      "files": {
+        "scripts/fonts/NotoSansJP-Bold.otf": "1b0edfb500b73a4fa8a4fcaae1bbbd403994e08e73e3e0da37e70d3853f42c5f",
+        "scripts/fonts/NotoSansJP-Medium.otf": "f396a3b57256e4515be9cb41f7aac54766d654890082a9f1b5c2451b5c093d8a"
+      },
+      "used_for": "Japanese text of the V6 sign and train-marking textures; E5 car-number lettering (font packed into the .blend); car-number (形式番号) lettering converted to meshes"
+    },
+    {
+      "name": "TeX Gyre Termes Bold",
+      "source": "TeX Live 2026, texmf-dist/fonts/opentype/public/tex-gyre/texgyretermes-bold.otf (GUST e-foundry)",
+      "license": "GUST Font License (LaTeX Project Public License 1.3c)",
+      "license_file": "scripts/fonts/GUST-FONT-LICENSE_TeX-Gyre.txt",
+      "files": {
+        "scripts/fonts/texgyretermes-bold.otf": "2fb3e952065fa153c7e4e64e04b98b9d79225739b6025aa3f0f0782d299ff61e"
+      },
+      "used_for": "the 24 Roman numerals of the two dome-gable clocks (font packed into the .blend, unmodified)"
+    },
+    {
+      "name": "Segoe UI / Segoe UI Bold",
+      "source": "Windows system font on the build machine",
+      "license": "Microsoft font licence; only used to render English text into the sign textures, not packed or redistributed as a font file"
+    }
+  ],
+  "references": [
+    {
+      "title": "JR東日本 東京駅 構内図・のりば",
+      "url": "https://www.jreast.co.jp/estation/stations/1039.html",
+      "used_for": "platform (番線) assignments and directions on the 番線案内 boards and stop-pattern boards"
+    },
+    {
+      "title": "JR East station numbering line codes and colours (JC, JK, JY, JT, JU, JO, JB, JE, JA, JJ)",
+      "used_for": "line-colour tiles on the boards and the schematic route map (colours approximated)"
+    }
+  ],
+  "illustrative_content": [
+    "the route map is a schematic of major stations, not the official JR map",
+    "car numbers (形式番号) on the commuter cars use plausible type prefixes and set numbers, not a real roster",
+    "Shinkansen side-display wording, seat-class layout and the N700 lamp position are approximations"
+  ]
+}

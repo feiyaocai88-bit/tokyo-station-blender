@@ -1,0 +1,100 @@
+{
+ "stairwells": 30,
+ "openings_clear": {
+  "rays_with_foreign_geometry": 0,
+  "examples": []
+ },
+ "headroom": {
+  "min_m": 2.4,
+  "lowest5": [
+   [
+    2.4,
+    "01-02 C",
+    "escalator",
+    7.4,
+    "V6 platform stairs | stairwells, stairs and enclosures"
+   ],
+   [
+    2.4,
+    "01-02 N",
+    "stair",
+    7.4,
+    "V6 platform stairs | stairwells, stairs and enclosures"
+   ],
+   [
+    2.4,
+    "01-02 S",
+    "escalator",
+    7.4,
+    "V6 platform stairs | stairwells, stairs and enclosures"
+   ],
+   [
+    2.4,
+    "01-02 S",
+    "stair",
+    7.4,
+    "V6 platform stairs | stairwells, stairs and enclosures"
+   ],
+   [
+    2.4,
+    "03-04 C",
+    "stair",
+    7.4,
+    "V6 platform stairs | stairwells, stairs and enclosures"
+   ]
+  ],
+  "below_2.1m": []
+ },
+ "v5_people_in_openings": [],
+ "ocs_in_keepouts": [],
+ "ocs_objects_checked": 6,
+ "escalators": {
+  "instances": 30,
+  "expected": 30,
+  "all_use_master": true,
+  "master_objects": 1,
+  "master_verts": 126848,
+  "credit": "\"Escalator / Эскалатор KONE TravelMaster 110\" by Sergey Burov (@s-burov), https:"
+ },
+ "images": {
+  "v6_sign_atlas_0.png": {
+   "packed": true,
+   "size": [
+    4096,
+    4096
+   ]
+  },
+  "v6_sign_atlas_1.png": {
+   "packed": true,
+   "size": [
+    4096,
+    4096
+   ]
+  }
+ },
+ "fonts_visible_text": {
+  "Bahnschrift Regular.001": {
+   "packed": true,
+   "objects": 3
+  },
+  "Bahnschrift Regular": {
+   "packed": true,
+   "objects": 2
+  },
+  "Noto Sans JP Bold": {
+   "packed": true,
+   "objects": 20
+  },
+  "TeX Gyre Termes Bold": {
+   "packed": true,
+   "objects": 24
+  }
+ },
+ "images_packed": true,
+ "retired": {
+  "count": 4438,
+  "visible_in_render": [],
+  "outside_hidden_collection": []
+ },
+ "pass": true
+}

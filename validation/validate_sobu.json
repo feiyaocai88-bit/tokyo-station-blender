@@ -1,0 +1,233 @@
+{
+ "checks": {
+  "envelope": {
+   "hits": [],
+   "n_hits": 0,
+   "per_track": {
+    "1": {
+     "min_lateral_clearance_m": 2.328,
+     "gauge_hits": []
+    },
+    "2": {
+     "min_lateral_clearance_m": 2.126,
+     "gauge_hits": []
+    },
+    "3": {
+     "min_lateral_clearance_m": 2.126,
+     "gauge_hits": []
+    },
+    "4": {
+     "min_lateral_clearance_m": 2.328,
+     "gauge_hits": []
+    }
+   }
+  },
+  "trains": {
+   "cars": 30,
+   "per_track": {
+    "1": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ],
+    "4": [
+     1,
+     2,
+     3,
+     4,
+     5,
+     6,
+     7,
+     8,
+     9,
+     10,
+     11,
+     12,
+     13,
+     14,
+     15
+    ]
+   },
+   "heads": {
+    "B5-1": 1,
+    "B5-4": 15
+   },
+   "tails": {
+    "B5-1": 15,
+    "B5-4": 1
+   },
+   "pantographs": [
+    {
+     "car": "V9 B5 track 1 car 03 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.013
+    },
+    {
+     "car": "V9 B5 track 1 car 07 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.001
+    },
+    {
+     "car": "V9 B5 track 1 car 09 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.005
+    },
+    {
+     "car": "V9 B5 track 1 car 13 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.131
+    },
+    {
+     "car": "V9 B5 track 4 car 03 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.034
+    },
+    {
+     "car": "V9 B5 track 4 car 07 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.022
+    },
+    {
+     "car": "V9 B5 track 4 car 09 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.016
+    },
+    {
+     "car": "V9 B5 track 4 car 13 | V9 E2",
+     "gap_m": 0.0005,
+     "wire_offset_m": 0.14
+    }
+   ]
+  },
+  "headroom": {
+   "groups_min": 2.346,
+   "banks_min": 2.368,
+   "worst": null,
+   "worst_group": {
+    "group": "1-2 @ -107.1",
+    "lane": "stair",
+    "u": 6.4,
+    "hit": "V9 Sobu | box structure (slabs, walls, end walls, tunnel stubs, ventilation shaft)"
+   },
+   "worst_bank": {
+    "bank": "A",
+    "lane": "escalator",
+    "w": -2.0,
+    "u": 14.3,
+    "hit": "V9 Sobu | B4-B1 escalator and stair banks (shafts)"
+   }
+  },
+  "people": {
+   "count": 164,
+   "bad": [],
+   "n_bad": 0
+  },
+  "plinth": {
+   "vertices": 249836,
+   "above_studio_floor_outside_plinth": 0,
+   "max_z": -0.45
+  },
+  "building": {
+   "min_clearance_to_building_m": 4.94,
+   "where": {
+    "object": "V9 Sobu | B5 ceilings, bulkheads, track walls, sof",
+    "model_X_band": [
+     -150,
+     -145
+    ],
+    "building_west_Y": -11.95
+   },
+   "bands": 90
+  },
+  "osm": {
+   "osm_island_midpoint_local": [
+    0.0,
+    -25.0
+   ],
+   "designed_shift_west_m": 25.0,
+   "platform_length_m": 306.0,
+   "osm_island_length_m": 294.8
+  },
+  "vent_shaft_local": [
+   0.72,
+   7.37
+  ],
+  "cameras": [
+   {
+    "camera": "V9 01 B5 PLATFORM 1-2 | Yokosuka Line tr",
+    "nearest_m": null,
+    "first_hit_ahead_m": 26.71,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 02 B5 PLATFORM 3-4 | Sobu Rapid train",
+    "nearest_m": null,
+    "first_hit_ahead_m": 74.73,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 03 B5 | across tracks 2 and 3: over-t",
+    "nearest_m": null,
+    "first_hit_ahead_m": 18.24,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 04 B5 TRACK 1 | the Yokosuka Line tra",
+    "nearest_m": null,
+    "first_hit_ahead_m": 21.21,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 05 B5 | stair and escalator to the B4",
+    "nearest_m": null,
+    "first_hit_ahead_m": 13.04,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 06 B4 CONCOURSE | stair wells, guide ",
+    "nearest_m": null,
+    "first_hit_ahead_m": 29.25,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 07 B4 -> B1 | long escalators and sta",
+    "nearest_m": null,
+    "first_hit_ahead_m": 3.04,
+    "backface_hits": 1
+   },
+   {
+    "camera": "V9 08 B1 CONCOURSE | ticket gates toward",
+    "nearest_m": null,
+    "first_hit_ahead_m": 33.41,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 09 CUTAWAY | the five levels under th",
+    "nearest_m": null,
+    "first_hit_ahead_m": 93.54,
+    "backface_hits": 0
+   },
+   {
+    "camera": "V9 10 B5 TRACK 2 | looking along the emp",
+    "nearest_m": null,
+    "first_hit_ahead_m": 322.03,
+    "backface_hits": 0
+   }
+  ]
+ },
+ "failures": [],
+ "station_objects": 25,
+ "ok": true
+}

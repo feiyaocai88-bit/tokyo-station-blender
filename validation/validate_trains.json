@@ -1,0 +1,672 @@
+{
+ "markings_objects": 86,
+ "markings_off_body": [],
+ "max_distance_to_body_m": 0.0262,
+ "car_labels_duplicated": {},
+ "module_totals": {
+  "commuter_totals": {
+   "objects": 74,
+   "car_numbers": 148,
+   "gosha_plates": 568,
+   "yusen_stickers": 136
+  },
+  "e5_totals": {
+   "led_panels": 36,
+   "car_number_font_switched": 20
+  }
+ },
+ "module_warnings": [],
+ "n700_lamps": {
+  "14": {
+   "head_faces": 2,
+   "tail_faces": 2,
+   "head_south_tail_north": true
+  },
+  "18": {
+   "head_faces": 2,
+   "tail_faces": 2,
+   "head_south_tail_north": true
+  }
+ },
+ "floor_markers": {
+  "01": {
+   "markers": 44,
+   "mismatch": 0
+  },
+  "03": {
+   "markers": 40,
+   "mismatch": 0
+  },
+  "04": {
+   "markers": 44,
+   "mismatch": 0
+  },
+  "05": {
+   "markers": 44,
+   "mismatch": 0
+  },
+  "08": {
+   "markers": 56,
+   "mismatch": 0
+  },
+  "10": {
+   "markers": 56,
+   "mismatch": 0
+  },
+  "20": {
+   "markers": 18,
+   "mismatch": 0
+  }
+ },
+ "pass": true,
+ "per_object": {
+  "V6 train markings | Track 01 car 01": {
+   "max_dist_to_body_m": 0.0167,
+   "faces_by_material": {
+    "V6 | train lettering black": 384,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 02": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 494,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 03": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 466,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 04": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 440,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 05": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 468,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 06": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 472,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 07": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 450,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 08": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 440,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 01 car 09": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 468,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 01 car 10": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 418,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 11": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 446,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 01 car 12": {
+   "max_dist_to_body_m": 0.0167,
+   "faces_by_material": {
+    "V6 | train lettering black": 412,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 01": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 460,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 02": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 522,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 03": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 494,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 04": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 468,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 05": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 496,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 06": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 500,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 07": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 494,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 08": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 522,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 09": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 526,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 03 car 10": {
+   "max_dist_to_body_m": 0.0172,
+   "faces_by_material": {
+    "V6 | train lettering black": 488,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 01": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 394,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 02": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 492,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 03": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 476,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 04": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 450,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 05": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 466,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 06": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 496,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 07": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 428,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 08": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 444,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 09": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 470,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 10": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 448,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 04 car 11": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 410,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 01": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 438,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 02": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 536,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 03": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 520,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 04": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 494,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 05": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 510,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 06": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 540,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 07": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 472,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 08": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 488,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 09": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 514,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 10": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 492,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 05 car 11": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | train lettering black": 454,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 01": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 510,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 02": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 544,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 03": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 572,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 04": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 576,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 05": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 538,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 06": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 484,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 07": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 546,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 08": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 492,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 09": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 520,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 10": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 550,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 11": {
+   "max_dist_to_body_m": 0.0062,
+   "faces_by_material": {
+    "V6 | train lettering black": 540,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 08 car 12": {
+   "max_dist_to_body_m": 0.0062,
+   "faces_by_material": {
+    "V6 | train lettering black": 568,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 08 car 13": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 546,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 14": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 518,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 08 car 15": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 512,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 01": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 508,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 02": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 542,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 03": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 570,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 04": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 574,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 05": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 536,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 06": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 534,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 07": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 596,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 08": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 542,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 09": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 570,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 10": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 600,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 11": {
+   "max_dist_to_body_m": 0.0062,
+   "faces_by_material": {
+    "V6 | train lettering black": 590,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 10 car 12": {
+   "max_dist_to_body_m": 0.0062,
+   "faces_by_material": {
+    "V6 | train lettering black": 618,
+    "V6 | train stickers (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 10 car 13": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 596,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 14": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 568,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 10 car 15": {
+   "max_dist_to_body_m": 0.0137,
+   "faces_by_material": {
+    "V6 | train lettering black": 562,
+    "V6 | train stickers (atlas)": 10
+   }
+  },
+  "V6 train markings | Track 14 N700 side displays and lamps": {
+   "max_dist_to_body_m": 0.0262,
+   "faces_by_material": {
+    "V6 | LED display frame": 186,
+    "V6 | Shinkansen side LED display (atlas)": 31,
+    "V6 | N700 lamp rim": 4,
+    "V6 | N700 head lamp (lit)": 2,
+    "V6 | N700 tail lamp (lit)": 2
+   }
+  },
+  "V6 train markings | Track 18 N700 side displays and lamps": {
+   "max_dist_to_body_m": 0.0262,
+   "faces_by_material": {
+    "V6 | LED display frame": 168,
+    "V6 | Shinkansen side LED display (atlas)": 28,
+    "V6 | N700 lamp rim": 4,
+    "V6 | N700 head lamp (lit)": 2,
+    "V6 | N700 tail lamp (lit)": 2
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 01": {
+   "max_dist_to_body_m": 0.0135,
+   "faces_by_material": {
+    "V6 | LED display frame": 12,
+    "V6 | Shinkansen side LED display (atlas)": 2
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 02": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 03": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 04": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 05": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 06": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 07": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 08": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 09": {
+   "max_dist_to_body_m": 0.0136,
+   "faces_by_material": {
+    "V6 | LED display frame": 24,
+    "V6 | Shinkansen side LED display (atlas)": 4
+   }
+  },
+  "V6 train markings | Track 20 | E5 car 10": {
+   "max_dist_to_body_m": 0.0135,
+   "faces_by_material": {
+    "V6 | LED display frame": 12,
+    "V6 | Shinkansen side LED display (atlas)": 2
+   }
+  }
+ }
+}

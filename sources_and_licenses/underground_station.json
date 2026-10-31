@@ -1,0 +1,80 @@
+{
+  "purpose": "第九轮（V9，总武快速线・横须贺线地下站）用到的资料。本轮没有下载任何模型；贴图都是脚本自己画的（scripts/make9_textures.py）。照片只用来对照，没有放进包里。V3–V8 的素材见同目录其他文件。",
+  "data": [
+    {
+      "title": "OpenStreetMap",
+      "license": "ODbL 1.0（© OpenStreetMap contributors）",
+      "url": "https://www.openstreetmap.org/copyright",
+      "read": "2026-10-31，经 Overpass API 和 api.openstreetmap.org",
+      "objects": [
+        "way 759432999（総武3;総武4，地下 5 层岛式站台）",
+        "way 759433000（総武1;総武2）",
+        "way 759433002、759433005、759433006、759432998、23993804、210358354（总武线・横须贺线线路）",
+        "way 661604130（东京地铁丸之内线）",
+        "地面 10 座站台的多边形关系（relation 12550238 … 12437449），只用来拟合 OSM→模型坐标的变换"
+      ],
+      "used_for": "地下站的走向、长度和纵向位置；丸之内线隧道的平面位置。模型里只用了换算后的少量坐标（见 scripts/v9geo.py），没有附带 OSM 原始数据。"
+    }
+  ],
+  "facts": [
+    {
+      "title": "東京駅",
+      "site": "ja.wikipedia.org",
+      "license": "CC BY-SA 4.0（只引用事实）",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%A7%85",
+      "used_for": "总武地下站在丸之内一侧环岛正下方，上面没有建筑物（车站往西移 25 m 的依据之一）；地下 5 层岛式 2 面 4 线。"
+    },
+    {
+      "title": "東京駅の歴史",
+      "site": "ja.wikipedia.org",
+      "license": "CC BY-SA 4.0（只引用事实）",
+      "url": "https://ja.wikipedia.org/wiki/%E6%9D%B1%E4%BA%AC%E9%A7%85%E3%81%AE%E6%AD%B4%E5%8F%B2",
+      "used_for": "总武地下站地下 5 层、深 25–26 m（与下面 28 m 的说法对照）。"
+    },
+    {
+      "title": "gendai.media 记事",
+      "url": "https://gendai.media/articles/-/116999",
+      "used_for": "“地下鉄丸ノ内線の下、地下28mの位置”：轨面取广场下 28.0 m。"
+    },
+    {
+      "title": "東京駅 乗り換え案内（横須賀線・総武快速線ホーム）",
+      "site": "wadattsu261.com",
+      "url": "https://wadattsu261.com/content/tokyo-yokosuka-soburapidhome-info/2",
+      "used_for": "地下 1・2 号线横须贺线（品川・横滨方向）、3・4 号线总武快速线（千叶方向）；站台到地下 4 层、再经扶梯到地下 1 层丸之内地下中央口的走法。"
+    },
+    {
+      "title": "JR東日本 東京駅 駅構内図",
+      "url": "https://www.jreast.co.jp/estation/stations/1039.html",
+      "used_for": "地下 5 层楼梯组沿站台的大致位置、地下 4 层和地下 1 层的关系（只看，没有复制图）。"
+    },
+    {
+      "title": "E235系1000番台 报道",
+      "sites": [
+        "tetsudo-ch.com",
+        "news.mynavi.jp",
+        "traicy.com"
+      ],
+      "used_for": "E235 系 1000 番台：和山手线 E235 同一基本设计，外观改成横须贺色，带绿色车。"
+    }
+  ],
+  "photo_references_not_included": [
+    {
+      "file": "E235系の1000番台.jpg",
+      "url": "https://commons.wikimedia.org/wiki/File:E235%E7%B3%BB%E3%81%AE1000%E7%95%AA%E5%8F%B0.jpg",
+      "used_for": "车窗下蓝色带和奶油色细线的位置、头车前端的颜色。"
+    }
+  ],
+  "fonts": [
+    {
+      "name": "Noto Sans JP Bold",
+      "license": "SIL Open Font License 1.1",
+      "used_for": "make9_textures.py 生成的所有文字贴图（V6 起已在包里）。"
+    }
+  ],
+  "reused_from_earlier_rounds": [
+    "E235-0、E233-3000 绿色车、受电弓、V7 车内：都是模型里已有的（来源见 V3–V7 的说明）",
+    "行人：V5 pedestrian 集合",
+    "LED 字形和号车标记的画法：make_led_textures.py（V5/V6）"
+  ],
+  "validator_change": "scripts/validate6_catenary.py 跳过带 V9_train 属性的地下列车；它们的受电弓由 validate9_sobu.py 对地下刚性接触线检查。"
+}
