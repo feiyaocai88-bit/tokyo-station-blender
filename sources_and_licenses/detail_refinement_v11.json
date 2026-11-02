@@ -1,0 +1,96 @@
+{
+  "revision": "V11 platform, plaza, building and Marunouchi Line detail",
+  "created": "2026-11-03",
+  "input": "V10 generated from repository release blender-scene",
+  "scope_zh": "细化站台真实凹槽和支承、分组柱型、5/6番线弧顶、广场铺装与低矮通风塔、街景参考设备围护楼、站房窗户、JR车辆机械细节；新增丸之内线M17东京站和六节2000系列车。",
+  "sources": [
+    {
+      "title": "Tokyo Metro: Tokyo station yard map",
+      "url": "https://www.tokyometro.jp/station/tokyo/yardmap/index_print.html",
+      "image_url": "https://www.tokyometro.jp/station/yardmap_img/figure_yardmap_tokyo_all.jpg",
+      "observed_revision": "2026.4現在, visibly printed on the official diagram",
+      "model_use": "B2 island platform, track 1 toward Ogikubo and track 2 toward Ikebukuro, B1 concourse, three principal stair/escalator groups, lift, two ticket-gate areas and JR transfer branches.",
+      "limits": "Dimensions, depth, stair spacing and transfer branch extents are estimated. The inherited schematic line bearing is retained with approximately 7.35 m westward offset to avoid the existing Sobu upper structure. This is not a measured plan or a full underground pedestrian-network model."
+    },
+    {
+      "title": "Tokyo Metro: Marunouchi 2000 series",
+      "url": "https://www.tokyometro.jp/corporate/enterprise/passenger_rail/cars/working/marunouchi_2000/index.html",
+      "image_url": "https://www.tokyometro.jp/corporate/enterprise/passenger_rail/cars/working/marunouchi_2000/images/index_img_01.jpg",
+      "formation_image": "https://www.tokyometro.jp/corporate/enterprise/passenger_rail/cars/working/marunouchi_2000/images/index_img_02.gif",
+      "model_use": "Scarlet body, large rounded front mask, circular end windows, high white wave band, six-car formation with car 1 at the Ogikubo end. Native geometry includes seats, grab loops, HVAC, bogies and third-rail shoes.",
+      "limits": "Visual interpretation with simplified mechanical assemblies and estimated dimensions; no specific fleet number is claimed."
+    },
+    {
+      "title": "Tokyo Metro 2000 series introduction newsletter",
+      "url": "https://www.tokyometro.jp/corporate/newsletter/metroNews20180921_l72.pdf",
+      "model_use": "Reference for characteristic circular-window and wave-band styling."
+    },
+    {
+      "title": "M17 Tokyo platform photographs",
+      "url": "https://ekikabe.net/m17",
+      "image_url": "https://ekikabe.net/images/station/m/m17_photo03.jpg",
+      "model_use": "Round granite columns, white ceiling, recessed ventilation grilles, gray half-height platform gates with red markings, red wall band and station-name plates."
+    },
+    {
+      "title": "Google Maps Marunouchi plaza panorama",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CIHM0ogKEICAgICE_OqFbQ",
+      "attribution": "Ito Imaji, March 2018, date and contributor visible in Google Maps",
+      "model_use": "Street-side brown/bronze vertical screening and high narrow glazing on an equipment enclosure near the north end of the station facade.",
+      "limits": "The building's footprint, height, location within the existing diorama and concealed plant are inferred. Google imagery dated April 2015 was also viewed, but predates completion of the plaza and was not used as the modern paving plan. No panorama pixels are included in the package."
+    },
+    {
+      "title": "JR East: Tokyo Station plaza ventilation tower alteration",
+      "url": "https://www.jreast.co.jp/press/2013/20131011.pdf",
+      "model_use": "Two plaza towers reduced from approximately 13 m to approximately 4 m, with approximately 3 m projecting canopies. The revised model replaces the former tall drums with low finned cylinders and broad circular roofs."
+    },
+    {
+      "title": "Shinnihon Engineering: Tokyo Station Marunouchi plaza ventilation towers",
+      "url": "https://www2.sne.co.jp/map/2018015",
+      "photo_urls": ["https://sne.co.jp/uploads/t_records/2018015/records_pic_2.jpg", "https://sne.co.jp/uploads/t_records/2018015/records_pic_5.jpg"],
+      "model_use": "As-built vertical fins, shallow broad canopy, radial roof framing, stone retaining perimeter."
+    },
+    {
+      "title": "JR East: Marunouchi station plaza completion",
+      "url": "https://www.jreast.co.jp/press/2017/20171107.pdf",
+      "model_use": "White granite paving, tree rows, lawns and pedestrian plaza; existing three-head lamps retained. Stone joints, tree pits, seat edges, drains and inspection covers added."
+    },
+    {
+      "title": "Tokyo Station platform 5/6 canopy reconstruction report",
+      "url": "https://kensetsunewspickup.blogspot.com/2015/08/1256.html",
+      "model_use": "Raised rounded green central roof with low side wings, modern steel supports and exposed services below the platform edge. Two historic cast-iron columns conserved at the Yurakucho end; they are represented as two monuments, not repeated along the whole platform.",
+      "limits": "Profile height, support spacing and exact monument positions are inferred."
+    },
+    {
+      "title": "JR Tokyo Station Platform 9/10 (Tokaido Line)",
+      "url": "https://commons.wikimedia.org/wiki/File:JR_Tokyo_Station_Platform_9%E3%83%BB10_(Tokaido_Line).jpg",
+      "author": "Mister0124",
+      "date": "2019-03-11",
+      "license": "CC BY-SA 4.0",
+      "model_use": "Paired steel columns, cream-colored beams, diagonal red/white protective bands, column identification, under-platform recess and brackets."
+    },
+    {
+      "title": "JR East Tokyo Station platforms 20/21",
+      "url": "https://commons.wikimedia.org/wiki/File:JR-East-Tokyo-STA_Home20-21.jpg",
+      "model_use": "Polished dark stone column inserts with stainless edges, contrasting finished panels and exposed central roof framing. Existing model structural placement retained; cladding and identifying details interpreted."
+    },
+    {
+      "title": "JR East: E235-1000 introduction",
+      "url": "https://www.jreast.co.jp/press/2018/20180902.pdf",
+      "model_use": "JR vehicle context. Source rolling-stock bodies and livery retained; additional HVAC grilles, axleboxes, air-spring ribs and coupling hoses are simplified mechanical interpretations."
+    },
+    {
+      "title": "Nippon Sharyo: N700A",
+      "url": "https://www.n-sharyo.co.jp/business/tetsudo/pages/jrcn700a.htm",
+      "model_use": "Vehicle family reference. Source Shinkansen shapes and formations retained."
+    }
+  ],
+  "reference_image_policy": "Reference pictures were inspected for modeling only. No Google imagery, station photographs or operator diagrams are redistributed or applied as textures. All new geometry is procedural; signage is mesh lettering using the repository's OFL-licensed Noto Sans JP.",
+  "accuracy": [
+    "This combines references from different dates and is not a single-date digital twin.",
+    "Column sections vary by platform group; exact support-by-support historical and current differences are not fully surveyed.",
+    "Under-platform recesses are real open geometry, but their dimensions and support pitch are estimates.",
+    "The model retains the existing GSI/OSM-derived alignment and inherited Shinkansen roof heights.",
+    "The separate B2 cutaway omits B1, walls and ceilings for inspection. The complete station remains in the main scene.",
+    "The train study is a linked copy of one cab car, shown separately for inspection."
+  ]
+}

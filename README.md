@@ -8,10 +8,42 @@ A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 - the Marunouchi plaza;
 - all conventional and Shinkansen platforms, with tracks, overhead lines and trains;
 - the JR Sobu Rapid / Yokosuka Line underground station, five levels below the plaza.
+- the Tokyo Metro Marunouchi Line M17 station and a six-car 2000-series train in V11.
 
 The model is built with Blender Python scripts. Automatic checks test clearances, headroom and train placement.
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
+
+## V11 photographic detail and Marunouchi Line
+
+V11 opens the edges beneath all ten platform decks and adds recessed supports, brackets and service trays. Platform groups now have H-section, round, paired-channel, portal-pair, box-clad and stone/stainless-clad columns. The 5/6 roof has a rounded green centre with low side wings, and the two conserved cast-iron columns are represented separately at the south end.
+
+![Marunouchi plaza and lower ventilation towers](images/v11/plaza.jpg)
+
+The plaza gains 6,888 stone paving faces, 15 planted tree pits with stone seat edges, drains and inspection covers. Both circular ventilation towers are lowered and given broad radial canopies, following the JR East alteration and as-built photographs. A vertically screened utility enclosure uses Google Maps street-level imagery as a visual reference. Station windows, rainwater pipes, service-building doors and 48 existing JR vehicle templates receive additional detail.
+
+| | |
+|---|---|
+| ![Open platform underside](images/v11/platform_underside.jpg) | ![Paired platform columns](images/v11/platform_columns.jpg) |
+| Recessed edge, supports, brackets and cable trays | Paired columns with section details and protective bands |
+| ![Marunouchi platform](images/v11/metro_platform.jpg) | ![2000 series car](images/v11/metro_train.jpg) |
+| B2 island platform with granite columns and half-height gates | Circular end windows, wave band, bogies and third-rail shoes |
+
+The new M17 station follows the topology of Tokyo Metro's April 2026 diagram: B2 island, B1 concourse, three stair/escalator banks, lift, two gate areas and short JR transfer branches. A six-car scarlet 2000-series interpretation has three doors per side, round end windows, interior seating, grab loops, HVAC and third-rail collection. The model includes 36 platform-door pairs and standard-gauge tracks. The display base and studio floor have real underground voids so the complete station can be viewed in the main scene.
+
+The `.blend` contains two additional inspection scenes: `V11 Marunouchi cutaway` omits B1, walls and ceilings to expose B2; `V11 2000 series vehicle study` shows a linked cab-car mesh separately. Fourteen review cameras are in `V11_Review_Cameras`.
+
+This is still a photographic interpretation. Column positions, rooftop and equipment-building dimensions, underground depths and transfer passage extents are not surveyed. The former schematic Marunouchi bearing is retained, with about 7.35 m westward adjustment to clear the inherited Sobu upper structures. References span different dates; the model is not a single-date reconstruction. See [V11 sources and limitations](sources_and_licenses/detail_refinement_v11.json).
+
+Apply V11 to the V10 file generated below:
+
+```sh
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/mod11_refinement.py -- out/Tokyo_Station_Detailed_V11.blend validation/build_v11.json validation/baseline_v10.json
+blender --background out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 --python scripts/validate11_refinement.py -- validation/baseline_v10.json validation/validate_v11.json
+blender --background out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 --python scripts/render_review_cams_v11.py -- out/previews 64
+```
+
+The validator compares all source mesh fingerprints and stored transforms against the pre-edit baseline, samples surface track clearances, tests column/facility intersections and roof/catenary intersections, and checks Metro vehicle envelopes, stair headroom, display-base openings and separation from the existing Sobu structure. The baseline is generated locally and is not committed. Visual review remains necessary for photographic similarity.
 
 ## V10 platform and railway-service refinement
 

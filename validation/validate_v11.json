@@ -1,0 +1,205 @@
+{
+  "revision": 11,
+  "checks": {
+    "source_preservation": {
+      "pass": true,
+      "source_objects": 29533,
+      "missing": [],
+      "changed": [],
+      "retained_replaced_objects": 163
+    },
+    "assets": {
+      "pass": true,
+      "missing": []
+    },
+    "finite_vertices": {
+      "pass": true,
+      "mesh_objects": 77,
+      "vertices": 667210
+    },
+    "platform_groups": {
+      "pass": true,
+      "columns": {
+        "01-02": {
+          "section": "modern",
+          "count": 18
+        },
+        "03-04": {
+          "section": "round",
+          "count": 20
+        },
+        "05-06": {
+          "section": "modern",
+          "count": 21
+        },
+        "07-08": {
+          "section": "paired_channel",
+          "count": 30
+        },
+        "09-10": {
+          "section": "portal_pair",
+          "count": 62
+        },
+        "14-15": {
+          "section": "box_jacket",
+          "count": 30
+        },
+        "16-17": {
+          "section": "box_jacket",
+          "count": 32
+        },
+        "18-19": {
+          "section": "circular_jacket",
+          "count": 32
+        },
+        "20-21": {
+          "section": "stone_stainless_jacket",
+          "count": 30
+        },
+        "22-23": {
+          "section": "stone_stainless_jacket",
+          "count": 28
+        }
+      },
+      "recesses": {
+        "01-02": {
+          "deck_top": 16.510000228881836,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 142,
+          "edge_length": 514.0
+        },
+        "03-04": {
+          "deck_top": 6.210000038146973,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 148,
+          "edge_length": 536.0
+        },
+        "05-06": {
+          "deck_top": 6.210000038146973,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 158,
+          "edge_length": 574.0
+        },
+        "07-08": {
+          "deck_top": 6.210000038146973,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 188,
+          "edge_length": 680.0
+        },
+        "09-10": {
+          "deck_top": 6.210000038146973,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 190,
+          "edge_length": 688.0
+        },
+        "20-21": {
+          "deck_top": 8.320000052452087,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 218,
+          "edge_length": 785.1
+        },
+        "22-23": {
+          "deck_top": 8.320000052452087,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 214,
+          "edge_length": 772.4
+        },
+        "14-15": {
+          "deck_top": 8.404000163078308,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 222,
+          "edge_length": 802.3
+        },
+        "16-17": {
+          "deck_top": 8.404000163078308,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 230,
+          "edge_length": 827.5
+        },
+        "18-19": {
+          "deck_top": 8.404000163078308,
+          "slab_thickness": 0.23,
+          "recess_width": 0.72,
+          "support_piers": 230,
+          "edge_length": 826.9
+        }
+      }
+    },
+    "deck_levels_and_open_slab": {
+      "pass": true,
+      "failures": []
+    },
+    "surface_track_clearance": {
+      "pass": true,
+      "minimum_m": 2.0686140103006827,
+      "intrusions": []
+    },
+    "curved_roof_ocs": {
+      "pass": true,
+      "intersections": []
+    },
+    "columns_vs_platform_facilities": {
+      "pass": true,
+      "collisions": []
+    },
+    "metro_vs_sobu_structures": {
+      "pass": true,
+      "intersections": []
+    },
+    "metro_vehicle_envelope": {
+      "pass": true,
+      "hits": [],
+      "samples": 210
+    },
+    "metro_stair_headroom": {
+      "pass": true,
+      "required_m": 2.1,
+      "obstructions": []
+    },
+    "underground_display_void": {
+      "pass": true,
+      "hits": []
+    },
+    "metro_content": {
+      "pass": true,
+      "counts": {
+        "platforms_with_real_edge_recess": 10,
+        "under_platform_piers": 1940,
+        "differentiated_columns": 303,
+        "preserved_column_monuments": 2,
+        "new_curved_roof_profiles": 1,
+        "plaza_paving_units": 6888,
+        "tree_pits_with_seating": 15,
+        "plaza_service_hatches": 5,
+        "streetview_informed_utility_enclosures": 1,
+        "corrected_plaza_ventilation_towers": 2,
+        "service_facades_detailed": 3,
+        "facade_windows_detailed": 132,
+        "facade_rainwater_pipes": 8,
+        "jr_vehicle_templates_detailed": 48,
+        "display_meshes_with_real_underground_void": 2,
+        "metro_granite_columns": 28,
+        "metro_stair_escalator_banks": 3,
+        "metro_lifts": 1,
+        "metro_platform_door_pairs": 36,
+        "metro_ticket_gate_banks": 2,
+        "marunouchi_2000_cars": 6
+      }
+    },
+    "separate_cutaway": {
+      "pass": true
+    }
+  },
+  "failures": [],
+  "scope": "Geometry samples and source preservation; photographic similarity also requires visual review. This is not engineering clearance certification.",
+  "pass": true
+}
