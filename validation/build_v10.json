@@ -1,0 +1,736 @@
+{
+  "revision": 10,
+  "roofs": {
+    "01-02": {
+      "style": "pale_green",
+      "eave_z": 20.75,
+      "sections": [
+        [
+          -132.8372,
+          108.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 16.51,
+      "flashed_mast_openings": 11
+    },
+    "03-04": {
+      "style": "mint",
+      "eave_z": 10.45,
+      "sections": [
+        [
+          -132.0,
+          112.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 6.21,
+      "flashed_mast_openings": 10
+    },
+    "05-06": {
+      "style": "aged_green",
+      "eave_z": 10.45,
+      "sections": [
+        [
+          -122.0,
+          105.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 6.21,
+      "flashed_mast_openings": 9
+    },
+    "07-08": {
+      "style": "pale_green",
+      "eave_z": 10.45,
+      "sections": [
+        [
+          -187.5817,
+          145.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 6.21,
+      "flashed_mast_openings": 14
+    },
+    "09-10": {
+      "style": "solar",
+      "eave_z": 10.45,
+      "sections": [
+        [
+          -188.0,
+          148.0
+        ]
+      ],
+      "pv_modules": 1589,
+      "estimated_profile": true,
+      "platform_deck_z": 6.21,
+      "flashed_mast_openings": 14
+    },
+    "20-21": {
+      "style": "pale_green",
+      "eave_z": 16.32,
+      "sections": [
+        [
+          -204.0,
+          187.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 8.32,
+      "flashed_mast_openings": 0
+    },
+    "22-23": {
+      "style": "mint",
+      "eave_z": 16.32,
+      "sections": [
+        [
+          -204.0,
+          180.0
+        ]
+      ],
+      "pv_modules": 180,
+      "estimated_profile": true,
+      "platform_deck_z": 8.32,
+      "flashed_mast_openings": 0
+    },
+    "14-15": {
+      "style": "roof_white",
+      "eave_z": 16.404,
+      "sections": [
+        [
+          -204.0,
+          186.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 8.404,
+      "flashed_mast_openings": 0
+    },
+    "16-17": {
+      "style": "roof_white",
+      "eave_z": 16.404,
+      "sections": [
+        [
+          -204.0,
+          210.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 8.404,
+      "flashed_mast_openings": 0
+    },
+    "18-19": {
+      "style": "roof_white",
+      "eave_z": 16.404,
+      "sections": [
+        [
+          -204.0,
+          210.0
+        ]
+      ],
+      "pv_modules": 0,
+      "estimated_profile": true,
+      "platform_deck_z": 8.404,
+      "flashed_mast_openings": 0
+    }
+  },
+  "roof_buildings": [
+    {
+      "island": "01-02",
+      "x": -88,
+      "size": [
+        13,
+        5.4,
+        2.9
+      ],
+      "object": "V10 01-02 roof equipment room at -88"
+    },
+    {
+      "island": "03-04",
+      "x": 33,
+      "size": [
+        5.8,
+        3.0,
+        2.45
+      ],
+      "object": "V10 03-04 roof equipment room at +33"
+    },
+    {
+      "island": "07-08",
+      "x": -63,
+      "size": [
+        8.4,
+        3.0,
+        2.35
+      ],
+      "object": "V10 07-08 roof equipment room at -63"
+    },
+    {
+      "island": "20-21",
+      "x": -94,
+      "size": [
+        10.2,
+        4.5,
+        3.0
+      ],
+      "object": "V10 20-21 roof equipment room at -94"
+    },
+    {
+      "island": "20-21",
+      "x": 102,
+      "size": [
+        3.1,
+        3.3,
+        4.0
+      ],
+      "object": "V10 20-21 roof equipment room at +102"
+    },
+    {
+      "island": "22-23",
+      "x": 120,
+      "size": [
+        7.1,
+        4.6,
+        2.8
+      ],
+      "object": "V10 22-23 roof equipment room at +120"
+    },
+    {
+      "island": "14-15",
+      "x": 135,
+      "size": [
+        10.5,
+        4.5,
+        2.8
+      ],
+      "object": "V10 14-15 roof equipment room at +135"
+    },
+    {
+      "island": "16-17",
+      "x": 111,
+      "size": [
+        13.8,
+        4.5,
+        3.0
+      ],
+      "object": "V10 16-17 roof equipment room at +111"
+    }
+  ],
+  "facilities": [
+    {
+      "object": "V10 01-02 kiosk at -56.8",
+      "island": "01-02",
+      "type": "kiosk",
+      "x": -56.75,
+      "y": 24.63324672407058,
+      "z": 16.51,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 01-02 vending at +34.0",
+      "island": "01-02",
+      "type": "vending",
+      "x": 34.0,
+      "y": 23.624729990905706,
+      "z": 16.51,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 01-02 bench at +83.5",
+      "island": "01-02",
+      "type": "bench",
+      "x": 83.5,
+      "y": 26.182305750921557,
+      "z": 16.51,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 01-02 emergency at -114.5",
+      "island": "01-02",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 29.385939315281647,
+      "z": 16.51,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 03-04 kiosk at -56.2",
+      "island": "03-04",
+      "type": "kiosk",
+      "x": -56.25,
+      "y": 38.69229819811934,
+      "z": 6.21,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 03-04 vending at +29.0",
+      "island": "03-04",
+      "type": "vending",
+      "x": 29.0,
+      "y": 38.543236221650076,
+      "z": 6.21,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 03-04 bench at +84.0",
+      "island": "03-04",
+      "type": "bench",
+      "x": 84.0,
+      "y": 39.09716193707071,
+      "z": 6.21,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 03-04 emergency at -114.0",
+      "island": "03-04",
+      "type": "emergency",
+      "x": -114.0,
+      "y": 40.57494681712801,
+      "z": 6.21,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 05-06 kiosk at -62.8",
+      "island": "05-06",
+      "type": "kiosk",
+      "x": -62.75,
+      "y": 58.619182960779305,
+      "z": 6.21,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 05-06 vending at +30.8",
+      "island": "05-06",
+      "type": "vending",
+      "x": 30.75,
+      "y": 58.85710723810797,
+      "z": 6.21,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 05-06 bench at +80.2",
+      "island": "05-06",
+      "type": "bench",
+      "x": 80.25,
+      "y": 56.89585526501488,
+      "z": 6.21,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 05-06 emergency at -87.5",
+      "island": "05-06",
+      "type": "emergency",
+      "x": -87.5,
+      "y": 58.729189719259466,
+      "z": 6.21,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 07-08 kiosk at -54.0",
+      "island": "07-08",
+      "type": "kiosk",
+      "x": -54.0,
+      "y": 75.44527342982818,
+      "z": 6.21,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 07-08 vending at +31.2",
+      "island": "07-08",
+      "type": "vending",
+      "x": 31.25,
+      "y": 75.51114777199716,
+      "z": 6.21,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 07-08 bench at +69.8",
+      "island": "07-08",
+      "type": "bench",
+      "x": 69.75,
+      "y": 76.39388614563231,
+      "z": 6.21,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 07-08 emergency at -117.2",
+      "island": "07-08",
+      "type": "emergency",
+      "x": -117.25,
+      "y": 75.14392177162625,
+      "z": 6.21,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 09-10 kiosk at -59.5",
+      "island": "09-10",
+      "type": "kiosk",
+      "x": -59.5,
+      "y": 96.34919338229508,
+      "z": 6.21,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 09-10 vending at +31.2",
+      "island": "09-10",
+      "type": "vending",
+      "x": 31.25,
+      "y": 96.63747360491688,
+      "z": 6.21,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 09-10 bench at +78.0",
+      "island": "09-10",
+      "type": "bench",
+      "x": 78.0,
+      "y": 96.68667264539977,
+      "z": 6.21,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 09-10 emergency at -117.2",
+      "island": "09-10",
+      "type": "emergency",
+      "x": -117.25,
+      "y": 92.40416161899267,
+      "z": 6.21,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 20-21 kiosk at -62.2",
+      "island": "20-21",
+      "type": "kiosk",
+      "x": -62.25,
+      "y": 116.83952759737264,
+      "z": 8.32,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 20-21 vending at +23.0",
+      "island": "20-21",
+      "type": "vending",
+      "x": 23.0,
+      "y": 117.5000340039669,
+      "z": 8.32,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 20-21 bench at +72.5",
+      "island": "20-21",
+      "type": "bench",
+      "x": 72.5,
+      "y": 117.49425124752076,
+      "z": 8.32,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 20-21 emergency at -114.5",
+      "island": "20-21",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 112.8921422034198,
+      "z": 8.32,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 22-23 kiosk at -40.2",
+      "island": "22-23",
+      "type": "kiosk",
+      "x": -40.25,
+      "y": 137.7935702733061,
+      "z": 8.32,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 22-23 vending at +39.5",
+      "island": "22-23",
+      "type": "vending",
+      "x": 39.5,
+      "y": 138.0178316621628,
+      "z": 8.32,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 22-23 bench at +78.0",
+      "island": "22-23",
+      "type": "bench",
+      "x": 78.0,
+      "y": 139.01106560217195,
+      "z": 8.32,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 22-23 emergency at -114.5",
+      "island": "22-23",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 132.45180743300406,
+      "z": 8.32,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 14-15 kiosk at -62.2",
+      "island": "14-15",
+      "type": "kiosk",
+      "x": -62.25,
+      "y": 158.0734101739248,
+      "z": 8.404,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 14-15 vending at +23.0",
+      "island": "14-15",
+      "type": "vending",
+      "x": 23.0,
+      "y": 159.01301819255445,
+      "z": 8.404,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 14-15 bench at +80.8",
+      "island": "14-15",
+      "type": "bench",
+      "x": 80.75,
+      "y": 159.02483165037668,
+      "z": 8.404,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 14-15 emergency at -114.5",
+      "island": "14-15",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 151.86991573995783,
+      "z": 8.404,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 16-17 kiosk at -40.2",
+      "island": "16-17",
+      "type": "kiosk",
+      "x": -40.25,
+      "y": 179.0344182326935,
+      "z": 8.404,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 16-17 vending at +23.0",
+      "island": "16-17",
+      "type": "vending",
+      "x": 23.0,
+      "y": 178.8721832442749,
+      "z": 8.404,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 16-17 bench at +72.5",
+      "island": "16-17",
+      "type": "bench",
+      "x": 72.5,
+      "y": 178.7169125271763,
+      "z": 8.404,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 16-17 emergency at -114.5",
+      "island": "16-17",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 178.88092734079112,
+      "z": 8.404,
+      "length": 1.2,
+      "width": 0.6
+    },
+    {
+      "object": "V10 18-19 kiosk at -59.5",
+      "island": "18-19",
+      "type": "kiosk",
+      "x": -59.5,
+      "y": 198.04915478571223,
+      "z": 8.404,
+      "length": 4.5,
+      "width": 2.2
+    },
+    {
+      "object": "V10 18-19 vending at +23.0",
+      "island": "18-19",
+      "type": "vending",
+      "x": 23.0,
+      "y": 197.84077028214068,
+      "z": 8.404,
+      "length": 3.5,
+      "width": 1.0
+    },
+    {
+      "object": "V10 18-19 bench at +69.8",
+      "island": "18-19",
+      "type": "bench",
+      "x": 69.75,
+      "y": 197.70158680454972,
+      "z": 8.404,
+      "length": 2.85,
+      "width": 0.8
+    },
+    {
+      "object": "V10 18-19 emergency at -114.5",
+      "island": "18-19",
+      "type": "emergency",
+      "x": -114.5,
+      "y": 197.88619461582488,
+      "z": 8.404,
+      "length": 1.2,
+      "width": 0.6
+    }
+  ],
+  "barriers": [
+    {
+      "name": "Chuo west",
+      "panels": 157,
+      "height_m": 2.8,
+      "object": "V10 Chuo west segmented acoustic screen"
+    },
+    {
+      "name": "Chuo east",
+      "panels": 153,
+      "height_m": 2.35,
+      "object": "V10 Chuo east segmented acoustic screen"
+    },
+    {
+      "name": "Shinkansen east",
+      "panels": 159,
+      "height_m": 3.1,
+      "object": "V10 Shinkansen east segmented acoustic screen"
+    }
+  ],
+  "service_buildings": [
+    {
+      "object": "V10 Yaesu trackside maintenance building",
+      "position": [
+        -95,
+        216.2,
+        0.05
+      ],
+      "size": [
+        63,
+        11.5,
+        13.8
+      ],
+      "estimated": true
+    },
+    {
+      "object": "V10 North station-side ventilation building",
+      "position": [
+        -176,
+        17,
+        0.05
+      ],
+      "size": [
+        17,
+        12,
+        10.5
+      ],
+      "estimated": true
+    },
+    {
+      "object": "V10 South station-side ventilation building",
+      "position": [
+        192,
+        16,
+        0.05
+      ],
+      "size": [
+        18,
+        11,
+        9.8
+      ],
+      "estimated": true
+    },
+    {
+      "object": "V10 South Shinkansen service room",
+      "position": [
+        220,
+        115.57299091971848,
+        6.5
+      ],
+      "size": [
+        9,
+        4.4,
+        3.1
+      ],
+      "estimated": true
+    },
+    {
+      "object": "V10 South conventional service room",
+      "position": [
+        177,
+        80.47906863341926,
+        4.6
+      ],
+      "size": [
+        6.4,
+        2.4,
+        2.9
+      ],
+      "estimated": true
+    }
+  ],
+  "retired": [
+    "V8 canopy 01-02 | roof deck and skylight",
+    "V8 canopy 03-04 | roof deck and skylight",
+    "V8 canopy 05-06 | roof deck and skylight",
+    "V8 canopy 07-08 | roof deck and skylight",
+    "V8 canopy 09-10 | roof deck and skylight",
+    "V5 Shinkansen roof 20-21 (Tohoku)",
+    "V5 Shinkansen roof 22-23 (Tohoku)",
+    "V5 Shinkansen roof 14-15 (Tokaido)",
+    "V5 Shinkansen roof 16-17 (Tokaido)",
+    "V5 Shinkansen roof 18-19 (Tokaido)"
+  ],
+  "warnings": [],
+  "22_23_pv_surface_area_m2": 433.67,
+  "new_objects": 130
+}

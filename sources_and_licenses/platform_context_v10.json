@@ -1,0 +1,56 @@
+{
+  "revision": "V10 platform roofs and railway service context",
+  "created": "2026-11-02",
+  "base_commit": "ba1c7c549c4a1371f5df930aa9d836c4f205e79f",
+  "base_release": "https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/blender-scene",
+  "base_archive_sha256": "4e8c55eee2b33c593ef94f0a094973c62c7f23ad50cf179496c33f73750b36fc",
+  "scope_zh": "重做10组站台屋面，增加8座屋顶设备房、屋顶光伏、立柱穿屋面的开孔和泛水、40组站台设施、469块分段隔音屏，以及5座轨旁设备建筑，其中3座带百叶通风塔。",
+  "sources": [
+    {
+      "title": "JR East: Solar Power System on the Tokaido Line Platform at Tokyo Station",
+      "url": "https://www.jreast.co.jp/e/press/20110202/index.html",
+      "published": "2011-02-25",
+      "verified_fact": "Tracks 9/10: roofing-integrated light-transmitting PV, approximately 3846 m2. Tracks 22/23: approximately 433 m2 rooftop PV installed in March 1993.",
+      "model_use": "Distinct continuous blue module grid on 9/10; a separate local roof-mounted array on 22/23. The latter's modelled panel surface is recorded in the build report. Array location, exact module count and the 9/10 covered area are interpreted within the existing model footprint."
+    },
+    {
+      "title": "Tokyo Station overhead, 25 October 2020",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_overhead_2020-10-25.jpg",
+      "author": "pelican",
+      "license": "CC BY-SA 2.0",
+      "photo_use": "Viewed for comparison only; neither photograph nor its pixels are distributed or used as a texture.",
+      "model_use": "Green and white folded roofs, differing ridge sections, sparse white rooftop plant rooms, louvred roof intake, rail-side plant housings and ventilation equipment."
+    },
+    {
+      "title": "Tokyo Station aerial walk, north-to-south train view",
+      "url": "https://www.shonan1953.sakura.ne.jp/newpage11551.html",
+      "image_url": "https://shonan1953.sakura.ne.jp/a005713.jpg",
+      "photo_period": "November 2020",
+      "photo_use": "Viewed only; not distributed.",
+      "model_use": "Roof colour families, repaired roof patches, conventional-platform skylights and contrasting solar roofing."
+    },
+    {
+      "title": "Tokyo Railway Labyrinth: a view of Tokyo Central Station",
+      "url": "https://tokyorailwaylabyrinth.blogspot.com/2011/06/fun-at-work-view-of-tokyo-central.html",
+      "photo_period": "2011",
+      "photo_use": "Viewed only; not distributed. Older roof colours are not treated as a current survey.",
+      "model_use": "Cross-check of the roof-mounted equipment room type and PV roof silhouette."
+    },
+    {
+      "title": "GSI tile catalogue and existing repository georeference",
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "model_use": "The existing GSI-derived track centre lines and canopy plan outlines in targets.json are retained. No new survey coordinates are claimed."
+    }
+  ],
+  "accuracy_zh": [
+    "这是基于照片的解释性模型，不是测绘复原，也不代表东京站2026年所有改建的现状。",
+    "各顶棚的坡度、高度、屋脊分段、拼接位置和设备房尺寸为照片推定；材质细部采用程序化几何。",
+    "屋顶设备房和通风建筑的具体位置、层数、门窗、冷凝机组及百叶数量为估算。",
+    "5座轨旁建筑为既有模型底座范围内的铁路设备建筑补全；不是周边高层建筑群的完整复原。",
+    "隔音屏的型式参考铁路常用构造，按既有高架外缘放置；分段高度、透明窗段和间距没有现场测量依据。",
+    "站台售货亭、饮料机、长椅、应急按钮的位置经过避让楼梯、立柱和既有家具的检查，属于合理布置，并非真实商铺点位记录。",
+    "保留原模型站台长度和轨道标高；9/10太阳能屋顶不强行扩大到官方公布的总面积。"
+  ],
+  "non_destructive_edit": "The ten replaced roof objects are retained in V10_Replaced_roofs_hidden. Existing columns, beams, rails, trains, station architecture and underground levels are preserved. Geometry fingerprints verify that no original mesh or object transform was changed.",
+  "new_assets": "All V10 additions are procedural Blender geometry. No third-party models, photographs or texture assets were added. Original scene asset and font licences continue to apply."
+}

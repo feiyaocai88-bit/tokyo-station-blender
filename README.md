@@ -13,6 +13,35 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V10 platform and railway-service refinement
+
+The V10 post-processing module replaces the ten largely uniform roof skins with individually configured roof sections. It adds patched green and grey roofing, a barrel skylight, the roofing-integrated photovoltaic grid on tracks 9–10 and a local rooftop array on tracks 22–23. The latter has about 434 m² of panel surface in this model. White Shinkansen roofs have separately proportioned raised centre sections.
+
+![Refined roofs and rooftop equipment](images/v10/roofscape.jpg)
+
+The scene also gains eight rooftop equipment rooms, 58 flashed openings around overhead-line masts, 40 platform facility groups, 469 acoustic-screen panels and five railway service buildings. Three of the service buildings have louvred ventilation towers; the larger buildings include roof cooling banks, ducts, maintenance ladders, window bays and safety rails.
+
+| | |
+|---|---|
+| ![Rooftop rooms and roof profiles](images/v10/rooftop_rooms.jpg) | ![Platform kiosk](images/v10/platform_facilities.jpg) |
+| Individually sized plant rooms and folded roofs | Glazed kiosk, shelves and existing platform fittings |
+| ![Acoustic screens beside the Chuo Line](images/v10/acoustic_screens.jpg) | ![Rail-side service building](images/v10/service_building.jpg) |
+| Framed acoustic panels along the elevated railway | Louvred plant tower and roof cooling equipment |
+
+These additions use the existing track alignment and platform levels. Roof profiles, patch locations, plant-room dimensions, service-building footprints and facility placement remain estimates from photographs and railway construction conventions. The references are predominantly from 2011 and 2020; this is not a survey of all 2026 alterations. The five added service buildings do not represent a reconstruction of the surrounding high-rise district. See [V10 references and limitations](sources_and_licenses/platform_context_v10.json).
+
+The download below is the original published scene. To reproduce V10 from that scene, use Blender 5.2:
+
+```sh
+blender --background Tokyo_Station.blend --python-exit-code 1 --python scripts/mod10_platform_context.py -- out/Tokyo_Station_Refined.blend validation/build_v10.json
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/validate10_platform_context.py -- validation/validate_v10.json
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/render_review_cams_v10.py -- out/previews 64
+```
+
+The new meshes are grouped in `V10_Roofs`, `V10_Roof_Plant`, `V10_Platform_Details`, `V10_Acoustic_Barriers` and `V10_Service_Buildings`. Nine review cameras are in `V10_Review_Cameras`. The ten original roof objects are retained in `V10_Replaced_roofs_hidden`.
+
+The V10 validator checks sampled vertices, triangle centres and edge midpoints against the track envelope, plus stair openings, the display-base boundary, packed assets and surface intersections with overhead-line equipment. `validate10_preservation.py` fingerprints the original meshes and stored transforms to confirm that the source objects are retained. Validation records are in `validation/`.
+
 ## Download
 
 The Blender file is on the **[release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/blender-scene)** as `Tokyo_Station_Blender.zip` (96 MB).
