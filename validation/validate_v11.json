@@ -15,7 +15,7 @@
     "finite_vertices": {
       "pass": true,
       "mesh_objects": 77,
-      "vertices": 667210
+      "vertices": 667260
     },
     "platform_groups": {
       "pass": true,
@@ -167,6 +167,8 @@
     },
     "underground_display_void": {
       "pass": true,
+      "evaluated_mesh": true,
+      "ray_samples": 130,
       "hits": []
     },
     "metro_content": {

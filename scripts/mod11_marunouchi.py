@@ -36,6 +36,10 @@ def station():
         old=bpy.data.objects.get(name)
         if not old:continue
         new=H.copy_replace(old)
+        # Bake the inherited outer-edge bevel before cutting the cavity. Leaving a
+        # wide bevel after a boolean can bridge the concave opening in the evaluated mesh.
+        bpy.context.view_layer.objects.active=new;new.select_set(True)
+        for previous in list(new.modifiers):bpy.ops.object.modifier_apply(modifier=previous.name)
         mod=new.modifiers.new('M17 underground void','BOOLEAN');mod.operation='DIFFERENCE';mod.solver='EXACT';mod.object=cutter
         bpy.context.view_layer.objects.active=new;new.select_set(True)
         bpy.ops.object.modifier_apply(modifier=mod.name);new.select_set(False)

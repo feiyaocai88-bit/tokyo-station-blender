@@ -110,11 +110,12 @@ check('metro_stair_headroom',not head,required_m=2.10,obstructions=head[:40])
 # insufficient, because the editable station must work in the normal main scene.
 voidhits=[]
 for name in ('Display base','Studio floor'):
-    t=tree(bpy.data.objects[name],FI)
-    for x in (-55,0,55):
-        loc,n,idx,dist=t.ray_cast(Vector((x,0,G.B1+.1)),Vector((0,0,1)),3.0)
-        if loc is not None:voidhits.append({'object':name,'point':list(loc)})
-check('underground_display_void',not voidhits,hits=voidhits)
+    t=tree(bpy.data.objects[name].evaluated_get(bpy.context.evaluated_depsgraph_get()),FI)
+    for x in np.linspace(-60,60,13):
+        for y in (-5.5,-3,0,3,5.5):
+            loc,n,idx,dist=t.ray_cast(Vector((x,y,G.B1+.1)),Vector((0,0,1)),3.15)
+            if loc is not None:voidhits.append({'object':name,'point':list(loc)})
+check('underground_display_void',not voidhits,evaluated_mesh=True,ray_samples=130,hits=voidhits)
 check('metro_content',R['counts'].get('marunouchi_2000_cars')==6 and R['counts'].get('metro_platform_door_pairs')==36 and R['counts'].get('metro_stair_escalator_banks')==3,counts=R['counts'])
 check('separate_cutaway','V11 Marunouchi cutaway' in bpy.data.scenes and bpy.data.scenes['V11 Marunouchi cutaway'].camera is not None)
 out['scope']='Geometry samples and source preservation; photographic similarity also requires visual review. This is not engineering clearance certification.'
