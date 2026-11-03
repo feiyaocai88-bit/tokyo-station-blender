@@ -14,6 +14,30 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V17 continuous Marunouchi building connections
+
+V17 corrects the visible separation between the station's building sections. Four new masonry necks connect the north/south domes to their adjacent wings, including stone courses and storey slabs. The slab edges follow the octagonal dome perimeter and keep the rotunda interiors clear.
+
+![Continuous station building](images/v17/overview.jpg)
+
+Thirteen roof transitions remove the deep V-shaped notches caused by independently hipped roof ends. The old roof solids and new transitions are joined into four connected roof meshes, including the angled south wing. Metal ridge caps continue across the joints. Both central flat-roof attic turrets gain side/back enclosure, and the round dome corner ornaments engage with the new connecting facades.
+
+| | |
+|---|---|
+| ![North wing roof connections](images/v17/north.jpg) | ![Dome-to-wing connections](images/v17/dome.jpg) |
+| Continuous roof across the projecting gable | Brick walls, stone courses and roof necks |
+| ![South angled wing](images/v17/south.jpg) | ![Same-camera comparison](images/v17/comparison.jpg) |
+| Connected roof through the existing bend | V16 before and V17 after |
+
+All replaced V16 source geometry remains in `V17_Replaced_hidden`; unrelated objects retain their materials, transforms, visibility and collection links. Validation checks roof connectivity and manifold topology, actual surface continuity, connecting walls/slabs, attic enclosure and asset availability. See the [Chinese V17 guide](README_V17.txt) and [validation results](validation/validate_v17.json). Connections follow the inherited model dimensions and the continuity visible in the official photographs; they are not surveyed junctions.
+
+```sh
+blender -b out/Tokyo_Station_Architecture_V16.blend --python-exit-code 1 -P scripts/mod17_building_connections.py -- out/Tokyo_Station_Connected_V17.blend validation/build_v17.json validation/baseline_v16.json
+blender -b out/Tokyo_Station_Connected_V17.blend --python-exit-code 1 -P scripts/validate17_building_connections.py -- validation/baseline_v16.json validation/validate_v17.json
+blender -b out/Tokyo_Station_Connected_V17.blend --python-exit-code 1 -P scripts/render_review_cams_v17.py -- out/previews 24 02,03,04,05 1440 900
+blender -b out/Tokyo_Station_Connected_V17.blend --python-exit-code 1 -P scripts/render_review_cams_v17.py -- out/previews 24 01 2000 650
+```
+
 ## V16 Marunouchi architecture compared with restoration photographs
 
 The complete station now includes revised Marunouchi architecture based on the official Kajima restoration album and Tokyo Station City facade details. The central niche has deeper connected returns and a shallow inner arch, with a thick layered copper pediment above it. Flat attic-turret cornices replace the hip roofs, and two round attic dormers replace rectangular windows.
@@ -207,10 +231,10 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V16 Blender file is on the **[V16 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture)** as `Tokyo_Station_Architecture_V16.zip`. It contains the packed complete model, architectural views, matching before/after comparisons, scripts, validation records and asset credits. The [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and the [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground), with the original underground walls, remain available separately.
+The current V17 Blender file is on the **[V17 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v17-connected-building)** as `Tokyo_Station_Connected_V17.zip`. It contains the complete packed model, five views, three matching before/after comparisons, scripts, validation records and asset credits. The [V16 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture), [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground) remain available separately.
 
-- Open `Tokyo_Station_Ground_V14.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
-- The main scene contains the whole model; its default V14 camera faces the south ground and viaduct. Other viewpoints are in the camera collections.
+- Open `Tokyo_Station_Connected_V17.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
+- The main scene contains the whole model; its default V17 camera shows the connected Marunouchi station building. Other viewpoints are in the camera collections.
 - The underground station lies below the display base. Use the underground cameras to look at it.
 
 ## Gallery

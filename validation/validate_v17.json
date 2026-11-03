@@ -1,0 +1,80 @@
+{
+  "revision": 17,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V16 source object retains its geometry curves text and transform",
+      "pass": true,
+      "failures": [],
+      "objects": 36590
+    },
+    {
+      "name": "Replaced roof and stone-ornament originals are hidden and isolated",
+      "pass": true,
+      "failures": [],
+      "objects": 13
+    },
+    {
+      "name": "Unrelated objects retain their geometry materials visibility and collection links",
+      "pass": true,
+      "failures": [],
+      "objects": 36577
+    },
+    {
+      "name": "Each roof run is one connected closed native mesh after boolean union",
+      "pass": true,
+      "failures": [],
+      "roofs": [
+        {
+          "name": "V17 North outer wing continuous roof",
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "faces": 27
+        },
+        {
+          "name": "V17 North inner wing continuous roof",
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "faces": 306
+        },
+        {
+          "name": "V17 South inner wing continuous roof",
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "faces": 306
+        },
+        {
+          "name": "V17 South outer wing continuous roof",
+          "nonmanifold_edges": 0,
+          "connected_components": 1,
+          "faces": 461
+        }
+      ]
+    },
+    {
+      "name": "Roof surfaces have no gap or hip-end trough along all connection paths",
+      "pass": true,
+      "failures": [],
+      "samples": 845,
+      "connections": 13
+    },
+    {
+      "name": "Four dome necks contain continuous facades and slabs while keeping the rotunda clear",
+      "pass": true,
+      "failures": [],
+      "samples": 256
+    },
+    {
+      "name": "Both central attic turrets have side and rear enclosure below their flat caps",
+      "pass": true,
+      "failures": [],
+      "samples": 18
+    },
+    {
+      "name": "New mesh coordinates are finite and image dependencies resolve",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "limits": "These checks establish model continuity, not measured as-built dimensions."
+}
