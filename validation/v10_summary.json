@@ -1,0 +1,12 @@
+{
+  "checks": {
+    "validate_v10.json": true,
+    "preservation_v10.json": true,
+    "validate6_platforms.json": true,
+    "validate8_level.json": true,
+    "validate9_sobu.json": true
+  },
+  "all_pass": true,
+  "regression_note": "Existing platform, level and Sobu validators were run before final kiosk-glass/light and camera polish. The final V10 geometry validator and source-geometry preservation check were rerun after that polish.",
+  "visual_review": "Nine 1600 x 1000 Cycles renders inspected. The two revised close-up cameras were re-rendered after final material and camera polish."
+}

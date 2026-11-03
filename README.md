@@ -8,10 +8,100 @@ A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 - the Marunouchi plaza;
 - all conventional and Shinkansen platforms, with tracks, overhead lines and trains;
 - the JR Sobu Rapid / Yokosuka Line underground station, five levels below the plaza.
+- the Tokyo Metro Marunouchi Line M17 station and a six-car 2000-series train in V11.
 
 The model is built with Blender Python scripts. Automatic checks test clearances, headroom and train placement.
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
+
+## V12 surface trains and visible interiors
+
+V12 replaces the uniform green passenger interiors with separate Chuo, Keihin-Tohoku, Yamanote and Tokaido palettes and native furnishings. It adds individual cushions, priority seating, partitions, grab handles, luggage racks, lighting and family-specific door displays. Neutral transparent side glazing and opened cab windscreens expose the interior, with new window seals, door thresholds, buttons, wipers and gangway fittings outside.
+
+![Four surface commuter families](images/v12/fleet.jpg)
+
+The front shapes and paint boundaries follow real train photographs: Chuo has orange corner patches and a white centre, Keihin-Tohoku a blue centre band, and Tokaido an orange-over-green centre band. These share the E233 raked mask, round lamp optics and pale split apron. E235 has a separate upright rounded lime frame, larger black mask, square LED optics, halftone lower face and dark-grey apron. E233 waist bands continue across the doors; E235 has lime passenger-door headers and stainless driver doors. Lower sloping HVAC shells replace the old rectangular blocks.
+
+![Same-angle cab comparison](images/v12/front_comparison.jpg)
+
+Chuo Green cars receive a new double-deck shell, broad orange band, low end roof equipment, exposed bogies and two furnished decks. Tokaido Green cars gain upper/lower interiors. E5 receives simplified 3+2, 2+2 and 1+2 cabin layouts, and the inherited N700 formations gain 60 surface-conforming door joints. The N700 interior is retained, not rebuilt.
+
+| | |
+|---|---|
+| ![Chuo interior](images/v12/chuo_interior.jpg) | ![Keihin interior](images/v12/keihin_interior.jpg) |
+| Orange backs and dark cushions | Blue seating and black grab handles |
+| ![Green-car cutaway](images/v12/green_cutaway.jpg) | ![Yamanote exterior](images/v12/yamanote.jpg) |
+| Separate study scene exposing both decks | Clear cab glazing, wipers and lower-front halftone |
+
+The full station remains in the main scene. Eleven separate V12 study scenes and 20 cameras provide cabin and exterior views, including a labelled front comparison. All original objects are retained; only the 86 surface instancers switch to independent V12 templates. Underground trains keep their original collections. Use Material Preview or Rendered shading to see transparent glazing.
+
+This is a photo-informed interpretation. Seat counts, year-specific variants and special-car window distributions remain approximate, and existing wheelbases and train positions are retained. See [Chinese V12 guide](README_V12.txt) and [references and limits](sources_and_licenses/train_refinement_v12.json).
+
+```sh
+blender -b out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 -P scripts/mod12_surface_trains.py -- out/Tokyo_Station_Trains_V12.blend validation/build_v12.json validation/baseline_v11.json
+blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/validate12_surface_trains.py -- validation/baseline_v11.json validation/validate_v12.json
+blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/render_review_cams_v12.py -- out/previews 64
+```
+
+## V11 photographic detail and Marunouchi Line
+
+V11 opens the edges beneath all ten platform decks and adds recessed supports, brackets and service trays. Platform groups now have H-section, round, paired-channel, portal-pair, box-clad and stone/stainless-clad columns. The 5/6 roof has a rounded green centre with low side wings, and the two conserved cast-iron columns are represented separately at the south end.
+
+![Marunouchi plaza and lower ventilation towers](images/v11/plaza.jpg)
+
+The plaza gains 6,888 stone paving faces, 15 planted tree pits with stone seat edges, drains and inspection covers. Both circular ventilation towers are lowered and given broad radial canopies, following the JR East alteration and as-built photographs. A vertically screened utility enclosure uses Google Maps street-level imagery as a visual reference. Station windows, rainwater pipes, service-building doors and 48 existing JR vehicle templates receive additional detail.
+
+| | |
+|---|---|
+| ![Open platform underside](images/v11/platform_underside.jpg) | ![Paired platform columns](images/v11/platform_columns.jpg) |
+| Recessed edge, supports, brackets and cable trays | Paired columns with section details and protective bands |
+| ![Marunouchi platform](images/v11/metro_platform.jpg) | ![2000 series car](images/v11/metro_train.jpg) |
+| B2 island platform with granite columns and half-height gates | Circular end windows, wave band, bogies and third-rail shoes |
+
+The new M17 station follows the topology of Tokyo Metro's April 2026 diagram: B2 island, B1 concourse, three stair/escalator banks, lift, two gate areas and short JR transfer branches. A six-car scarlet 2000-series interpretation has three doors per side, round end windows, interior seating, grab loops, HVAC and third-rail collection. The model includes 36 platform-door pairs and standard-gauge tracks. The display base and studio floor have real underground voids so the complete station can be viewed in the main scene.
+
+The `.blend` contains two additional inspection scenes: `V11 Marunouchi cutaway` omits B1, walls and ceilings to expose B2; `V11 2000 series vehicle study` shows a linked cab-car mesh separately. Fourteen review cameras are in `V11_Review_Cameras`.
+
+This is still a photographic interpretation. Column positions, rooftop and equipment-building dimensions, underground depths and transfer passage extents are not surveyed. The former schematic Marunouchi bearing is retained, with about 7.35 m westward adjustment to clear the inherited Sobu upper structures. References span different dates; the model is not a single-date reconstruction. See [V11 sources and limitations](sources_and_licenses/detail_refinement_v11.json).
+
+Apply V11 to the V10 file generated below:
+
+```sh
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/mod11_refinement.py -- out/Tokyo_Station_Detailed_V11.blend validation/build_v11.json validation/baseline_v10.json
+blender --background out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 --python scripts/validate11_refinement.py -- validation/baseline_v10.json validation/validate_v11.json
+blender --background out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 --python scripts/render_review_cams_v11.py -- out/previews 64
+```
+
+The validator compares all source mesh fingerprints and stored transforms against the pre-edit baseline, samples surface track clearances, tests column/facility intersections and roof/catenary intersections, and checks Metro vehicle envelopes, stair headroom, display-base openings and separation from the existing Sobu structure. The baseline is generated locally and is not committed. Visual review remains necessary for photographic similarity.
+
+## V10 platform and railway-service refinement
+
+The V10 post-processing module replaces the ten largely uniform roof skins with individually configured roof sections. It adds patched green and grey roofing, a barrel skylight, the roofing-integrated photovoltaic grid on tracks 9–10 and a local rooftop array on tracks 22–23. The latter has about 434 m² of panel surface in this model. White Shinkansen roofs have separately proportioned raised centre sections.
+
+![Refined roofs and rooftop equipment](images/v10/roofscape.jpg)
+
+The scene also gains eight rooftop equipment rooms, 58 flashed openings around overhead-line masts, 40 platform facility groups, 469 acoustic-screen panels and five railway service buildings. Three of the service buildings have louvred ventilation towers; the larger buildings include roof cooling banks, ducts, maintenance ladders, window bays and safety rails.
+
+| | |
+|---|---|
+| ![Rooftop rooms and roof profiles](images/v10/rooftop_rooms.jpg) | ![Platform kiosk](images/v10/platform_facilities.jpg) |
+| Individually sized plant rooms and folded roofs | Glazed kiosk, shelves and existing platform fittings |
+| ![Acoustic screens beside the Chuo Line](images/v10/acoustic_screens.jpg) | ![Rail-side service building](images/v10/service_building.jpg) |
+| Framed acoustic panels along the elevated railway | Louvred plant tower and roof cooling equipment |
+
+These additions use the existing track alignment and platform levels. Roof profiles, patch locations, plant-room dimensions, service-building footprints and facility placement remain estimates from photographs and railway construction conventions. The references are predominantly from 2011 and 2020; this is not a survey of all 2026 alterations. The five added service buildings do not represent a reconstruction of the surrounding high-rise district. See [V10 references and limitations](sources_and_licenses/platform_context_v10.json).
+
+The download below is the original published scene. To reproduce V10 from that scene, use Blender 5.2:
+
+```sh
+blender --background Tokyo_Station.blend --python-exit-code 1 --python scripts/mod10_platform_context.py -- out/Tokyo_Station_Refined.blend validation/build_v10.json
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/validate10_platform_context.py -- validation/validate_v10.json
+blender --background out/Tokyo_Station_Refined.blend --python-exit-code 1 --python scripts/render_review_cams_v10.py -- out/previews 64
+```
+
+The new meshes are grouped in `V10_Roofs`, `V10_Roof_Plant`, `V10_Platform_Details`, `V10_Acoustic_Barriers` and `V10_Service_Buildings`. Nine review cameras are in `V10_Review_Cameras`. The ten original roof objects are retained in `V10_Replaced_roofs_hidden`.
+
+The V10 validator checks sampled vertices, triangle centres and edge midpoints against the track envelope, plus stair openings, the display-base boundary, packed assets and surface intersections with overhead-line equipment. `validate10_preservation.py` fingerprints the original meshes and stored transforms to confirm that the source objects are retained. Validation records are in `validation/`.
 
 ## Download
 

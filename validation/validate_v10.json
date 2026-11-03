@@ -1,0 +1,53 @@
+{
+  "revision": 10,
+  "counts": {
+    "roof_islands": 10,
+    "roof_buildings": 8,
+    "service_buildings": 5,
+    "platform_facilities": 40,
+    "acoustic_panels": 469,
+    "new_meshes": 101,
+    "new_mesh_vertices": 606902
+  },
+  "track_envelope": {
+    "minimum_sampled_clearance_m": 2.134,
+    "violations": [],
+    "pass": true
+  },
+  "stair_clearance": {
+    "intrusions": [],
+    "pass": true
+  },
+  "retired": {
+    "count": 10,
+    "pass": true
+  },
+  "packed_assets": {
+    "missing": [],
+    "pass": true
+  },
+  "plinth": {
+    "outside": [],
+    "pass": true
+  },
+  "roofs_complete": {
+    "islands": [
+      "01-02",
+      "03-04",
+      "05-06",
+      "07-08",
+      "09-10",
+      "14-15",
+      "16-17",
+      "18-19",
+      "20-21",
+      "22-23"
+    ],
+    "pass": true
+  },
+  "overhead_line_intersections": {
+    "intersections": [],
+    "pass": true
+  },
+  "pass": true
+}

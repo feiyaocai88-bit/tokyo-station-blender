@@ -1,0 +1,953 @@
+{
+  "revision": 11,
+  "retired": [
+    {
+      "original": "V3 Platform 01-02 raised deck",
+      "retained": "V3 Platform 01-02 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 03-04 raised deck",
+      "retained": "V3 Platform 03-04 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 05-06 raised deck",
+      "retained": "V3 Platform 05-06 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 07-08 raised deck",
+      "retained": "V3 Platform 07-08 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 09-10 raised deck",
+      "retained": "V3 Platform 09-10 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 20-21 raised deck",
+      "retained": "V3 Platform 20-21 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 22-23 raised deck",
+      "retained": "V3 Platform 22-23 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 14-15 raised deck",
+      "retained": "V3 Platform 14-15 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 16-17 raised deck",
+      "retained": "V3 Platform 16-17 raised deck [before V11]"
+    },
+    {
+      "original": "V3 Platform 18-19 raised deck",
+      "retained": "V3 Platform 18-19 raised deck [before V11]"
+    },
+    {
+      "original": "V8 canopy 01-02 | columns",
+      "retained": "V8 canopy 01-02 | columns"
+    },
+    {
+      "original": "V8 canopy 03-04 | columns",
+      "retained": "V8 canopy 03-04 | columns"
+    },
+    {
+      "original": "V8 canopy 05-06 | columns",
+      "retained": "V8 canopy 05-06 | columns"
+    },
+    {
+      "original": "V8 canopy 07-08 | columns",
+      "retained": "V8 canopy 07-08 | columns"
+    },
+    {
+      "original": "V8 canopy 09-10 | columns",
+      "retained": "V8 canopy 09-10 | columns"
+    },
+    {
+      "original": "V10 05-06 differentiated roof skin",
+      "retained": "V10 05-06 differentiated roof skin"
+    },
+    {
+      "original": "V10 05-06 seams flashings gutters and glazing ribs",
+      "retained": "V10 05-06 seams flashings gutters and glazing ribs"
+    },
+    {
+      "original": "V10 05-06 flashed mast penetrations",
+      "retained": "V10 05-06 flashed mast penetrations"
+    },
+    {
+      "original": "V3 underground railway ventilation tower plinth",
+      "retained": "V3 underground railway ventilation tower plinth"
+    },
+    {
+      "original": "V3 ventilation tower continuous core",
+      "retained": "V3 ventilation tower continuous core"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre",
+      "retained": "V3 ventilation horizontal louvre"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.001",
+      "retained": "V3 ventilation horizontal louvre.001"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.002",
+      "retained": "V3 ventilation horizontal louvre.002"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.003",
+      "retained": "V3 ventilation horizontal louvre.003"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.004",
+      "retained": "V3 ventilation horizontal louvre.004"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.005",
+      "retained": "V3 ventilation horizontal louvre.005"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.006",
+      "retained": "V3 ventilation horizontal louvre.006"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.007",
+      "retained": "V3 ventilation horizontal louvre.007"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.008",
+      "retained": "V3 ventilation horizontal louvre.008"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.009",
+      "retained": "V3 ventilation horizontal louvre.009"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.010",
+      "retained": "V3 ventilation horizontal louvre.010"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.011",
+      "retained": "V3 ventilation horizontal louvre.011"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.012",
+      "retained": "V3 ventilation horizontal louvre.012"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.013",
+      "retained": "V3 ventilation horizontal louvre.013"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.014",
+      "retained": "V3 ventilation horizontal louvre.014"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.015",
+      "retained": "V3 ventilation horizontal louvre.015"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.016",
+      "retained": "V3 ventilation horizontal louvre.016"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.017",
+      "retained": "V3 ventilation horizontal louvre.017"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.018",
+      "retained": "V3 ventilation horizontal louvre.018"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.019",
+      "retained": "V3 ventilation horizontal louvre.019"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.020",
+      "retained": "V3 ventilation horizontal louvre.020"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.021",
+      "retained": "V3 ventilation horizontal louvre.021"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.022",
+      "retained": "V3 ventilation horizontal louvre.022"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.023",
+      "retained": "V3 ventilation horizontal louvre.023"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib",
+      "retained": "V3 ventilation vertical cladding rib"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.001",
+      "retained": "V3 ventilation vertical cladding rib.001"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.002",
+      "retained": "V3 ventilation vertical cladding rib.002"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.003",
+      "retained": "V3 ventilation vertical cladding rib.003"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.004",
+      "retained": "V3 ventilation vertical cladding rib.004"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.005",
+      "retained": "V3 ventilation vertical cladding rib.005"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.006",
+      "retained": "V3 ventilation vertical cladding rib.006"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.007",
+      "retained": "V3 ventilation vertical cladding rib.007"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.008",
+      "retained": "V3 ventilation vertical cladding rib.008"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.009",
+      "retained": "V3 ventilation vertical cladding rib.009"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.010",
+      "retained": "V3 ventilation vertical cladding rib.010"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.011",
+      "retained": "V3 ventilation vertical cladding rib.011"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.012",
+      "retained": "V3 ventilation vertical cladding rib.012"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.013",
+      "retained": "V3 ventilation vertical cladding rib.013"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.014",
+      "retained": "V3 ventilation vertical cladding rib.014"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.015",
+      "retained": "V3 ventilation vertical cladding rib.015"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.016",
+      "retained": "V3 ventilation vertical cladding rib.016"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.017",
+      "retained": "V3 ventilation vertical cladding rib.017"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.018",
+      "retained": "V3 ventilation vertical cladding rib.018"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.019",
+      "retained": "V3 ventilation vertical cladding rib.019"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.020",
+      "retained": "V3 ventilation vertical cladding rib.020"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.021",
+      "retained": "V3 ventilation vertical cladding rib.021"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.022",
+      "retained": "V3 ventilation vertical cladding rib.022"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.023",
+      "retained": "V3 ventilation vertical cladding rib.023"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.024",
+      "retained": "V3 ventilation vertical cladding rib.024"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.025",
+      "retained": "V3 ventilation vertical cladding rib.025"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.026",
+      "retained": "V3 ventilation vertical cladding rib.026"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.027",
+      "retained": "V3 ventilation vertical cladding rib.027"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.028",
+      "retained": "V3 ventilation vertical cladding rib.028"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.029",
+      "retained": "V3 ventilation vertical cladding rib.029"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.030",
+      "retained": "V3 ventilation vertical cladding rib.030"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.031",
+      "retained": "V3 ventilation vertical cladding rib.031"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.032",
+      "retained": "V3 ventilation vertical cladding rib.032"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.033",
+      "retained": "V3 ventilation vertical cladding rib.033"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.034",
+      "retained": "V3 ventilation vertical cladding rib.034"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.035",
+      "retained": "V3 ventilation vertical cladding rib.035"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.036",
+      "retained": "V3 ventilation vertical cladding rib.036"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.037",
+      "retained": "V3 ventilation vertical cladding rib.037"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.038",
+      "retained": "V3 ventilation vertical cladding rib.038"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.039",
+      "retained": "V3 ventilation vertical cladding rib.039"
+    },
+    {
+      "original": "V3 ventilation roof",
+      "retained": "V3 ventilation roof"
+    },
+    {
+      "original": "V3 concentric tower roof seam",
+      "retained": "V3 concentric tower roof seam"
+    },
+    {
+      "original": "V3 concentric tower roof seam.001",
+      "retained": "V3 concentric tower roof seam.001"
+    },
+    {
+      "original": "V3 concentric tower roof seam.002",
+      "retained": "V3 concentric tower roof seam.002"
+    },
+    {
+      "original": "V3 concentric tower roof seam.003",
+      "retained": "V3 concentric tower roof seam.003"
+    },
+    {
+      "original": "V3 underground railway ventilation tower plinth.001",
+      "retained": "V3 underground railway ventilation tower plinth.001"
+    },
+    {
+      "original": "V3 ventilation tower continuous core.001",
+      "retained": "V3 ventilation tower continuous core.001"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.024",
+      "retained": "V3 ventilation horizontal louvre.024"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.025",
+      "retained": "V3 ventilation horizontal louvre.025"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.026",
+      "retained": "V3 ventilation horizontal louvre.026"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.027",
+      "retained": "V3 ventilation horizontal louvre.027"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.028",
+      "retained": "V3 ventilation horizontal louvre.028"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.029",
+      "retained": "V3 ventilation horizontal louvre.029"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.030",
+      "retained": "V3 ventilation horizontal louvre.030"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.031",
+      "retained": "V3 ventilation horizontal louvre.031"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.032",
+      "retained": "V3 ventilation horizontal louvre.032"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.033",
+      "retained": "V3 ventilation horizontal louvre.033"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.034",
+      "retained": "V3 ventilation horizontal louvre.034"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.035",
+      "retained": "V3 ventilation horizontal louvre.035"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.036",
+      "retained": "V3 ventilation horizontal louvre.036"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.037",
+      "retained": "V3 ventilation horizontal louvre.037"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.038",
+      "retained": "V3 ventilation horizontal louvre.038"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.039",
+      "retained": "V3 ventilation horizontal louvre.039"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.040",
+      "retained": "V3 ventilation horizontal louvre.040"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.041",
+      "retained": "V3 ventilation horizontal louvre.041"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.042",
+      "retained": "V3 ventilation horizontal louvre.042"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.043",
+      "retained": "V3 ventilation horizontal louvre.043"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.044",
+      "retained": "V3 ventilation horizontal louvre.044"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.045",
+      "retained": "V3 ventilation horizontal louvre.045"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.046",
+      "retained": "V3 ventilation horizontal louvre.046"
+    },
+    {
+      "original": "V3 ventilation horizontal louvre.047",
+      "retained": "V3 ventilation horizontal louvre.047"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.040",
+      "retained": "V3 ventilation vertical cladding rib.040"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.041",
+      "retained": "V3 ventilation vertical cladding rib.041"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.042",
+      "retained": "V3 ventilation vertical cladding rib.042"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.043",
+      "retained": "V3 ventilation vertical cladding rib.043"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.044",
+      "retained": "V3 ventilation vertical cladding rib.044"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.045",
+      "retained": "V3 ventilation vertical cladding rib.045"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.046",
+      "retained": "V3 ventilation vertical cladding rib.046"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.047",
+      "retained": "V3 ventilation vertical cladding rib.047"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.048",
+      "retained": "V3 ventilation vertical cladding rib.048"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.049",
+      "retained": "V3 ventilation vertical cladding rib.049"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.050",
+      "retained": "V3 ventilation vertical cladding rib.050"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.051",
+      "retained": "V3 ventilation vertical cladding rib.051"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.052",
+      "retained": "V3 ventilation vertical cladding rib.052"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.053",
+      "retained": "V3 ventilation vertical cladding rib.053"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.054",
+      "retained": "V3 ventilation vertical cladding rib.054"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.055",
+      "retained": "V3 ventilation vertical cladding rib.055"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.056",
+      "retained": "V3 ventilation vertical cladding rib.056"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.057",
+      "retained": "V3 ventilation vertical cladding rib.057"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.058",
+      "retained": "V3 ventilation vertical cladding rib.058"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.059",
+      "retained": "V3 ventilation vertical cladding rib.059"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.060",
+      "retained": "V3 ventilation vertical cladding rib.060"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.061",
+      "retained": "V3 ventilation vertical cladding rib.061"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.062",
+      "retained": "V3 ventilation vertical cladding rib.062"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.063",
+      "retained": "V3 ventilation vertical cladding rib.063"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.064",
+      "retained": "V3 ventilation vertical cladding rib.064"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.065",
+      "retained": "V3 ventilation vertical cladding rib.065"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.066",
+      "retained": "V3 ventilation vertical cladding rib.066"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.067",
+      "retained": "V3 ventilation vertical cladding rib.067"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.068",
+      "retained": "V3 ventilation vertical cladding rib.068"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.069",
+      "retained": "V3 ventilation vertical cladding rib.069"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.070",
+      "retained": "V3 ventilation vertical cladding rib.070"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.071",
+      "retained": "V3 ventilation vertical cladding rib.071"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.072",
+      "retained": "V3 ventilation vertical cladding rib.072"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.073",
+      "retained": "V3 ventilation vertical cladding rib.073"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.074",
+      "retained": "V3 ventilation vertical cladding rib.074"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.075",
+      "retained": "V3 ventilation vertical cladding rib.075"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.076",
+      "retained": "V3 ventilation vertical cladding rib.076"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.077",
+      "retained": "V3 ventilation vertical cladding rib.077"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.078",
+      "retained": "V3 ventilation vertical cladding rib.078"
+    },
+    {
+      "original": "V3 ventilation vertical cladding rib.079",
+      "retained": "V3 ventilation vertical cladding rib.079"
+    },
+    {
+      "original": "V3 ventilation roof.001",
+      "retained": "V3 ventilation roof.001"
+    },
+    {
+      "original": "V3 concentric tower roof seam.004",
+      "retained": "V3 concentric tower roof seam.004"
+    },
+    {
+      "original": "V3 concentric tower roof seam.005",
+      "retained": "V3 concentric tower roof seam.005"
+    },
+    {
+      "original": "V3 concentric tower roof seam.006",
+      "retained": "V3 concentric tower roof seam.006"
+    },
+    {
+      "original": "V3 concentric tower roof seam.007",
+      "retained": "V3 concentric tower roof seam.007"
+    },
+    {
+      "original": "V9 context | Tokyo Metro Marunouchi Line tunnel crossing (simplified)",
+      "retained": "V9 context | Tokyo Metro Marunouchi Line tunnel crossing (simplified)"
+    },
+    {
+      "original": "Display base",
+      "retained": "Display base [before V11]"
+    },
+    {
+      "original": "Studio floor",
+      "retained": "Studio floor [before V11]"
+    }
+  ],
+  "counts": {
+    "platforms_with_real_edge_recess": 10,
+    "under_platform_piers": 1940,
+    "differentiated_columns": 303,
+    "preserved_column_monuments": 2,
+    "new_curved_roof_profiles": 1,
+    "plaza_paving_units": 6888,
+    "tree_pits_with_seating": 15,
+    "plaza_service_hatches": 5,
+    "streetview_informed_utility_enclosures": 1,
+    "corrected_plaza_ventilation_towers": 2,
+    "service_facades_detailed": 3,
+    "facade_windows_detailed": 132,
+    "facade_rainwater_pipes": 8,
+    "jr_vehicle_templates_detailed": 48,
+    "display_meshes_with_real_underground_void": 2,
+    "metro_granite_columns": 28,
+    "metro_stair_escalator_banks": 3,
+    "metro_lifts": 1,
+    "metro_platform_door_pairs": 36,
+    "metro_ticket_gate_banks": 2,
+    "marunouchi_2000_cars": 6
+  },
+  "approximations": [
+    "Photo-referenced interpretation, not a measured survey or a single-date digital twin.",
+    "Platform column group selection, roof dimensions, heritage column positions and utility enclosure dimensions are inferred from photographs and the existing diorama.",
+    "Google panorama: Ito Imaji, March 2018; older April 2015 Google imagery used only for street-side context, not current plaza paving.",
+    "Metro topology follows Tokyo Metro April 2026 diagram; bearing follows existing model with approximately 7.35 m westward adjustment to clear inherited Sobu end walls; station extents and depths are estimated.",
+    "JR transfer branches are schematic stubs, not a complete underground route survey.",
+    "Vehicle details are a native-mesh visual interpretation; small mechanical assemblies and train dimensions are simplified."
+  ],
+  "platform_recesses": {
+    "01-02": {
+      "deck_top": 16.510000228881836,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 142,
+      "edge_length": 514.0
+    },
+    "03-04": {
+      "deck_top": 6.210000038146973,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 148,
+      "edge_length": 536.0
+    },
+    "05-06": {
+      "deck_top": 6.210000038146973,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 158,
+      "edge_length": 574.0
+    },
+    "07-08": {
+      "deck_top": 6.210000038146973,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 188,
+      "edge_length": 680.0
+    },
+    "09-10": {
+      "deck_top": 6.210000038146973,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 190,
+      "edge_length": 688.0
+    },
+    "20-21": {
+      "deck_top": 8.320000052452087,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 218,
+      "edge_length": 785.1
+    },
+    "22-23": {
+      "deck_top": 8.320000052452087,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 214,
+      "edge_length": 772.4
+    },
+    "14-15": {
+      "deck_top": 8.404000163078308,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 222,
+      "edge_length": 802.3
+    },
+    "16-17": {
+      "deck_top": 8.404000163078308,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 230,
+      "edge_length": 827.5
+    },
+    "18-19": {
+      "deck_top": 8.404000163078308,
+      "slab_thickness": 0.23,
+      "recess_width": 0.72,
+      "support_piers": 230,
+      "edge_length": 826.9
+    }
+  },
+  "columns": {
+    "01-02": {
+      "section": "modern",
+      "count": 18
+    },
+    "03-04": {
+      "section": "round",
+      "count": 20
+    },
+    "05-06": {
+      "section": "modern",
+      "count": 21
+    },
+    "07-08": {
+      "section": "paired_channel",
+      "count": 30
+    },
+    "09-10": {
+      "section": "portal_pair",
+      "count": 62
+    },
+    "14-15": {
+      "section": "box_jacket",
+      "count": 30
+    },
+    "16-17": {
+      "section": "box_jacket",
+      "count": 32
+    },
+    "18-19": {
+      "section": "circular_jacket",
+      "count": 32
+    },
+    "20-21": {
+      "section": "stone_stainless_jacket",
+      "count": 30
+    },
+    "22-23": {
+      "section": "stone_stainless_jacket",
+      "count": 28
+    }
+  },
+  "roof56": {
+    "profile": "green barrel centre with low side wings",
+    "mast_openings": 9,
+    "dimensions": "photo inferred"
+  },
+  "rolling_stock_templates": {
+    "E233-0 style cab | procedural": 10,
+    "V3 Track 01 car 11 panto variant": 10,
+    "E233-0 style ordinary car | procedural": 10,
+    "V3 Track 01 car 08 panto variant": 10,
+    "E233-0 style Green car | procedural": 10,
+    "V3 Track 01 car 02 panto variant": 10,
+    "E233-1000 style cab | procedural": 10,
+    "V3 Track 03 car 09 panto variant": 10,
+    "E233-1000 style intermediate | procedural": 10,
+    "V3 Track 03 car 06 panto variant": 10,
+    "V3 Track 03 car 03 panto variant": 10,
+    "V3 E235-0 cab": 10,
+    "V3 Track 04 car 10 panto variant": 10,
+    "V3 E235-0 intermediate": 10,
+    "V3 Track 04 car 07 panto variant": 10,
+    "V3 Track 04 car 04 panto variant": 10,
+    "V3 Track 05 car 10 panto variant": 10,
+    "V3 Track 05 car 07 panto variant": 10,
+    "V3 Track 05 car 04 panto variant": 10,
+    "E233-3000 style cab | procedural": 10,
+    "E233-3000 style intermediate | procedural": 10,
+    "V4_Train_Track_08_actual_car_13_pantograph": 10,
+    "V4_Train_Track_08_actual_car_09_pantograph": 10,
+    "V4_Train_Track_08_actual_car_07_pantograph": 10,
+    "V4_Train_Green_E233_3000_car_05": 9,
+    "V4_Train_Green_E233_3000_car_04": 9,
+    "V4_Train_Track_08_actual_car_03_pantograph": 10,
+    "V4_Train_Track_10_actual_car_13_pantograph": 10,
+    "V4_Train_Track_10_actual_car_09_pantograph": 10,
+    "V4_Train_Track_10_actual_car_07_pantograph": 10,
+    "V4_Train_Track_10_actual_car_03_pantograph": 10,
+    "V3 N700 corrected formation track 14": 128,
+    "V3 N700 corrected formation track 18": 128,
+    "V4_Train_E5_car_10": 8,
+    "V3 E5 car 09": 8,
+    "V3 E5 car 08": 8,
+    "V3 E5 car 07": 8,
+    "V3 E5 car 06": 8,
+    "V3 E5 car 05": 8,
+    "V3 E5 car 04": 8,
+    "V3 E5 car 03": 8,
+    "V3 E5 car 02": 8,
+    "V4_Train_E5_car_01": 8,
+    "V9 E235-1000 style cab (Yokosuka livery)": 10,
+    "V9 E235-1000 style intermediate (Yokosuka livery)": 10,
+    "V9 E235-1000 style intermediate with pantograph (Yokosuka livery)": 10,
+    "V9 Green car 04 (E233-3000 double-deck shell, Yokosuka colours)": 5,
+    "V9 Green car 05 (E233-3000 double-deck shell, Yokosuka colours)": 5
+  },
+  "marunouchi_station": {
+    "platform_level": "B2",
+    "concourse_level": "B1",
+    "rail_z": -11.2,
+    "platform_z": -10.15,
+    "concourse_z": -5.8,
+    "platform_length": 123.0,
+    "island_width": 8.4,
+    "track_gauge": 1.435,
+    "stair_groups": 3,
+    "frame": [
+      [
+        0.9792604446411133,
+        -0.2026055008172989,
+        0.0,
+        -5.5
+      ],
+      [
+        0.2026055008172989,
+        0.9792604446411133,
+        0.0,
+        -124.69999694824219
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "alignment_basis": "existing model Marunouchi bearing; axis shifted approximately 7.35 m west to clear inherited Sobu upper structures; station extent and cross-section estimated",
+    "transfer_passages": "short schematic branches toward JR, not a survey of the entire underground pedestrian network"
+  },
+  "metro_cars": [
+    {
+      "car": 6,
+      "centre_x": -45,
+      "track": 1,
+      "cab": true,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    },
+    {
+      "car": 5,
+      "centre_x": -27,
+      "track": 1,
+      "cab": false,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    },
+    {
+      "car": 4,
+      "centre_x": -9,
+      "track": 1,
+      "cab": false,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    },
+    {
+      "car": 3,
+      "centre_x": 9,
+      "track": 1,
+      "cab": false,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    },
+    {
+      "car": 2,
+      "centre_x": 27,
+      "track": 1,
+      "cab": false,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    },
+    {
+      "car": 1,
+      "centre_x": 45,
+      "track": 1,
+      "cab": true,
+      "body_width": 2.78,
+      "pitch": 18.0,
+      "roof_equipment_top_above_rail": 3.94
+    }
+  ],
+  "new_mesh_objects": 116
+}
