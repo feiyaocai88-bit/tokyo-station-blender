@@ -14,6 +14,33 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V18 Marunouchi plaza compared with completed-project photographs
+
+V18 aligns the white central promenade with the station entrance, replaces the offset lawns with two equal 600 m² lawns, and rebuilds the paired seven-tree rows, broad granite tree seats, slender rope fences and vertical three-lantern lighting. Varied granite paving, flush drains and dry seasonal cooling surfaces complete the central square.
+
+![V18 plaza overview](images/v18/overview.jpg)
+
+The north and south traffic squares now have different island outlines, open taxi holding areas, detailed waiting vehicles, slim cantilevered glass shelters, stop signs and pedestrian rails. Real kerb gaps and graded approaches connect the taxi pools to the traffic loops, which join the perimeter streets. Pedestrians are moved out of lawns and seats, and the existing M7/M8 stair openings remain clear.
+
+| | |
+|---|---|
+| ![Central plaza axis](images/v18/central.jpg) | ![Granite tree seats and lawn ropes](images/v18/detail.jpg) |
+| Paired lawns and white central promenade | Vertical lanterns, planted seats and rope fences |
+| ![North transport square](images/v18/north.jpg) | ![South transport square](images/v18/south.jpg) |
+| Open taxi pool and northern ventilation island | Asymmetric southern traffic island |
+| ![Plaza plan](images/v18/plan.jpg) | ![V17 and V18 comparison](images/v18/comparison.jpg) |
+| Both traffic loops connect to perimeter streets | Matching camera before and after |
+
+The comparison uses [JR East's 2017 opening information](https://www.jreast.co.jp/press/2017/20171107.pdf), [JSCE's completed-project aerial and furniture photographs](https://design-prize.sakura.ne.jp/archives/result/1406), [Katabami's planting photographs](https://www.katabami.co.jp/business/works/detail.php?category=3&id=82) and [Teikin's installed furniture photographs](https://www.teikin.co.jp/case/detail/000036.html). Source photos are not redistributed. The geometry follows photographic relationships fitted to the existing model, rather than surveyed coordinates; specific road widths, bay counts and furniture dimensions remain approximations. The inherited M7/M8 locations are unchanged.
+
+All replaced source objects remain in `V18_Replaced_hidden`. See the [Chinese guide](README_V18.txt), [reference record](sources_and_licenses/plaza_v18.json) and [geometry and preservation checks](validation/validate_v18.json).
+
+```sh
+blender -b out/Tokyo_Station_Connected_V17.blend --python-exit-code 1 -P scripts/mod18_plaza.py -- out/Tokyo_Station_Plaza_V18.blend validation/build_v18.json validation/baseline_v17.json
+blender -b out/Tokyo_Station_Plaza_V18.blend --python-exit-code 1 -P scripts/validate18_plaza.py -- validation/baseline_v17.json validation/validate_v18.json
+blender -b out/Tokyo_Station_Plaza_V18.blend --python-exit-code 1 -P scripts/render_review_cams_v18.py -- out/previews 24 01,02,03,04,05,06 1800 1200
+```
+
 ## V17 continuous Marunouchi building connections
 
 V17 corrects the visible separation between the station's building sections. Four new masonry necks connect the north/south domes to their adjacent wings, including stone courses and storey slabs. The slab edges follow the octagonal dome perimeter and keep the rotunda interiors clear.
@@ -231,10 +258,10 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V17 Blender file is on the **[V17 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v17-connected-building)** as `Tokyo_Station_Connected_V17.zip`. It contains the complete packed model, five views, three matching before/after comparisons, scripts, validation records and asset credits. The [V16 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture), [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground) remain available separately.
+The current V18 Blender file is on the **[V18 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v18-marunouchi-plaza)** as `Tokyo_Station_Plaza_V18.zip`. It contains the complete packed model, six plaza views, three matching before/after comparisons, scripts, validation records and asset credits. The [V17 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v17-connected-building), [V16 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture), [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground) remain available separately.
 
-- Open `Tokyo_Station_Connected_V17.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
-- The main scene contains the whole model; its default V17 camera shows the connected Marunouchi station building. Other viewpoints are in the camera collections.
+- Open `Tokyo_Station_Plaza_V18.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
+- The main scene contains the whole model; its default V18 camera shows the Marunouchi station building and revised plaza. Other viewpoints are in the camera collections.
 - The underground station lies below the display base. Use the underground cameras to look at it.
 
 ## Gallery

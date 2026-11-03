@@ -1,0 +1,15 @@
+{
+  "revision": 18,
+  "date": "2026-11-03",
+  "scope": "Marunouchi forecourt, central plaza and north/south traffic squares",
+  "references": [
+    {"url": "https://www.jreast.co.jp/press/2017/20171107.pdf", "source": "JR East", "used_for": "Central pedestrian space, separate traffic squares, white granite, approximately 1200 square metres of lawn, three-lamp poles and seasonal shallow cooling pavement"},
+    {"url": "https://design-prize.sakura.ne.jp/archives/result/1406", "source": "JSCE Landscape and Design Committee, 2020 award", "used_for": "As-built aerial b5_kuusatsu, glass shelter b4_kotsu-hb_c and granite seat / vertical lantern photograph b7_benchi"},
+    {"url": "https://www.jtpa.or.jp/contents/pdf/toshi118.pdf", "source": "Tokyo Metropolitan Government construction bureau article, pages 10-11", "used_for": "Overall pedestrian axis and relocated perimeter traffic"},
+    {"url": "https://www.katabami.co.jp/business/works/detail.php?category=3&id=82", "source": "Planting contractor Katabami", "used_for": "Paired zelkova rows, tree-seat relationships and lawn placement"},
+    {"url": "https://www.teikin.co.jp/case/detail/000036.html", "source": "Installed furniture manufacturer Teikin", "used_for": "Slender hexagonal lawn posts, sagging dark rope, recessed stone-seat bases, stainless bollards"}
+  ],
+  "external_media_included": false,
+  "new_assets": "Native mesh geometry and local procedural materials; no new third-party textures or meshes",
+  "limits": ["Photographic interpretation fitted to inherited station coordinates, not a survey", "Only the documented approximate total lawn area is used as a dimensional reference", "Modelled road and bay dimensions do not establish exact current traffic operation", "Existing Metro entrance coordinate approximations are retained"]
+}

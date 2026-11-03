@@ -1,0 +1,69 @@
+{
+  "revision": 18,
+  "passed": true,
+  "checks": [
+    {
+      "name": "All V17 source objects retain geometry curves text transforms and materials",
+      "pass": true,
+      "failures": [],
+      "objects": 36619
+    },
+    {
+      "name": "Unrelated station trains platforms tracks and underground objects remain unchanged",
+      "pass": true,
+      "failures": [],
+      "objects": 35740
+    },
+    {
+      "name": "Replaced originals are isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "objects": 879
+    },
+    {
+      "name": "Both 600 square metre lawns align symmetrically with the central axis",
+      "pass": true,
+      "failures": [],
+      "areas_m2": [
+        600.0,
+        600.0
+      ]
+    },
+    {
+      "name": "Central white walking axis is continuous and clear of new furniture",
+      "pass": true,
+      "failures": [],
+      "samples": 400
+    },
+    {
+      "name": "Paired seven-tree rows and pedestrian placement respect grass and seats",
+      "pass": true,
+      "failures": [],
+      "trees": 14
+    },
+    {
+      "name": "Waiting vehicles stand inside taxi holding areas with tyres at pavement",
+      "pass": true,
+      "failures": [],
+      "vehicles": 19
+    },
+    {
+      "name": "Taxi approaches climb continuously through real kerb gaps into the pools",
+      "pass": true,
+      "failures": [],
+      "samples": 390
+    },
+    {
+      "name": "M7 and M8 stair openings remain unobstructed by new plaza geometry",
+      "pass": true,
+      "failures": [],
+      "samples": 24
+    },
+    {
+      "name": "New geometry is finite and image dependencies resolve",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "limits": "Model geometry and source preservation checks; not certification of as-built dimensions or exact current traffic operation."
+}
