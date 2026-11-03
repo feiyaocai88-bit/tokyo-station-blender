@@ -14,6 +14,29 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V14 south ground details and south catenary positions
+
+V14 fills the bare ground below the south approach with a brick-arch frontage, recessed Hato Bus ticket windows, shutters, service doors, louvres, downpipes and lamps. The longitudinal street gains raised paving, joints, kerbs, drainage grates, inspection covers, stop flags, utility cabinets and a parked yellow sightseeing coach. Two old schematic transverse sidewalk strips are replaced, and the undercroft receives floors, ceilings, partitions and pier fittings.
+
+![South ground overview](images/v14/ground.jpg)
+
+| | |
+|---|---|
+| ![Brick arches and office](images/v14/frontage.jpg) | ![Paving and drainage](images/v14/paving.jpg) |
+| Photograph-informed undercroft frontage | Curbs, gullies, covers and stopping bay |
+| ![South overhead lines](images/v14/catenary.jpg) | ![Before and after](images/v14/comparison.jpg) |
+| Independent staggered portals and connected wires | Same-camera comparison of the ground area |
+
+South conventional-track OCS is actually changed in this version: **21 old masts are replaced by 13**, and eight tracks receive continuous new contact wires, messengers, droppers and fittings. Five portal chainages are interpreted from GSI imagery with an estimated +/-3 m tolerance. A sixth row is moved 3 m inward to fit the cropped bridge end; an extra twin-arm support on tracks 7/8 is required by the inherited curve and is explicitly unverified. Lateral mast locations are fitted to the existing rails. Chuo, central/north conventional and Shinkansen supports remain inherited; this is **not a full-station survey match**. See [pole changes](validation/catenary_changes_v14.csv), [Chinese V14 guide](README_V14.txt) and [reference evidence and limitations](sources_and_licenses/south_ground_v14.json).
+
+Thirteen geometric checks cover source preservation, removal of old active mast shafts and tie rods, vehicle clearance, actual wire continuity and suspension attachment, mast bases, walking surfaces/headroom, coach ground contact and asset packing. V12 rolling stock and V13 Metro access remain active. The frontage follows official Hato Bus photographs; bay dimensions, internal service layout, furniture and coach details remain interpretive. Reference photographs are not redistributed.
+
+```sh
+blender -b out/Tokyo_Station_Site_V13.blend --python-exit-code 1 -P scripts/mod14_south_ground.py -- out/Tokyo_Station_Ground_V14.blend validation/build_v14.json validation/baseline_v13.json
+blender -b out/Tokyo_Station_Ground_V14.blend --python-exit-code 1 -P scripts/validate14_south_ground.py -- validation/baseline_v13.json validation/validate_v14.json
+blender -b out/Tokyo_Station_Ground_V14.blend --python-exit-code 1 -P scripts/render_review_cams_v14.py -- out/previews 64
+```
+
 ## V13 site details and connected ground entrances
 
 V13 corrects the acoustic screens that continued almost 100 m beyond the Chuo viaduct. All three screen runs now derive their ends from the actual deck meshes, with supports landing on the deck edge. Twenty tracks gain deeper ballast cribs, physical stone fragments, cable-trough lids, junction boxes and rail bonds; existing rails, sleeper instances and train positions are retained.
@@ -31,7 +54,7 @@ The central imperial porte-cochere is rebuilt with round brick-and-stone piers, 
 
 The model contains a separate `V13 Metro access cutaway` scene and 12 V13 review cameras. Validation checks all retained V12 source geometry and transforms, screen extents, evaluated sleeper instances, stair openings and headroom, passage continuity, enclosed passage walls and the recessed gate. All V12 train exteriors and interiors remain in the main scene.
 
-Catenary positions are **not verified survey coordinates**. The inherited approximately 22 m procedural spacing and obstacle adjustments remain; 183 mast records are exported in [the audit CSV](validation/catenary_audit_v13.csv). The photographs support structural and relative-placement comparisons, but not a one-to-one coordinate check. M7/M8 surface positions and passage lengths are fitted to the existing simplified plaza and shifted underground frame. See the [Chinese V13 guide](README_V13.txt) and [photographic sources and limits](sources_and_licenses/site_completion_v13.json).
+Catenary positions in V13 are **not verified survey coordinates**. V13 retained the nominal 44 m procedural grid, often subdivided to 22 m and adjusted for obstacles; 183 mast records are exported in [the V13 audit CSV](validation/catenary_audit_v13.csv). V14 updates the south subset as described above. M7/M8 surface positions and passage lengths are fitted to the existing simplified plaza and shifted underground frame. See the [Chinese V13 guide](README_V13.txt) and [photographic sources and limits](sources_and_licenses/site_completion_v13.json).
 
 ```sh
 blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/mod13_site_completion.py -- out/Tokyo_Station_Site_V13.blend validation/build_v13.json validation/baseline_v12.json
@@ -130,10 +153,10 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V13 Blender file is on the **[V13 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v13-site-details)** as `Tokyo_Station_Site_V13.zip`. It contains the packed model, 12 rendered previews, build scripts, validation records and asset credits. The [original release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/blender-scene) remains available separately.
+The current V14 Blender file is on the **[V14 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground)** as `Tokyo_Station_Ground_V14.zip`. It contains the packed complete model, six new rendered views, before/after comparisons, pole-change diagram, build scripts, validation records and asset credits. The [V13 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v13-site-details) remains available separately.
 
-- Open `Tokyo_Station_Site_V13.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
-- The main scene contains the whole model; its default V13 camera faces the central entrance. Other viewpoints are in the camera collections.
+- Open `Tokyo_Station_Ground_V14.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
+- The main scene contains the whole model; its default V14 camera faces the south ground and viaduct. Other viewpoints are in the camera collections.
 - The underground station lies below the display base. Use the underground cameras to look at it.
 
 ## Gallery

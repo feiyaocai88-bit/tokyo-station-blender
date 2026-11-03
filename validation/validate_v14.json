@@ -1,0 +1,215 @@
+{
+  "revision": 14,
+  "passed": true,
+  "checks": [
+    {
+      "name": "all V13 source objects retained with unchanged geometry transforms and materials",
+      "pass": true,
+      "failures": [],
+      "count": 34428
+    },
+    {
+      "name": "new mast shafts clear conventional vehicle envelopes",
+      "pass": true,
+      "failures": [],
+      "min_clearance_m": 3.415708483702315,
+      "masts": 13
+    },
+    {
+      "name": "all replaced south mast shafts are removed from the active mesh",
+      "pass": true,
+      "failures": [],
+      "replaced": 21
+    },
+    {
+      "name": "old south conventional trusses and high tie rods are removed",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "straight contact spans are continuous and inside pantograph working width",
+      "pass": true,
+      "failures": [],
+      "max_offset_m": 0.2731439294530844,
+      "samples": 4114
+    },
+    {
+      "name": "messenger clamps and suspension rods meet actual new beams",
+      "pass": true,
+      "failures": [],
+      "supports": 26
+    },
+    {
+      "name": "mast plinths land on existing deck structure",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "south sidewalk has continuous floor and walking headroom",
+      "pass": true,
+      "failures": [],
+      "samples": 135
+    },
+    {
+      "name": "parked coach tyres rest on road surface",
+      "pass": true,
+      "failures": [],
+      "tyre_min_z": 0.14499998837709427,
+      "road_top_z": 0.145
+    },
+    {
+      "name": "V12 rolling stock and V13 Metro access remain active",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "new native meshes are finite",
+      "pass": true,
+      "failures": [],
+      "objects": 18
+    },
+    {
+      "name": "photo estimates and additional curve support are explicitly distinguished",
+      "pass": true,
+      "failures": [],
+      "rows": [
+        {
+          "tracks": [
+            "03",
+            "04",
+            "05",
+            "06"
+          ],
+          "x_m": 166.0,
+          "photo_line_estimate_x_m": 166.0,
+          "reference_mosaic_pixel": [
+            651.7052344015676,
+            1226.177971957197
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "photo_interpreted",
+          "mast_y": [
+            47.18639350996745,
+            61.293843651501554
+          ]
+        },
+        {
+          "tracks": [
+            "03",
+            "04",
+            "05",
+            "06"
+          ],
+          "x_m": 199.0,
+          "photo_line_estimate_x_m": 199.0,
+          "reference_mosaic_pixel": [
+            631.7192528857904,
+            1291.2045262497668
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "photo_interpreted",
+          "mast_y": [
+            53.600325742200944,
+            65.06800470011837
+          ]
+        },
+        {
+          "tracks": [
+            "03",
+            "04",
+            "05",
+            "06"
+          ],
+          "x_m": 237.0,
+          "photo_line_estimate_x_m": 237.0,
+          "reference_mosaic_pixel": [
+            608.7050923524714,
+            1366.0835887684834
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "photo_interpreted",
+          "mast_y": [
+            58.621101456316964,
+            69.8079537887416
+          ]
+        },
+        {
+          "tracks": [
+            "07",
+            "08",
+            "09",
+            "10"
+          ],
+          "x_m": 164.0,
+          "photo_line_estimate_x_m": 164.0,
+          "reference_mosaic_pixel": [
+            721.8840635916129,
+            1243.4342217895323
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "photo_interpreted",
+          "mast_y": [
+            79.42160515993041,
+            94.76590792863678
+          ]
+        },
+        {
+          "tracks": [
+            "07",
+            "08",
+            "09",
+            "10"
+          ],
+          "x_m": 204.0,
+          "photo_line_estimate_x_m": 204.0,
+          "reference_mosaic_pixel": [
+            697.658631451277,
+            1322.2542875987074
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "photo_interpreted",
+          "mast_y": [
+            82.10979850411121,
+            93.79262408513561
+          ]
+        },
+        {
+          "tracks": [
+            "07",
+            "08",
+            "09",
+            "10"
+          ],
+          "x_m": 241.0,
+          "photo_line_estimate_x_m": 244,
+          "reference_mosaic_pixel": [
+            673.4331993109411,
+            1401.0743534078829
+          ],
+          "longitudinal_estimate_tolerance_m": 3.0,
+          "status": "model_end_adaptation_minus_3m",
+          "mast_y": [
+            82.06410785029111,
+            93.26011172913056
+          ]
+        },
+        {
+          "tracks": [
+            "07",
+            "08"
+          ],
+          "x_m": 184.0,
+          "status": "inherited_curve_constraint_not_photo_verified",
+          "mast_y": [
+            81.05962317881477
+          ]
+        }
+      ]
+    },
+    {
+      "name": "image assets are packed or resolve",
+      "pass": true,
+      "failures": []
+    }
+  ]
+}

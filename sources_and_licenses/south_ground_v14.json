@@ -1,0 +1,48 @@
+{
+  "revision": 14,
+  "accessed": "2026-11-03",
+  "reference_images_redistributed": false,
+  "sources": [
+    {
+      "title": "GSI seamless orthophoto tiles",
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "tile_url": "https://cyberjapandata.gsi.go.jp/xyz/seamlessphoto/{z}/{x}/{y}.jpg",
+      "credit": "国土地理院 / Geospatial Information Authority of Japan",
+      "use": "Longitudinal road arrangement, exposed south conventional portal chainage. Local mosaic z18 origin x232844 y103223, 6 x 7 tiles. Pixel reference points are retained in build_v14.json.",
+      "registration": "Existing relayout/georef.py two-dome anchor; subtract 512,768 from its pixel coordinates. Approximately 0.48509 m/pixel; inherited model/photo scale difference remains.",
+      "limitations": "Seamless imagery acquisition dates vary; aerial parallax and model fit make portal estimates approximate. +/-3 m is an interpretation tolerance, not measured survey accuracy. Thin mast footings cannot all be identified."
+    },
+    {
+      "title": "Hato Bus official route to Tokyo Marunouchi south boarding point",
+      "url": "https://www.hatobus.co.jp/departure/route/tokyo",
+      "photo": "https://www.hatobus.co.jp/application/themes/hatobus/assets/images/route/tokyo/tokyo_05.jpg",
+      "credit": "株式会社はとバス",
+      "use": "Brick arch frontage, recessed ticket windows, yellow fascia/awning, queue rails, paving and adjacent utility louvres. Official text places the office under the railway.",
+      "limitations": "No dimensional drawing. Eight bays, internal service rooms, detailed utilities, street furniture and coach geometry are interpreted to fit this diorama."
+    },
+    {
+      "title": "Tokyo Station overhead 2020-10-25",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_overhead_2020-10-25.jpg",
+      "credit": "pelican, CC BY-SA 2.0, photograph dated 2020-10-25",
+      "use": "Independent, staggered conventional overhead-line structures in the south throat; support and roof relationships.",
+      "limitations": "Oblique photo used for structural comparison, not exact mast-base coordinate extraction."
+    },
+    {
+      "title": "Tokyo station Marunouchi architecture, January 2022 photographs",
+      "url": "https://www.railwaystation.jp/ekisya/tokyo-sta2.html",
+      "credit": "Solano / railwaystation.jp",
+      "use": "Visual cross-check of south station wing context.",
+      "limitations": "Reference only; no photograph redistributed."
+    }
+  ],
+  "mast_scope": {
+    "verified_survey": false,
+    "photo_interpreted_rows": 5,
+    "edge_adapted_rows": 1,
+    "additional_unverified_curve_supports": 1,
+    "replaced_old_masts": 21,
+    "new_masts": 13,
+    "lateral_locations": "Adapted to inherited track gauge, not directly surveyed.",
+    "unchanged": "Chuo, central and north conventional, all Shinkansen supports and all canopy penetrations."
+  }
+}

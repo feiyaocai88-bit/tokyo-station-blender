@@ -1,0 +1,35 @@
+﻿state,x_m,y_m,tracks,evidence
+replaced V13,172.0,48.5345,,inherited procedural location
+replaced V13,172.0,61.9194,,inherited procedural location
+replaced V13,172.0,71.7625,,inherited procedural location
+replaced V13,172.0,80.0688,,inherited procedural location
+replaced V13,172.0,86.5535,,inherited procedural location
+replaced V13,172.0,94.4534,,inherited procedural location
+replaced V13,172.0,104.7111,,inherited procedural location
+replaced V13,194.0,52.8369,,inherited procedural location
+replaced V13,194.0,64.4452,,inherited procedural location
+replaced V13,194.0,73.2775,,inherited procedural location
+replaced V13,194.0,81.7157,,inherited procedural location
+replaced V13,194.0,93.9828,,inherited procedural location
+replaced V13,216.0,56.1024,,inherited procedural location
+replaced V13,216.0,67.2976,,inherited procedural location
+replaced V13,216.0,74.6936,,inherited procedural location
+replaced V13,216.0,82.0928,,inherited procedural location
+replaced V13,216.0,93.4176,,inherited procedural location
+replaced V13,238.0,58.715,,inherited procedural location
+replaced V13,238.0,69.9017,,inherited procedural location
+replaced V13,238.0,81.9661,,inherited procedural location
+replaced V13,238.0,93.1702,,inherited procedural location
+V14 active,166.0,47.1864,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,166.0,61.2938,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,199.0,53.6003,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,199.0,65.068,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,237.0,58.6211,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,237.0,69.808,03/04/05/06,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,164.0,79.4216,07/08/09/10,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,164.0,94.7659,07/08/09/10,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,204.0,82.1098,07/08/09/10,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,204.0,93.7926,07/08/09/10,photo-interpreted longitudinal row; lateral position adapted to inherited track gauge
+V14 active,241.0,82.0641,07/08/09/10,cropped-edge adaptation 3 m inward; lateral position fitted to inherited track gauge
+V14 active,241.0,93.2601,07/08/09/10,cropped-edge adaptation 3 m inward; lateral position fitted to inherited track gauge
+V14 active,184.0,81.0596,07/08,unverified intermediate support required by inherited track curvature

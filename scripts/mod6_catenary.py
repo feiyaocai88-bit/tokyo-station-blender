@@ -885,4 +885,5 @@ def run():
         L.log("saved", OUT)
 
 
-run()
+if __name__ == '__main__':
+    run()
