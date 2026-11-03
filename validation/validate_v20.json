@@ -1,0 +1,56 @@
+{
+  "revision": 20,
+  "passed": true,
+  "checks": [
+    {
+      "name": "All V19 source geometry materials transforms and unrelated content retained",
+      "pass": true,
+      "failures": [],
+      "source_objects": 36861
+    },
+    {
+      "name": "Replaced sources are isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "objects": 11
+    },
+    {
+      "name": "Both staff-room side passages have real deck support and 2.1 m headroom",
+      "pass": true,
+      "failures": [],
+      "samples": 100
+    },
+    {
+      "name": "Existing north central and south stair openings remain clear",
+      "pass": true,
+      "failures": [],
+      "samples": 108
+    },
+    {
+      "name": "Covered end passage has a continuous supported floor and central headroom",
+      "pass": true,
+      "failures": [],
+      "samples": 72
+    },
+    {
+      "name": "New structures clear both train bodies and the upper electrical corridor",
+      "pass": true,
+      "failures": [],
+      "samples": 98184,
+      "body_half_width": 1.6,
+      "upper_half_width": 0.78,
+      "upper_clear_z": 22.2
+    },
+    {
+      "name": "Acoustic screens remain within the corrected viaduct ends",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Finite new geometry and resolving packed image resources",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "limits": "Photo-derived visual fittings adapted to the inherited geometry; no claim of surveyed equipment positions, load calculations or operational railway clearance certification."
+}

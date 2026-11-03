@@ -14,6 +14,31 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V20 Chuo platform details from supplied street views
+
+V20 adds the narrow arched passage at the raised Chuo platform end, 34 curved ribs connecting the outer acoustic screens to the canopy, and a rounded silver staff-room enclosure. The room has panel joints, ribbon windows, a glazed personnel door, hardware and ventilation grilles. Twelve separate CCTV cameras and six hooded departure monitors include mounting rods, lens barrels, brackets and cables. Ribbed ceiling finishes, continuous lights and paving joints complete the platform views.
+
+![Chuo platform end and curved ribs](images/v20/overview.jpg)
+
+| | |
+|---|---|
+| ![Arched end passage](images/v20/end.jpg) | ![Rounded staff room](images/v20/room.jpg) |
+| ![Acoustic-screen to canopy rib](images/v20/arches.jpg) | ![Departure monitors](images/v20/monitors.jpg) |
+| ![CCTV lens and bracket](images/v20/cctv.jpg) | ![Complete Chuo platform](images/v20/whole.jpg) |
+| ![Before and after](images/v20/comparison.jpg) | ![Room comparison](images/v20/room_comparison.jpg) |
+
+The source is the user's three Google Street View screenshots dated December 2016. Visible forms are recreated with native geometry; the screenshots are not textures and are not redistributed. Dimensions, equipment positions and quantities are estimates fitted to the inherited scene. The curved-rib crest is adapted to clear the model's existing messenger wires, and the precise purpose of the small end passage is unverified.
+
+Eight checks pass: all V19 originals remain preserved; replacement originals are hidden; both room-side walkways have deck support and headroom; all three stairs remain open; the covered passage has a continuous floor; new structures clear the model's rail/electrical corridors; screens stay within the corrected viaduct ends; and image dependencies resolve. Local sign assemblies and five passenger instances are repositioned to clear the new room. Replaced originals remain in `V20_Replaced_hidden`.
+
+See the [Chinese guide](README_V20.txt), [reference record](sources_and_licenses/chuo_details_v20.json), and [validation report](validation/validate_v20.json).
+
+```sh
+blender -b out/Tokyo_Station_Connections_V19.blend --python-exit-code 1 -P scripts/mod20_chuo_details.py -- out/Tokyo_Station_Chuo_V20.blend validation/build_v20.json validation/baseline_v19.json
+blender -b out/Tokyo_Station_Chuo_V20.blend --python-exit-code 1 -P scripts/validate20_chuo.py -- validation/baseline_v19.json validation/validate_v20.json
+blender -b out/Tokyo_Station_Chuo_V20.blend --python-exit-code 1 -P scripts/render_review_cams_v20.py -- out/previews 24 01,02,03,04,05,06,07 1800 1200
+```
+
 ## V19 rear concourse and connected streets
 
 V19 fills the visible gaps between the Marunouchi building and the Chuo viaduct with continuous skylight glazing, seamed roof panels, columns, rainwater fittings, a paved passage, lighting and service equipment. The canopy follows the back wall and ends where the inherited angled south wing constricts the available space. The two end service yards receive paving, drains and fixtures.
@@ -283,10 +308,10 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V19 Blender file is on the **[V19 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v19-rear-concourse-streets)** as `Tokyo_Station_Connections_V19.zip`. It contains the complete packed model, seven views, matching comparisons, scripts, validation records and asset credits. The [V18 plaza release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v18-marunouchi-plaza) and earlier releases remain available.
+The current V20 Blender file is on the **[V20 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v20-chuo-platform-details)** as `Tokyo_Station_Chuo_V20.zip`. It contains the complete packed model, seven views, matching comparisons, scripts, validation records and asset credits. The [V19 streets and rear-concourse release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v19-rear-concourse-streets) and earlier releases remain available.
 
-- Open `Tokyo_Station_Connections_V19.blend` with **Blender 5.2 LTS**. Textures and fonts are packed.
-- The default V19 camera shows the revised streets. The V19 camera collection includes the rear concourse and a covered passage view.
+- Open `Tokyo_Station_Chuo_V20.blend` with **Blender 5.2 LTS**. Textures and fonts are packed.
+- The default V20 camera shows the raised Chuo platform end. Seven V20 cameras include the end passage, room, curved ribs, monitors and CCTV lens. Earlier camera collections remain available.
 - Underground cameras remain available below the display base.
 
 

@@ -1,0 +1,18 @@
+{
+  "revision": 20,
+  "date": "2026-11-03",
+  "references": [
+    {"source": "User-provided Google Street View screenshot", "file_identifier": "codex-clipboard-3aab1114-592b-47f4-8c30-90a92c4e89fb.png", "capture_date_visible": "2016-12", "used_for": "Platform-end narrow arched covered passage, gate, ladder, curved outer acoustic-screen ribs and ceiling lights"},
+    {"source": "User-provided Google Street View screenshot", "file_identifier": "codex-clipboard-c4d239b3-bc01-47eb-91f3-b3d1fe085be5.png", "capture_date_visible": "2016-12", "used_for": "Rounded metallic platform room, horizontal and vertical panel joints, narrow door glazing and overhead fixtures"},
+    {"source": "User-provided Google Street View screenshot", "file_identifier": "codex-clipboard-0f16a7db-ecde-4541-ab37-7f131f996ba3.png", "capture_date_visible": "2016-12", "used_for": "Suspended monitor housings with weather hoods, separate small cameras, mounting hardware, cables and ribbon windows"}
+  ],
+  "external_media_included": false,
+  "new_assets": "Native Blender geometry and procedural/plain materials; no source photograph texture or copied monitor footage",
+  "limits": [
+    "Source screenshots show 2016 conditions, not a current equipment survey",
+    "The south-end passage position is fitted to the inherited staff gate and buffer-end geometry; its precise function and internal layout are unverified",
+    "Curved ribs retain clearance above the inherited messenger wires, which requires a model-adapted profile",
+    "Room dimensions and cladding modules are estimates; camera and monitor count, orientation and positions are illustrative",
+    "All V19 streets, building details and underground views remain part of the complete model"
+  ]
+}
