@@ -1,0 +1,145 @@
+{
+  "revision": 13,
+  "checks": [
+    {
+      "name": "all V12 source geometry and transforms retained",
+      "pass": true,
+      "failures": [],
+      "source_objects": 34267
+    },
+    {
+      "name": "barriers stay within viaduct length and outside train envelope",
+      "pass": true,
+      "failures": [],
+      "barriers": [
+        {
+          "object": "V13 Chuo west deck-edge acoustic screen",
+          "track": "01",
+          "range": [
+            -206,
+            123
+          ],
+          "previous_range": [
+            -201.01,
+            229.02
+          ],
+          "deck_top": 14.899999618530273,
+          "offset": 1.94,
+          "height": 2.2,
+          "panels": 132,
+          "basis": "clipped to actual model viaduct; section height is photo-informed, not a field measurement"
+        },
+        {
+          "object": "V13 Chuo east deck-edge acoustic screen",
+          "track": "02",
+          "range": [
+            -206,
+            123
+          ],
+          "previous_range": [
+            -198.01,
+            221.02
+          ],
+          "deck_top": 14.899999618530273,
+          "offset": 1.94,
+          "height": 1.85,
+          "panels": 132,
+          "basis": "clipped to actual model viaduct; section height is photo-informed, not a field measurement"
+        },
+        {
+          "object": "V13 Shinkansen east deck-edge acoustic screen",
+          "track": "19",
+          "range": [
+            -206,
+            242
+          ],
+          "previous_range": [
+            -201.0,
+            235.04
+          ],
+          "deck_top": 6.4999998807907104,
+          "offset": 1.94,
+          "height": 2.15,
+          "panels": 180,
+          "basis": "clipped to actual model viaduct; section height is photo-informed, not a field measurement"
+        }
+      ]
+    },
+    {
+      "name": "twenty tracks retain visible evaluated sleeper instances",
+      "pass": true,
+      "failures": [],
+      "instances": {
+        "V5 track | Track 01 PC sleepers + fastenings": 536,
+        "V5 track | Track 02 PC sleepers + fastenings": 534,
+        "V5 track | Track 03 PC sleepers + fastenings": 729,
+        "V5 track | Track 04 PC sleepers + fastenings": 728,
+        "V5 track | Track 05 PC sleepers + fastenings": 728,
+        "V5 track | Track 06 PC sleepers + fastenings": 726,
+        "V5 track | Track 07 PC sleepers + fastenings": 726,
+        "V5 track | Track 08 PC sleepers + fastenings": 726,
+        "V5 track | Track 09 PC sleepers + fastenings": 726,
+        "V5 track | Track 10 PC sleepers + fastenings": 728,
+        "V5 track | Track 20 PC sleepers + fastenings": 706,
+        "V5 track | Track 21 PC sleepers + fastenings": 707,
+        "V5 track | Track 22 PC sleepers + fastenings": 699,
+        "V5 track | Track 23 PC sleepers + fastenings": 701,
+        "V5 track | Track 14 PC sleepers + fastenings": 781,
+        "V5 track | Track 15 PC sleepers + fastenings": 784,
+        "V5 track | Track 16 PC sleepers + fastenings": 778,
+        "V5 track | Track 17 PC sleepers + fastenings": 779,
+        "V5 track | Track 18 PC sleepers + fastenings": 779,
+        "V5 track | Track 19 PC sleepers + fastenings": 781
+      },
+      "total": 14382
+    },
+    {
+      "name": "surface stairs have real openings treads and headroom",
+      "pass": true,
+      "failures": [],
+      "samples": 216
+    },
+    {
+      "name": "both entrance passages connect through the main scene to B1",
+      "pass": true,
+      "failures": [],
+      "samples": 159
+    },
+    {
+      "name": "new passage side walls remain enclosed after boolean openings",
+      "pass": true,
+      "failures": [],
+      "samples": 44
+    },
+    {
+      "name": "stair bottom doorways are open",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "central doorway has depth and visible iron gate",
+      "pass": true,
+      "failures": [],
+      "gate_rays": 272,
+      "recess_rays": 961,
+      "total_rays": 961
+    },
+    {
+      "name": "new native mesh coordinates are finite",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "catenary survey limits are explicit",
+      "pass": true,
+      "failures": [],
+      "audited_masts": 183
+    },
+    {
+      "name": "image assets are packed or resolve",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "passed": true
+}

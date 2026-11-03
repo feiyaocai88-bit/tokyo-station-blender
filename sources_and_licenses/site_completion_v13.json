@@ -1,0 +1,66 @@
+{
+  "revision": 13,
+  "date": "2026-11-03",
+  "input": "Final Tokyo_Station_Trains_V12.blend",
+  "scope_zh": "修正越出高架的隔音屏，补足轨道和设备建筑细节，重做中央御车寄，并新增M7、M8地面楼梯与B1连续连接。",
+  "sources": [
+    {
+      "title": "Tokyo Metro Tokyo station official diagram and surrounding map",
+      "url": "https://www.tokyometro.jp/station/tokyo/index.html",
+      "image_url": "https://www.tokyometro.jp/station/yardmap_img/figure_yardmap_tokyo_all.jpg",
+      "diagram_date": "2026.4",
+      "use": "B1/B2 topology; ground stair exits M7/M8; distinction between public plaza stairs and exits within surrounding buildings. Entrance coordinates and corridor lengths are fitted to the existing diorama, whose underground frame was already shifted in V11."
+    },
+    {
+      "title": "Tokyo Metro Tokyo accessibility information",
+      "url": "https://www.tokyometro.jp/station/tokyo/accessibility/index.html",
+      "use": "Ground lift connection is via M10 / Oazo. V13 does not invent an M8 lift or a freestanding M10 kiosk in the plaza. The building-integrated M10 route lies outside this reconstruction."
+    },
+    {
+      "title": "旅鉄Walker, Tokyo station photographic gallery, M8 exit",
+      "url": "https://josef1927.com/keiyo_line/Tokyo.G.html",
+      "image_url": "https://josef1927.com/img/s-%E6%9D%B1%E4%BA%AC%20%28337%29.jpg",
+      "use": "M8 dark flat roof, glazed side walls, stone landing/retaining wall, handrails and tactile paving. The related M7 pavilion uses the same visual vocabulary as an approximation; its exact facade has not been independently surveyed."
+    },
+    {
+      "title": "RailwayStation.jp, central imperial porte-cochere photograph",
+      "url": "https://www.railwaystation.jp/ekisya/tokyo-sta2.html",
+      "image_url": "https://www.railwaystation.jp/wp/wp-content/uploads/jr-east/tokyo-sta-marunouchi2229.jpg",
+      "use": "Round brick-and-stone piers, layered stone entablature, recessed iron gate with radial ornament, balustrade and clipped pine forecourt. Reconstructed proportions fit the inherited station facade; small carving is simplified."
+    },
+    {
+      "title": "pelican, Tokyo Station overhead, 2020-10-25",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_overhead_2020-10-25.jpg",
+      "license": "CC BY-SA 2.0",
+      "use": "Visible ballast, sleepers, trackside cable routes, independent and staggered catenary portals, service huts. Photo is an oblique view, not a mast coordinate survey."
+    },
+    {
+      "title": "Tokyo Station aerial walk, November 2020",
+      "url": "https://www.shonan1953.sakura.ne.jp/newpage11551.html",
+      "image_url": "https://shonan1953.sakura.ne.jp/a005713.jpg",
+      "use": "Relative roof/catenary and rooftop-service arrangement. Insufficient resolution for one-to-one mast coordinate verification."
+    },
+    {
+      "title": "Existing Google Maps street reference carried forward from V11",
+      "url": "https://www.google.com/maps/@?api=1&map_action=pano&pano=CIHM0ogKEICAgICE_OqFbQ",
+      "photo_date": "March 2018",
+      "author": "Ito Imaji",
+      "use": "Existing V11 north-end utility enclosure retained. New V13 equipment-room end details are interpretive mechanical completion, not an assertion that each louvre or door is survey-matched."
+    }
+  ],
+  "diagnosed_model_errors": [
+    "V10 Chuo west screen continued to X=229 and east screen to X=221, although their viaduct meshes ended at X=124. New ends derive from actual mesh bounds.",
+    "V10 barrier centres used track offset 3.65 m, detached from the narrow deck. New centres use 1.94 m with continuous coping and inward-landing brackets.",
+    "The existing ballast crib exposed only about 5 mm of the depressed sleeper centre. Lower the crib by 60 mm; retain rail elevations, rail seats, sleeper locations and track gauge."
+  ],
+  "accuracy_limits_zh": [
+    "这不是测绘模型，也不是所有设施同一日期的复原。",
+    "接触网杆位原来按约22米间距并避障生成。V13逐根导出杆位记录，明确未测量；现有照片不能证明全部杆位与实景一致，因此没有随意挪杆或宣称已逐根校准。",
+    "隔音屏末端与支座已按模型高架修正；屏高、面板型式和拼缝仍是照片辅助的估算。",
+    "M7/M8地面入口及连接通道在模型中实际贯通；平面位置、长度和深度继承并适配V11的简化地下站，不能作导航或工程资料。",
+    "M9/M10位于周边建筑内的出入口与完整商业地下网络不在本次模型范围。",
+    "中央御车寄及设备建筑的细小装饰、百叶、管线尺寸为解释性几何。"
+  ],
+  "asset_policy": "All V13 additions are procedural native Blender meshes. Reference photos are viewed only; no reference-photo pixels or third-party models are redistributed. Original asset and font licences continue to apply.",
+  "preservation": "Each replaced source object is retained with its original geometry and transform in V13_Replaced_hidden. V12 rolling-stock collections and instancer assignments are unchanged."
+}

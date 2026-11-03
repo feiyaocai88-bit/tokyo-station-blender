@@ -14,6 +14,31 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V13 site details and connected ground entrances
+
+V13 corrects the acoustic screens that continued almost 100 m beyond the Chuo viaduct. All three screen runs now derive their ends from the actual deck meshes, with supports landing on the deck edge. Twenty tracks gain deeper ballast cribs, physical stone fragments, cable-trough lids, junction boxes and rail bonds; existing rails, sleeper instances and train positions are retained.
+
+![Central imperial entrance and forecourt](images/v13/imperial_entrance.jpg)
+
+The central imperial porte-cochere is rebuilt with round brick-and-stone piers, a layered cornice, recessed ornamental iron gates and a planted, balustraded forecourt. Three service buildings gain end-wall louvres, doors, roof seams, ducts and maintenance details. New M7/M8 surface pavilions have real ground openings, two stair flights and continuous passages to the existing Marunouchi Line B1 concourse.
+
+| | |
+|---|---|
+| ![Corrected screen ends](images/v13/barriers.jpg) | ![Track details](images/v13/track.jpg) |
+| Screens end on the Chuo viaduct | Exposed sleepers, fastenings and ballast |
+| ![M8 ground entrance](images/v13/metro_entrance.jpg) | ![Service building](images/v13/service_building.jpg) |
+| Glazed entrance and stairs connecting to B1 | End louvres, roof fittings and service alley |
+
+The model contains a separate `V13 Metro access cutaway` scene and 12 V13 review cameras. Validation checks all retained V12 source geometry and transforms, screen extents, evaluated sleeper instances, stair openings and headroom, passage continuity, enclosed passage walls and the recessed gate. All V12 train exteriors and interiors remain in the main scene.
+
+Catenary positions are **not verified survey coordinates**. The inherited approximately 22 m procedural spacing and obstacle adjustments remain; 183 mast records are exported in [the audit CSV](validation/catenary_audit_v13.csv). The photographs support structural and relative-placement comparisons, but not a one-to-one coordinate check. M7/M8 surface positions and passage lengths are fitted to the existing simplified plaza and shifted underground frame. See the [Chinese V13 guide](README_V13.txt) and [photographic sources and limits](sources_and_licenses/site_completion_v13.json).
+
+```sh
+blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/mod13_site_completion.py -- out/Tokyo_Station_Site_V13.blend validation/build_v13.json validation/baseline_v12.json
+blender -b out/Tokyo_Station_Site_V13.blend --python-exit-code 1 -P scripts/validate13_site_completion.py -- validation/baseline_v12.json validation/validate_v13.json
+blender -b out/Tokyo_Station_Site_V13.blend --python-exit-code 1 -P scripts/render_review_cams_v13.py -- out/previews 64
+```
+
 ## V12 surface trains and visible interiors
 
 V12 replaces the uniform green passenger interiors with separate Chuo, Keihin-Tohoku, Yamanote and Tokaido palettes and native furnishings. It adds individual cushions, priority seating, partitions, grab handles, luggage racks, lighting and family-specific door displays. Neutral transparent side glazing and opened cab windscreens expose the interior, with new window seals, door thresholds, buttons, wipers and gangway fittings outside.
@@ -105,10 +130,10 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The Blender file is on the **[release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/blender-scene)** as `Tokyo_Station_Blender.zip` (96 MB).
+The current V13 Blender file is on the **[V13 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v13-site-details)** as `Tokyo_Station_Site_V13.zip`. It contains the packed model, 12 rendered previews, build scripts, validation records and asset credits. The [original release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/blender-scene) remains available separately.
 
-- Open `Tokyo_Station.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
-- The default camera shows the whole model. Other viewpoints are in the camera collections.
+- Open `Tokyo_Station_Site_V13.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
+- The main scene contains the whole model; its default V13 camera faces the central entrance. Other viewpoints are in the camera collections.
 - The underground station lies below the display base. Use the underground cameras to look at it.
 
 ## Gallery
@@ -183,7 +208,7 @@ The station lies 28 m below the Marunouchi plaza. It has five levels:
 - **Underground station:**
   - the cut-and-cover box, 12 stair/escalator groups, 2 lifts and 2 long escalator banks;
   - the B4 and B1 concourses and the ventilation shaft up to the existing tower;
-  - a simplified Marunouchi Line tunnel crossing above.
+  - the Marunouchi Line B1 concourse and B2 platform, six-car 2000-series train, and M7/M8 ground connections.
 
 ## Automatic checks
 
@@ -208,9 +233,9 @@ The validators in `scripts/` run on the finished file. Their reports are in `val
 - **Underground trains:** they are the model's E235-0 re-liveried, not a separate E235-1000 model. The Green cars use the E233-3000 double-deck shell.
 - **Not modelled:**
   - the curves beyond the ends of the underground station;
-  - the Marunouchi Line station;
   - the JR Keiyo Line underground station;
-  - driver's cabs and Green car interiors.
+  - complete commercial underground passages and the building-integrated M9/M10 exits.
+- **Vehicle interiors:** V12 includes simplified cabs, commuter interiors and two-deck Green-car seating. Seat counts and small controls are interpretive.
 - **Overhead conductor:** the rigid conductor in the underground station is an assumption.
 
 ## Repository contents
