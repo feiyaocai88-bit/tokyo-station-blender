@@ -1,0 +1,77 @@
+{
+  "revision": 21,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V20 source is unchanged or preserved with original geometry and materials",
+      "pass": true,
+      "failures": [],
+      "source_objects": 36931
+    },
+    {
+      "name": "Replacement originals are isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "objects": 54
+    },
+    {
+      "name": "All ten surface islands and three underground islands receive native detail",
+      "pass": true,
+      "failures": [],
+      "groups": 13
+    },
+    {
+      "name": "Waiting-room side passages have existing deck support and 2.1 m headroom",
+      "pass": true,
+      "failures": [],
+      "samples": 300,
+      "rooms": 5
+    },
+    {
+      "name": "All thirty existing surface stair apertures stay clear",
+      "pass": true,
+      "failures": [],
+      "samples": 900
+    },
+    {
+      "name": "New structures clear model train-body and upper electrical corridors",
+      "pass": true,
+      "failures": [],
+      "samples": 1478974,
+      "body_half_width": 1.49,
+      "upper_half_width": 0.78,
+      "upper_clearance_above_platform": 5.5
+    },
+    {
+      "name": "Actual roof meshes and frames leave the inherited OCS mast shafts open",
+      "pass": true,
+      "failures": [],
+      "samples": 875
+    },
+    {
+      "name": "Relocated rooftop rooms and support pedestals clear actual OCS meshes",
+      "pass": true,
+      "failures": [],
+      "geometry_pairs": 84
+    },
+    {
+      "name": "All Metro status lamps attach to the existing door-post tops",
+      "pass": true,
+      "failures": [],
+      "lamps": 36
+    },
+    {
+      "name": "Underground cutaway sides stay open",
+      "pass": true,
+      "failures": [],
+      "side_walls_added": 0
+    },
+    {
+      "name": "Finite native geometry and resolving image resources",
+      "pass": true,
+      "failures": [],
+      "mesh_objects": 119
+    }
+  ],
+  "limits": "Dated street views and photographs inform visual structure; dimensions, repeated fittings and positions are estimates. These geometric model checks are not a survey or railway operational certification."
+}

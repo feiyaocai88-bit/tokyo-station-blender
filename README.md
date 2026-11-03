@@ -1,6 +1,6 @@
 # Tokyo Station – Blender model
 
-![Overview of the model](images/hero_overview.jpg)
+![Overview of the model](images/v21/overview.jpg)
 
 A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 
@@ -13,6 +13,40 @@ A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 The model is built with Blender Python scripts. Automatic checks test clearances, headroom and train placement.
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
+
+## V21 individual platform structures and fittings
+
+V21 updates all **13 existing island platforms**: ten on the surface, two Sobu/Yokosuka islands at B5, and the Marunouchi Line M17 island. Google Street View observations are cross-checked with original-author photographs. Each platform retains its own footprint and receives the appropriate canopy structure, columns, suspended fittings and floor detail.
+
+![Platform-by-platform model views](images/v21/contact.jpg)
+
+| Platforms | Main changes |
+|---|---|
+| 1/2 | Silver column covers and attached equipment; V20 curved acoustic ribs, staff room and end passage retained |
+| 3/4 | Exposed haunched steel frames and H columns replacing the uniform round-column treatment |
+| 5/6 | Curved central daylight strip, lower side wings and exposed purlins |
+| 7/8 | Shallow pitched metal canopy, paired supports, open cable ladders and individual light fittings |
+| 9/10 | Light-transmitting photovoltaic roof, riveted transverse frames and dense cable trays |
+| 14/15, 16/17, 18/19 | Individual pitched roof profiles, steel columns, corrected roof heights, service-room supports and glazed waiting rooms |
+| 20/21, 22/23 | Open central roof structure, segmented side soffits, dark stone/stainless column finishes and glazed waiting rooms; local PV on 22/23 |
+| Sobu/Yokosuka B5 1/2 and 3/4 | Column maps, emergency call boxes, ceiling cameras, ceiling joints and coloured floor inlays |
+| Marunouchi M17 | Visible slatted ceiling joints, column fittings, dome cameras and lamps mounted on the existing platform-door posts |
+
+![Differentiated roof profiles](images/v21/roofs.jpg)
+
+Five new waiting rooms include open sliding doorways, seating, lights and air diffusers. Their side passages retain real deck support and headroom. The inherited 7/8 layout did not provide a clear bay for an additional room, so its stairs and circulation remain unobstructed. Underground side walls stay open for inspection.
+
+Eleven geometry checks cover source preservation, all 13 platform groups, 30 stair apertures, waiting-room passages, train/electrical corridors, mast penetrations, rooftop equipment against actual overhead-line meshes, Metro lamp attachments, underground cutaways and file dependencies. All 36,931 V20 source objects are unchanged or retained as hidden originals.
+
+Street views date mainly to 2016–2018; platform photographs are from 2019. Direct Google panorama coverage is recorded separately from across-track views and photographic references. This is a multi-epoch visual model with estimated dimensions, fitting quantities and equipment positions; it is not a surveyed reconstruction. Existing newer trains and platform doors are retained. Source imagery is linked for provenance, not redistributed or used as textures. The model's previous pole positions remain in place; new roof openings are checked against those positions, rather than presented as verified real-world coordinates.
+
+See the [Chinese guide](README_V21.txt), [platform-by-platform sources](sources_and_licenses/platforms_v21.json), [build record](validation/build_v21.json), [validation report](validation/validate_v21.json), and [V21 model download](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v21-platforms-streetview).
+
+```sh
+blender -b out/Tokyo_Station_Chuo_V20.blend --python-exit-code 1 -P scripts/mod21_platforms.py -- out/Tokyo_Station_Platforms_V21.blend validation/build_v21.json validation/baseline_v20.json
+blender -b out/Tokyo_Station_Platforms_V21.blend --python-exit-code 1 -P scripts/validate21_platforms.py -- validation/baseline_v20.json validation/validate_v21.json
+blender -b out/Tokyo_Station_Platforms_V21.blend --python-exit-code 1 -P scripts/render_review_cams_v21.py -- out/previews 24 01,02,03,04,05,06,07,08,09,10,11,12,13,14,15 1800 1200
+```
 
 ## V20 Chuo platform details from supplied street views
 

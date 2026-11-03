@@ -1,0 +1,2476 @@
+{
+  "revision": 21,
+  "retained": [
+    {
+      "original": "V8 canopy 03-04 | structure (beams, purlins, gutters, trays, speakers)",
+      "retained": "V8 canopy 03-04 | structure (beams, purlins, gutters, trays, speakers) [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V8 canopy 03-04 | light fittings",
+      "retained": "V8 canopy 03-04 | light fittings [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V11 03-04 round canopy columns",
+      "retained": "V11 03-04 round canopy columns [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V11 05-06 curved green roof with low side wings",
+      "retained": "V11 05-06 curved green roof with low side wings [before V21]",
+      "collections": [
+        "V11_Roof_Details"
+      ]
+    },
+    {
+      "original": "V11 05-06 curved roof seams and penetration collars",
+      "retained": "V11 05-06 curved roof seams and penetration collars [before V21]",
+      "collections": [
+        "V11_Roof_Details"
+      ]
+    },
+    {
+      "original": "V8 canopy 05-06 | structure (beams, purlins, gutters, trays, speakers)",
+      "retained": "V8 canopy 05-06 | structure (beams, purlins, gutters, trays, speakers) [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V8 canopy 05-06 | light fittings",
+      "retained": "V8 canopy 05-06 | light fittings [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V10 07-08 differentiated roof skin",
+      "retained": "V10 07-08 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 07-08 flashed mast penetrations",
+      "retained": "V10 07-08 flashed mast penetrations [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 07-08 seams flashings gutters and glazing ribs",
+      "retained": "V10 07-08 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V8 canopy 07-08 | structure (beams, purlins, gutters, trays, speakers)",
+      "retained": "V8 canopy 07-08 | structure (beams, purlins, gutters, trays, speakers) [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V8 canopy 07-08 | light fittings",
+      "retained": "V8 canopy 07-08 | light fittings [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V10 09-10 differentiated roof skin",
+      "retained": "V10 09-10 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 09-10 flashed mast penetrations",
+      "retained": "V10 09-10 flashed mast penetrations [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 09-10 seams flashings gutters and glazing ribs",
+      "retained": "V10 09-10 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V8 canopy 09-10 | structure (beams, purlins, gutters, trays, speakers)",
+      "retained": "V8 canopy 09-10 | structure (beams, purlins, gutters, trays, speakers) [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V8 canopy 09-10 | light fittings",
+      "retained": "V8 canopy 09-10 | light fittings [before V21]",
+      "collections": [
+        "V8_Platform_Canopies"
+      ]
+    },
+    {
+      "original": "V10 14-15 differentiated roof skin",
+      "retained": "V10 14-15 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 14-15 seams flashings gutters and glazing ribs",
+      "retained": "V10 14-15 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 14-15 retained steel and lights",
+      "retained": "V10 14-15 retained steel and lights [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V11 14-15 Shinkansen column finishes",
+      "retained": "V11 14-15 Shinkansen column finishes [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V10 14-15 roof equipment room at +135",
+      "retained": "V10 14-15 roof equipment room at +135 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 14-15 equipment room roof curbs +135",
+      "retained": "V10 14-15 equipment room roof curbs +135 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V5 platform 14-15 furniture and signs",
+      "retained": "V5 platform 14-15 furniture and signs [before V21]",
+      "collections": [
+        "V5_Platform_Furniture"
+      ]
+    },
+    {
+      "original": "V10 16-17 differentiated roof skin",
+      "retained": "V10 16-17 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 16-17 seams flashings gutters and glazing ribs",
+      "retained": "V10 16-17 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 16-17 retained steel and lights",
+      "retained": "V10 16-17 retained steel and lights [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V11 16-17 Shinkansen column finishes",
+      "retained": "V11 16-17 Shinkansen column finishes [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V10 16-17 roof equipment room at +111",
+      "retained": "V10 16-17 roof equipment room at +111 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 16-17 equipment room roof curbs +111",
+      "retained": "V10 16-17 equipment room roof curbs +111 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V5 platform 16-17 furniture and signs",
+      "retained": "V5 platform 16-17 furniture and signs [before V21]",
+      "collections": [
+        "V5_Platform_Furniture"
+      ]
+    },
+    {
+      "original": "V10 18-19 differentiated roof skin",
+      "retained": "V10 18-19 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 18-19 seams flashings gutters and glazing ribs",
+      "retained": "V10 18-19 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 18-19 retained steel and lights",
+      "retained": "V10 18-19 retained steel and lights [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V11 18-19 Shinkansen column finishes",
+      "retained": "V11 18-19 Shinkansen column finishes [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V5 platform 18-19 furniture and signs",
+      "retained": "V5 platform 18-19 furniture and signs [before V21]",
+      "collections": [
+        "V5_Platform_Furniture"
+      ]
+    },
+    {
+      "original": "V10 20-21 differentiated roof skin",
+      "retained": "V10 20-21 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 20-21 seams flashings gutters and glazing ribs",
+      "retained": "V10 20-21 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 20-21 retained steel and lights",
+      "retained": "V10 20-21 retained steel and lights [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V11 20-21 Shinkansen column finishes",
+      "retained": "V11 20-21 Shinkansen column finishes [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V10 20-21 roof equipment room at -94",
+      "retained": "V10 20-21 roof equipment room at -94 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 20-21 equipment room roof curbs -94",
+      "retained": "V10 20-21 equipment room roof curbs -94 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 20-21 roof equipment room at +102",
+      "retained": "V10 20-21 roof equipment room at +102 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 20-21 equipment room roof curbs +102",
+      "retained": "V10 20-21 equipment room roof curbs +102 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V5 platform 20-21 furniture and signs",
+      "retained": "V5 platform 20-21 furniture and signs [before V21]",
+      "collections": [
+        "V5_Platform_Furniture"
+      ]
+    },
+    {
+      "original": "V10 22-23 differentiated roof skin",
+      "retained": "V10 22-23 differentiated roof skin [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 22-23 seams flashings gutters and glazing ribs",
+      "retained": "V10 22-23 seams flashings gutters and glazing ribs [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V10 22-23 local rooftop PV array",
+      "retained": "V10 22-23 local rooftop PV array [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 22-23 retained steel and lights",
+      "retained": "V10 22-23 retained steel and lights [before V21]",
+      "collections": [
+        "V10_Roofs"
+      ]
+    },
+    {
+      "original": "V11 22-23 Shinkansen column finishes",
+      "retained": "V11 22-23 Shinkansen column finishes [before V21]",
+      "collections": [
+        "V11_Platform_Columns"
+      ]
+    },
+    {
+      "original": "V10 22-23 roof equipment room at +120",
+      "retained": "V10 22-23 roof equipment room at +120 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V10 22-23 equipment room roof curbs +120",
+      "retained": "V10 22-23 equipment room roof curbs +120 [before V21]",
+      "collections": [
+        "V10_Roof_Plant"
+      ]
+    },
+    {
+      "original": "V5 platform 22-23 furniture and signs",
+      "retained": "V5 platform 22-23 furniture and signs [before V21]",
+      "collections": [
+        "V5_Platform_Furniture"
+      ]
+    },
+    {
+      "original": "V5 Shinkansen roofs | hanger rods for platform-number signs",
+      "retained": "V5 Shinkansen roofs | hanger rods for platform-number signs [before V21]",
+      "collections": [
+        "V5_Shinkansen_Roofs"
+      ]
+    }
+  ],
+  "counts": {
+    "emergency_call_boxes": 162,
+    "column_route_maps": 166,
+    "new_column_sections": 307,
+    "riveted_transverse_frames": 51,
+    "roof_service_bays": 1043,
+    "suspended_twin_tube_fittings": 946,
+    "boarding_position_marks": 304,
+    "new_cctv": 124,
+    "flashed_roof_openings": 37,
+    "glazed_waiting_rooms": 5,
+    "roof_room_support_pedestals": 20
+  },
+  "platforms": {
+    "01-02": {
+      "style": "Chuo slatted soffit and silver oval column covers",
+      "deck_z": 16.510000228881836,
+      "eave_z": 20.750000228881838,
+      "extent": [
+        -132.8372,
+        108.0
+      ],
+      "surveyed_positions": false
+    },
+    "03-04": {
+      "style": "haunched exposed steel, mixed old and clad columns",
+      "deck_z": 6.210000038146973,
+      "eave_z": 10.450000038146973,
+      "extent": [
+        -132.0,
+        112.0
+      ],
+      "surveyed_positions": false,
+      "columns": [
+        [
+          -125.33333206176758,
+          40.71923828125
+        ],
+        [
+          -116.0,
+          40.71923828125
+        ],
+        [
+          -88.0,
+          39.142086029052734
+        ],
+        [
+          -78.66666793823242,
+          38.99772071838379
+        ],
+        [
+          -68.5333366394043,
+          38.853355407714844
+        ],
+        [
+          -60.0,
+          38.708988189697266
+        ],
+        [
+          -50.66666793823242,
+          38.650062561035156
+        ],
+        [
+          -41.33333206176758,
+          38.59114074707031
+        ],
+        [
+          -32.0,
+          38.5322151184082
+        ],
+        [
+          -22.666666984558105,
+          38.528703689575195
+        ],
+        [
+          -13.333333492279053,
+          38.52519226074219
+        ],
+        [
+          16.266666889190674,
+          38.51465606689453
+        ],
+        [
+          24.0,
+          38.51114273071289
+        ],
+        [
+          33.33333206176758,
+          38.5400390625
+        ],
+        [
+          42.66666793823242,
+          38.56893730163574
+        ],
+        [
+          52.0,
+          38.597835540771484
+        ],
+        [
+          80.0,
+          39.01916694641113
+        ],
+        [
+          87.73333358764648,
+          39.3162956237793
+        ],
+        [
+          98.66666793823242,
+          39.613426208496094
+        ],
+        [
+          108.0,
+          39.91055679321289
+        ]
+      ]
+    },
+    "05-06": {
+      "style": "barrel daylight strip and exposed purlins",
+      "deck_z": 6.210000038146973,
+      "eave_z": 10.450000038146973,
+      "extent": [
+        -122.0,
+        105.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -114.4666633605957,
+          58.76658248901367
+        ],
+        [
+          -95.0,
+          58.76658248901367
+        ],
+        [
+          -85.66666793823242,
+          58.7237491607666
+        ],
+        [
+          -77.13333511352539,
+          58.68091583251953
+        ],
+        [
+          -67.0,
+          58.63808059692383
+        ],
+        [
+          -57.66666793823242,
+          58.593862533569336
+        ],
+        [
+          -49.13333320617676,
+          58.549644470214844
+        ],
+        [
+          -39.0,
+          58.505428314208984
+        ],
+        [
+          -28.866666793823242,
+          58.42894744873047
+        ],
+        [
+          -20.333333015441895,
+          58.35247039794922
+        ],
+        [
+          6.866666793823242,
+          58.132781982421875
+        ],
+        [
+          17.0,
+          58.06117630004883
+        ],
+        [
+          26.333333015441895,
+          57.9970703125
+        ],
+        [
+          35.66666793823242,
+          57.932960510253906
+        ],
+        [
+          45.0,
+          57.86885452270508
+        ],
+        [
+          53.53333282470703,
+          57.842811584472656
+        ],
+        [
+          63.66666793823242,
+          57.81676483154297
+        ],
+        [
+          73.0,
+          57.79072189331055
+        ],
+        [
+          82.33333206176758,
+          57.814022064208984
+        ],
+        [
+          91.66666793823242,
+          57.83732604980469
+        ],
+        [
+          101.0,
+          57.860626220703125
+        ]
+      ]
+    },
+    "07-08": {
+      "style": "shallow pitched metal roof, paired channel supports",
+      "deck_z": 6.210000038146973,
+      "eave_z": 10.450000038146973,
+      "extent": [
+        -187.5817,
+        145.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -182.32271575927734,
+          73.35658645629883
+        ],
+        [
+          -172.21514129638672,
+          73.66334915161133
+        ],
+        [
+          -162.10757446289062,
+          73.97011947631836
+        ],
+        [
+          -152.0,
+          74.27688217163086
+        ],
+        [
+          -142.66666412353516,
+          74.50962829589844
+        ],
+        [
+          -133.33333587646484,
+          74.74237442016602
+        ],
+        [
+          -124.0,
+          74.97512435913086
+        ],
+        [
+          -115.4666633605957,
+          75.20761489868164
+        ],
+        [
+          -96.0,
+          75.6725959777832
+        ],
+        [
+          -86.66666793823242,
+          75.86588668823242
+        ],
+        [
+          -77.33333206176758,
+          76.05917739868164
+        ],
+        [
+          -68.0,
+          76.25246810913086
+        ],
+        [
+          -58.66666793823242,
+          76.30491256713867
+        ],
+        [
+          -49.33333206176758,
+          76.35735702514648
+        ],
+        [
+          -40.0,
+          76.40979766845703
+        ],
+        [
+          -29.06666660308838,
+          76.42438125610352
+        ],
+        [
+          -21.333333015441895,
+          76.43896102905273
+        ],
+        [
+          -12.0,
+          76.45354843139648
+        ],
+        [
+          16.0,
+          76.42672348022461
+        ],
+        [
+          25.333333015441895,
+          76.41720199584961
+        ],
+        [
+          34.66666793823242,
+          76.40767669677734
+        ],
+        [
+          44.0,
+          76.39815521240234
+        ],
+        [
+          53.33333206176758,
+          76.39680099487305
+        ],
+        [
+          63.46666717529297,
+          76.39544296264648
+        ],
+        [
+          72.0,
+          76.39409255981445
+        ],
+        [
+          100.0,
+          76.53569793701172
+        ],
+        [
+          109.33333206176758,
+          76.78139114379883
+        ],
+        [
+          118.66666793823242,
+          77.02708053588867
+        ],
+        [
+          128.0,
+          77.27277374267578
+        ],
+        [
+          137.33333587646484,
+          77.27277374267578
+        ]
+      ],
+      "waiting_room": "no unobstructed inherited bay"
+    },
+    "09-10": {
+      "style": "transmitting PV roof, riveted portal beams",
+      "deck_z": 6.210000038146973,
+      "eave_z": 10.450000038146973,
+      "extent": [
+        -188.0,
+        148.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -187.0,
+          84.1223014831543
+        ],
+        [
+          -187.0,
+          85.82230148315429
+        ],
+        [
+          -177.66666412353516,
+          85.06475296020508
+        ],
+        [
+          -177.66666412353516,
+          86.76475296020507
+        ],
+        [
+          -168.33333587646484,
+          86.00720443725587
+        ],
+        [
+          -168.33333587646484,
+          87.70720443725585
+        ],
+        [
+          -159.0,
+          86.94965591430665
+        ],
+        [
+          -159.0,
+          88.64965591430663
+        ],
+        [
+          -149.66666412353516,
+          87.98142471313477
+        ],
+        [
+          -149.66666412353516,
+          89.68142471313476
+        ],
+        [
+          -140.33333587646484,
+          89.0131935119629
+        ],
+        [
+          -140.33333587646484,
+          90.71319351196288
+        ],
+        [
+          -131.0,
+          90.04496231079102
+        ],
+        [
+          -131.0,
+          91.74496231079101
+        ],
+        [
+          -121.66666793823242,
+          91.02504959106446
+        ],
+        [
+          -121.66666793823242,
+          92.72504959106445
+        ],
+        [
+          -112.33333206176758,
+          92.00513305664063
+        ],
+        [
+          -112.33333206176758,
+          93.70513305664062
+        ],
+        [
+          -103.0,
+          92.9852165222168
+        ],
+        [
+          -103.0,
+          94.68521652221679
+        ],
+        [
+          -75.0,
+          94.89640274047852
+        ],
+        [
+          -75.0,
+          96.59640274047851
+        ],
+        [
+          -65.66666793823242,
+          95.14861526489258
+        ],
+        [
+          -65.66666793823242,
+          96.84861526489257
+        ],
+        [
+          -56.33333206176758,
+          95.40082778930665
+        ],
+        [
+          -56.33333206176758,
+          97.10082778930663
+        ],
+        [
+          -47.0,
+          95.65304412841797
+        ],
+        [
+          -47.0,
+          97.35304412841796
+        ],
+        [
+          -37.66666793823242,
+          95.67708053588868
+        ],
+        [
+          -37.66666793823242,
+          97.37708053588867
+        ],
+        [
+          -28.333333015441895,
+          95.70112075805665
+        ],
+        [
+          -28.333333015441895,
+          97.40112075805663
+        ],
+        [
+          -19.0,
+          95.72516098022462
+        ],
+        [
+          -19.0,
+          97.4251609802246
+        ],
+        [
+          9.0,
+          95.7650245666504
+        ],
+        [
+          9.0,
+          97.46502456665038
+        ],
+        [
+          19.133333206176758,
+          95.7745231628418
+        ],
+        [
+          19.133333206176758,
+          97.47452316284179
+        ],
+        [
+          27.666666984558105,
+          95.78402175903321
+        ],
+        [
+          27.666666984558105,
+          97.4840217590332
+        ],
+        [
+          37.0,
+          95.79352798461915
+        ],
+        [
+          37.0,
+          97.49352798461913
+        ],
+        [
+          45.53333282470703,
+          95.80334701538087
+        ],
+        [
+          45.53333282470703,
+          97.50334701538085
+        ],
+        [
+          55.66666793823242,
+          95.81316986083985
+        ],
+        [
+          55.66666793823242,
+          97.51316986083984
+        ],
+        [
+          65.0,
+          95.82299270629883
+        ],
+        [
+          65.0,
+          97.52299270629882
+        ],
+        [
+          73.5333366394043,
+          95.82810440063477
+        ],
+        [
+          73.5333366394043,
+          97.52810440063476
+        ],
+        [
+          83.66666793823242,
+          95.83322372436524
+        ],
+        [
+          83.66666793823242,
+          97.53322372436523
+        ],
+        [
+          93.0,
+          95.83833923339844
+        ],
+        [
+          93.0,
+          97.53833923339843
+        ],
+        [
+          113.26666641235352,
+          95.6359733581543
+        ],
+        [
+          113.26666641235352,
+          97.33597335815429
+        ],
+        [
+          121.0,
+          95.5347885131836
+        ],
+        [
+          121.0,
+          97.23478851318359
+        ],
+        [
+          131.13333129882812,
+          95.5347885131836
+        ],
+        [
+          131.13333129882812,
+          97.23478851318359
+        ],
+        [
+          139.66666412353516,
+          95.5347885131836
+        ],
+        [
+          139.66666412353516,
+          97.23478851318359
+        ]
+      ]
+    },
+    "14-15": {
+      "style": "narrow pitched Tokaido canopy and H columns",
+      "deck_z": 8.404000282287598,
+      "eave_z": 13.754000282287597,
+      "extent": [
+        -202.629150390625,
+        186.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -199.56,
+          131.79
+        ],
+        [
+          -187.93,
+          132.51
+        ],
+        [
+          -187.93,
+          137.01
+        ],
+        [
+          -176.3,
+          135.47
+        ],
+        [
+          -176.3,
+          139.97
+        ],
+        [
+          -164.68,
+          138.43
+        ],
+        [
+          -164.68,
+          142.93
+        ],
+        [
+          -153.05,
+          141.4
+        ],
+        [
+          -153.05,
+          145.9
+        ],
+        [
+          -141.38,
+          144.21
+        ],
+        [
+          -141.38,
+          148.71
+        ],
+        [
+          -129.65,
+          146.74
+        ],
+        [
+          -129.65,
+          151.24
+        ],
+        [
+          -117.87,
+          149.03
+        ],
+        [
+          -117.87,
+          153.53
+        ],
+        [
+          -106.02,
+          150.91
+        ],
+        [
+          -106.02,
+          155.41
+        ],
+        [
+          -82.23,
+          154.03
+        ],
+        [
+          -82.23,
+          158.53
+        ],
+        [
+          -70.29,
+          155.27
+        ],
+        [
+          -70.29,
+          159.77
+        ],
+        [
+          -58.32,
+          156.04
+        ],
+        [
+          -58.32,
+          160.54
+        ],
+        [
+          -46.33,
+          156.61
+        ],
+        [
+          -46.33,
+          161.11
+        ],
+        [
+          -34.33,
+          156.75
+        ],
+        [
+          -34.33,
+          161.25
+        ],
+        [
+          -22.33,
+          156.75
+        ],
+        [
+          -22.33,
+          161.25
+        ],
+        [
+          1.67,
+          156.76
+        ],
+        [
+          1.67,
+          161.26
+        ],
+        [
+          13.67,
+          156.76
+        ],
+        [
+          13.67,
+          161.26
+        ],
+        [
+          25.67,
+          156.76
+        ],
+        [
+          25.67,
+          161.26
+        ],
+        [
+          37.67,
+          156.77
+        ],
+        [
+          37.67,
+          161.27
+        ],
+        [
+          49.67,
+          156.77
+        ],
+        [
+          49.67,
+          161.27
+        ],
+        [
+          61.67,
+          156.77
+        ],
+        [
+          61.67,
+          161.27
+        ],
+        [
+          85.67,
+          156.77
+        ],
+        [
+          85.67,
+          161.27
+        ],
+        [
+          97.67,
+          156.66
+        ],
+        [
+          97.67,
+          161.16
+        ],
+        [
+          109.67,
+          156.52
+        ],
+        [
+          109.67,
+          161.02
+        ],
+        [
+          121.66,
+          156.28
+        ],
+        [
+          121.66,
+          160.78
+        ],
+        [
+          133.66,
+          155.82
+        ],
+        [
+          133.66,
+          160.32
+        ],
+        [
+          145.63,
+          155.13
+        ],
+        [
+          145.63,
+          159.63
+        ],
+        [
+          157.6,
+          156.49
+        ],
+        [
+          169.55,
+          155.4
+        ],
+        [
+          181.46,
+          153.96
+        ]
+      ]
+    },
+    "16-17": {
+      "style": "wide pitched Tokaido canopy and H columns",
+      "deck_z": 8.404000282287598,
+      "eave_z": 13.754000282287597,
+      "extent": [
+        -201.23446655273438,
+        210.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -200.53,
+          176.31
+        ],
+        [
+          -200.53,
+          180.81
+        ],
+        [
+          -188.53,
+          176.36
+        ],
+        [
+          -188.53,
+          180.86
+        ],
+        [
+          -176.53,
+          176.4
+        ],
+        [
+          -176.53,
+          180.9
+        ],
+        [
+          -164.53,
+          176.44
+        ],
+        [
+          -164.53,
+          180.94
+        ],
+        [
+          -152.53,
+          176.49
+        ],
+        [
+          -152.53,
+          180.99
+        ],
+        [
+          -140.54,
+          176.53
+        ],
+        [
+          -140.54,
+          181.03
+        ],
+        [
+          -128.54,
+          176.58
+        ],
+        [
+          -128.54,
+          181.08
+        ],
+        [
+          -116.54,
+          176.62
+        ],
+        [
+          -116.54,
+          181.12
+        ],
+        [
+          -104.54,
+          176.67
+        ],
+        [
+          -104.54,
+          181.17
+        ],
+        [
+          -80.54,
+          176.76
+        ],
+        [
+          -80.54,
+          181.26
+        ],
+        [
+          -68.54,
+          176.8
+        ],
+        [
+          -68.54,
+          181.3
+        ],
+        [
+          -56.54,
+          176.81
+        ],
+        [
+          -56.54,
+          181.31
+        ],
+        [
+          -44.54,
+          176.8
+        ],
+        [
+          -44.54,
+          181.3
+        ],
+        [
+          -32.54,
+          176.76
+        ],
+        [
+          -32.54,
+          181.26
+        ],
+        [
+          -20.54,
+          176.73
+        ],
+        [
+          -20.54,
+          181.23
+        ],
+        [
+          3.46,
+          176.68
+        ],
+        [
+          3.46,
+          181.18
+        ],
+        [
+          15.46,
+          176.64
+        ],
+        [
+          15.46,
+          181.14
+        ],
+        [
+          27.46,
+          176.61
+        ],
+        [
+          27.46,
+          181.11
+        ],
+        [
+          39.46,
+          176.57
+        ],
+        [
+          39.46,
+          181.07
+        ],
+        [
+          51.46,
+          176.54
+        ],
+        [
+          51.46,
+          181.04
+        ],
+        [
+          63.46,
+          176.5
+        ],
+        [
+          63.46,
+          181.0
+        ],
+        [
+          75.46,
+          176.45
+        ],
+        [
+          75.46,
+          180.95
+        ],
+        [
+          87.46,
+          176.22
+        ],
+        [
+          87.46,
+          180.72
+        ],
+        [
+          111.45,
+          175.46
+        ],
+        [
+          111.45,
+          179.96
+        ],
+        [
+          123.42,
+          174.65
+        ],
+        [
+          123.42,
+          179.15
+        ],
+        [
+          135.39,
+          173.74
+        ],
+        [
+          135.39,
+          178.24
+        ],
+        [
+          147.35,
+          175.02
+        ],
+        [
+          159.28,
+          173.71
+        ],
+        [
+          171.17,
+          172.14
+        ],
+        [
+          183.03,
+          170.33
+        ],
+        [
+          194.84,
+          168.2
+        ],
+        [
+          206.61,
+          165.84
+        ]
+      ]
+    },
+    "18-19": {
+      "style": "pitched Tokaido canopy, paired steel supports",
+      "deck_z": 8.404000282287598,
+      "eave_z": 13.754000282287597,
+      "extent": [
+        -200.97341918945312,
+        210.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -200.23,
+          195.29
+        ],
+        [
+          -200.23,
+          199.79
+        ],
+        [
+          -188.23,
+          195.34
+        ],
+        [
+          -188.23,
+          199.84
+        ],
+        [
+          -176.23,
+          195.39
+        ],
+        [
+          -176.23,
+          199.89
+        ],
+        [
+          -164.23,
+          195.43
+        ],
+        [
+          -164.23,
+          199.93
+        ],
+        [
+          -152.23,
+          195.48
+        ],
+        [
+          -152.23,
+          199.98
+        ],
+        [
+          -140.23,
+          195.53
+        ],
+        [
+          -140.23,
+          200.03
+        ],
+        [
+          -128.23,
+          195.58
+        ],
+        [
+          -128.23,
+          200.08
+        ],
+        [
+          -116.23,
+          195.63
+        ],
+        [
+          -116.23,
+          200.13
+        ],
+        [
+          -104.23,
+          195.68
+        ],
+        [
+          -104.23,
+          200.18
+        ],
+        [
+          -80.23,
+          195.78
+        ],
+        [
+          -80.23,
+          200.28
+        ],
+        [
+          -68.23,
+          195.81
+        ],
+        [
+          -68.23,
+          200.31
+        ],
+        [
+          -56.23,
+          195.79
+        ],
+        [
+          -56.23,
+          200.29
+        ],
+        [
+          -44.23,
+          195.76
+        ],
+        [
+          -44.23,
+          200.26
+        ],
+        [
+          -32.23,
+          195.73
+        ],
+        [
+          -32.23,
+          200.23
+        ],
+        [
+          -20.23,
+          195.7
+        ],
+        [
+          -20.23,
+          200.2
+        ],
+        [
+          3.77,
+          195.64
+        ],
+        [
+          3.77,
+          200.14
+        ],
+        [
+          15.77,
+          195.61
+        ],
+        [
+          15.77,
+          200.11
+        ],
+        [
+          27.77,
+          195.58
+        ],
+        [
+          27.77,
+          200.08
+        ],
+        [
+          39.77,
+          195.54
+        ],
+        [
+          39.77,
+          200.04
+        ],
+        [
+          51.77,
+          195.51
+        ],
+        [
+          51.77,
+          200.01
+        ],
+        [
+          63.77,
+          195.47
+        ],
+        [
+          63.77,
+          199.97
+        ],
+        [
+          75.77,
+          195.42
+        ],
+        [
+          75.77,
+          199.92
+        ],
+        [
+          99.75,
+          194.56
+        ],
+        [
+          99.75,
+          199.06
+        ],
+        [
+          111.73,
+          193.82
+        ],
+        [
+          111.73,
+          198.32
+        ],
+        [
+          123.69,
+          192.83
+        ],
+        [
+          123.69,
+          197.33
+        ],
+        [
+          135.61,
+          191.44
+        ],
+        [
+          135.61,
+          195.94
+        ],
+        [
+          147.5,
+          189.86
+        ],
+        [
+          147.5,
+          194.36
+        ],
+        [
+          159.36,
+          187.99
+        ],
+        [
+          159.36,
+          192.49
+        ],
+        [
+          171.19,
+          186.02
+        ],
+        [
+          171.19,
+          190.52
+        ],
+        [
+          183.0,
+          183.88
+        ],
+        [
+          183.0,
+          188.38
+        ],
+        [
+          194.72,
+          183.56
+        ],
+        [
+          206.36,
+          180.63
+        ]
+      ]
+    },
+    "20-21": {
+      "style": "open central ridge with panelled side soffits",
+      "deck_z": 8.319999694824219,
+      "eave_z": 13.669999694824218,
+      "extent": [
+        -202.0419464111328,
+        187.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -199.9,
+          97.21
+        ],
+        [
+          -199.9,
+          101.71
+        ],
+        [
+          -188.06,
+          99.14
+        ],
+        [
+          -188.06,
+          103.64
+        ],
+        [
+          -176.24,
+          101.24
+        ],
+        [
+          -176.24,
+          105.74
+        ],
+        [
+          -164.42,
+          103.3
+        ],
+        [
+          -164.42,
+          107.8
+        ],
+        [
+          -152.57,
+          105.22
+        ],
+        [
+          -152.57,
+          109.72
+        ],
+        [
+          -140.72,
+          107.07
+        ],
+        [
+          -140.72,
+          111.57
+        ],
+        [
+          -128.83,
+          108.72
+        ],
+        [
+          -128.83,
+          113.22
+        ],
+        [
+          -116.94,
+          110.32
+        ],
+        [
+          -116.94,
+          114.82
+        ],
+        [
+          -105.03,
+          111.82
+        ],
+        [
+          -105.03,
+          116.32
+        ],
+        [
+          -81.12,
+          113.81
+        ],
+        [
+          -81.12,
+          118.31
+        ],
+        [
+          -69.13,
+          114.39
+        ],
+        [
+          -69.13,
+          118.89
+        ],
+        [
+          -57.14,
+          114.73
+        ],
+        [
+          -57.14,
+          119.23
+        ],
+        [
+          -45.14,
+          114.93
+        ],
+        [
+          -45.14,
+          119.43
+        ],
+        [
+          -33.14,
+          114.99
+        ],
+        [
+          -33.14,
+          119.49
+        ],
+        [
+          -21.14,
+          115.03
+        ],
+        [
+          -21.14,
+          119.53
+        ],
+        [
+          2.86,
+          115.1
+        ],
+        [
+          2.86,
+          119.6
+        ],
+        [
+          14.86,
+          115.17
+        ],
+        [
+          14.86,
+          119.67
+        ],
+        [
+          26.86,
+          115.29
+        ],
+        [
+          26.86,
+          119.79
+        ],
+        [
+          38.86,
+          115.34
+        ],
+        [
+          38.86,
+          119.84
+        ],
+        [
+          50.86,
+          115.36
+        ],
+        [
+          50.86,
+          119.86
+        ],
+        [
+          62.86,
+          115.29
+        ],
+        [
+          62.86,
+          119.79
+        ],
+        [
+          74.86,
+          115.24
+        ],
+        [
+          74.86,
+          119.74
+        ],
+        [
+          86.86,
+          115.22
+        ],
+        [
+          86.86,
+          119.72
+        ],
+        [
+          110.86,
+          115.19
+        ],
+        [
+          110.86,
+          119.69
+        ],
+        [
+          122.86,
+          115.17
+        ],
+        [
+          122.86,
+          119.67
+        ],
+        [
+          134.86,
+          115.16
+        ],
+        [
+          134.86,
+          119.66
+        ],
+        [
+          146.86,
+          115.14
+        ],
+        [
+          146.86,
+          119.64
+        ],
+        [
+          158.86,
+          115.12
+        ],
+        [
+          158.86,
+          119.62
+        ],
+        [
+          170.86,
+          114.91
+        ],
+        [
+          170.86,
+          119.41
+        ],
+        [
+          182.85,
+          114.54
+        ],
+        [
+          182.85,
+          119.04
+        ]
+      ]
+    },
+    "22-23": {
+      "style": "raised central bay, stepped side soffits and local PV",
+      "deck_z": 8.319999694824219,
+      "eave_z": 13.669999694824218,
+      "extent": [
+        -200.70794677734375,
+        180.0
+      ],
+      "surveyed_positions": false,
+      "roof_rebuilt": true,
+      "columns": [
+        [
+          -191.18,
+          117.05
+        ],
+        [
+          -179.45,
+          119.62
+        ],
+        [
+          -167.73,
+          122.18
+        ],
+        [
+          -156.01,
+          124.75
+        ],
+        [
+          -144.28,
+          125.05
+        ],
+        [
+          -144.28,
+          129.55
+        ],
+        [
+          -132.51,
+          127.38
+        ],
+        [
+          -132.51,
+          131.88
+        ],
+        [
+          -120.67,
+          129.3
+        ],
+        [
+          -120.67,
+          133.8
+        ],
+        [
+          -108.78,
+          130.96
+        ],
+        [
+          -108.78,
+          135.46
+        ],
+        [
+          -84.92,
+          133.52
+        ],
+        [
+          -84.92,
+          138.02
+        ],
+        [
+          -72.95,
+          134.37
+        ],
+        [
+          -72.95,
+          138.87
+        ],
+        [
+          -60.97,
+          135.04
+        ],
+        [
+          -60.97,
+          139.54
+        ],
+        [
+          -48.98,
+          135.39
+        ],
+        [
+          -48.98,
+          139.89
+        ],
+        [
+          -36.98,
+          135.57
+        ],
+        [
+          -36.98,
+          140.07
+        ],
+        [
+          -24.98,
+          135.61
+        ],
+        [
+          -24.98,
+          140.11
+        ],
+        [
+          -12.98,
+          135.64
+        ],
+        [
+          -12.98,
+          140.14
+        ],
+        [
+          11.02,
+          135.71
+        ],
+        [
+          11.02,
+          140.21
+        ],
+        [
+          23.02,
+          135.77
+        ],
+        [
+          23.02,
+          140.27
+        ],
+        [
+          35.02,
+          135.78
+        ],
+        [
+          35.02,
+          140.28
+        ],
+        [
+          47.02,
+          135.75
+        ],
+        [
+          47.02,
+          140.25
+        ],
+        [
+          59.02,
+          135.79
+        ],
+        [
+          59.02,
+          140.29
+        ],
+        [
+          71.02,
+          135.84
+        ],
+        [
+          71.02,
+          140.34
+        ],
+        [
+          83.02,
+          135.84
+        ],
+        [
+          83.02,
+          140.34
+        ],
+        [
+          107.01,
+          135.36
+        ],
+        [
+          107.01,
+          139.86
+        ],
+        [
+          119.01,
+          135.11
+        ],
+        [
+          119.01,
+          139.61
+        ],
+        [
+          131.01,
+          134.83
+        ],
+        [
+          131.01,
+          139.33
+        ],
+        [
+          143.0,
+          134.32
+        ],
+        [
+          143.0,
+          138.82
+        ],
+        [
+          154.96,
+          133.45
+        ],
+        [
+          154.96,
+          137.95
+        ],
+        [
+          166.92,
+          134.7
+        ]
+      ]
+    },
+    "Sobu 1-2": {
+      "style": "round cream columns, framed maps, yellow emergency phones, mosaic floor, cream ceiling",
+      "side_walls_restored": false
+    },
+    "Sobu 3-4": {
+      "style": "round cream columns, framed maps, yellow emergency phones, mosaic floor, cream ceiling",
+      "side_walls_restored": false
+    },
+    "Metro M17": {
+      "style": "low white slatted ceiling, red-trimmed half-height gates, granite columns",
+      "side_walls_restored": false
+    }
+  },
+  "rooms": [
+    {
+      "island": "14-15",
+      "frame": [
+        [
+          1.0,
+          -0.00020456314086914062,
+          0.0,
+          42.870849609375
+        ],
+        [
+          0.00020456314086914062,
+          1.0,
+          0.0,
+          159.01708984375
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.404000282287598
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "length": 6.2,
+      "width": 2.6,
+      "walkway_sample_offset": 2.0,
+      "estimated_position": true
+    },
+    {
+      "island": "16-17",
+      "frame": [
+        [
+          0.999995768070221,
+          0.0029034572653472424,
+          0.0,
+          44.265533447265625
+        ],
+        [
+          -0.0029034572653472424,
+          0.999995768070221,
+          0.0,
+          178.81044006347656
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.404000282287598
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "length": 6.2,
+      "width": 2.6,
+      "walkway_sample_offset": 2.0,
+      "estimated_position": true
+    },
+    {
+      "island": "18-19",
+      "frame": [
+        [
+          0.9999961256980896,
+          0.002789970487356186,
+          0.0,
+          44.526580810546875
+        ],
+        [
+          -0.002789970487356186,
+          0.9999961256980896,
+          0.0,
+          197.7807159423828
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.404000282287598
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "length": 6.2,
+      "width": 2.6,
+      "walkway_sample_offset": 2.0,
+      "estimated_position": true
+    },
+    {
+      "island": "20-21",
+      "frame": [
+        [
+          0.99998939037323,
+          -0.004612191114574671,
+          0.0,
+          8.458053588867188
+        ],
+        [
+          0.004612191114574671,
+          0.99998939037323,
+          0.0,
+          117.37982940673828
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.319999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "length": 6.2,
+      "width": 2.6,
+      "walkway_sample_offset": 2.0,
+      "estimated_position": true
+    },
+    {
+      "island": "22-23",
+      "frame": [
+        [
+          0.9999929070472717,
+          -0.0037615210749208927,
+          0.0,
+          51.79205322265625
+        ],
+        [
+          0.0037615210749208927,
+          0.9999929070472717,
+          0.0,
+          138.01304626464844
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          8.319999694824219
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "length": 6.2,
+      "width": 2.6,
+      "walkway_sample_offset": 2.0,
+      "estimated_position": true
+    }
+  ],
+  "equipment": [
+    {
+      "object": "V10 14-15 roof equipment room at +135",
+      "delta": [
+        0.0,
+        0.0,
+        -2.6499997177124026
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 14-15 equipment room roof curbs +135",
+      "delta": [
+        0.0,
+        0.0,
+        -2.6499997177124026
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 16-17 roof equipment room at +111",
+      "delta": [
+        0.0,
+        0.0,
+        -2.6499997177124026
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 16-17 equipment room roof curbs +111",
+      "delta": [
+        0.0,
+        0.0,
+        -2.6499997177124026
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 20-21 roof equipment room at -94",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 20-21 equipment room roof curbs -94",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 20-21 roof equipment room at +102",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 20-21 equipment room roof curbs +102",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 22-23 roof equipment room at +120",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    },
+    {
+      "object": "V10 22-23 equipment room roof curbs +120",
+      "delta": [
+        0.0,
+        0.0,
+        -2.650000305175782
+      ],
+      "reason": "fit lowered canopy and portal bay; estimated position"
+    }
+  ]
+}
