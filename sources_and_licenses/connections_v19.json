@@ -1,0 +1,11 @@
+{
+  "revision": 19,
+  "date": "2026-11-03",
+  "references": [
+    {"url": "https://www.jtccm.or.jp/sites/default/files/books_pdf/2013/Vol49,No2,2013.pdf", "source": "JR East Design authors Yukio Tahara, Masato Shimizu and Satomi Shimizu; JTCCM Journal February 2013", "used_for": "Printed page 7, section 2-5 and photograph 3-5: restored track-side masonry visible under a narrow toplight and adjacent concourse ceiling; section 2-8: service towers and integrated ventilation."},
+    {"url": "https://design-prize.sakura.ne.jp/archives/result/1406", "source": "JSCE 2020 landscape and design award; project aerial photograph", "used_for": "Relationship between front perimeter street, transport-square access, continuous sidewalks, crossings and side streets."}
+  ],
+  "external_media_included": false,
+  "new_assets": "Native Blender meshes, lights and procedural materials. Existing model passenger meshes reused locally.",
+  "limits": ["Coordinates and dimensions are fitted to the inherited model, not surveyed", "Rear canopy ends where the inherited angled south wing constricts the model space", "Southern road skirts the inherited undercroft footprint; this geometric adaptation does not establish an exact real street alignment", "Equipment layout, road markings and signal locations are interpretive and not current traffic-operation data", "Existing M7/M8 location approximations remain"]
+}

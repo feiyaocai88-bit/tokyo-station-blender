@@ -14,6 +14,31 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V19 rear concourse and connected streets
+
+V19 fills the visible gaps between the Marunouchi building and the Chuo viaduct with continuous skylight glazing, seamed roof panels, columns, rainwater fittings, a paved passage, lighting and service equipment. The canopy follows the back wall and ends where the inherited angled south wing constricts the available space. The two end service yards receive paving, drains and fixtures.
+
+![V19 connected streets](images/v19/overview.jpg)
+
+The perimeter street is rebuilt as one connected asphalt surface. Curves and transport-square interfaces share a consistent grade. Obsolete asphalt aprons become connected footways, and road markings, crossings, signals, lights and gullies give the network a continuous appearance. The northern road avoids the service building, while the southern road skirts the existing model undercroft. Existing Metro stair openings remain clear.
+
+| | |
+|---|---|
+| ![North intersection](images/v19/north.jpg) | ![South street connection](images/v19/south.jpg) |
+| ![Rear concourse](images/v19/rear.jpg) | ![Rear details](images/v19/detail.jpg) |
+| ![Covered passage](images/v19/passage.jpg) | ![Street plan](images/v19/plan.jpg) |
+| ![Street comparison](images/v19/comparison.jpg) | ![Rear comparison](images/v19/rear_comparison.jpg) |
+
+References include the [JR East Design authors' restoration article, printed page 7 and photograph 3-5](https://www.jtccm.or.jp/sites/default/files/books_pdf/2013/Vol49,No2,2013.pdf) and [JSCE's completed-project aerial](https://design-prize.sakura.ne.jp/archives/result/1406). Positions, equipment details, markings and road widths are interpreted within the inherited model, not surveyed; the southern routing is a model adaptation and does not claim an exact real street alignment. Source photographs are not redistributed.
+
+See the [Chinese guide](README_V19.txt), [source record](sources_and_licenses/connections_v19.json) and [validation report](validation/validate_v19.json). Replaced originals remain in `V19_Replaced_hidden`.
+
+```sh
+blender -b out/Tokyo_Station_Plaza_V18.blend --python-exit-code 1 -P scripts/mod19_connections.py -- out/Tokyo_Station_Connections_V19.blend validation/build_v19.json validation/baseline_v18.json
+blender -b out/Tokyo_Station_Connections_V19.blend --python-exit-code 1 -P scripts/validate19_connections.py -- validation/baseline_v18.json validation/validate_v19.json
+blender -b out/Tokyo_Station_Connections_V19.blend --python-exit-code 1 -P scripts/render_review_cams_v19.py -- out/previews 24 01,02,03,04,05,06,07 1800 1200
+```
+
 ## V18 Marunouchi plaza compared with completed-project photographs
 
 V18 aligns the white central promenade with the station entrance, replaces the offset lawns with two equal 600 m² lawns, and rebuilds the paired seven-tree rows, broad granite tree seats, slender rope fences and vertical three-lantern lighting. Varied granite paving, flush drains and dry seasonal cooling surfaces complete the central square.
@@ -258,11 +283,12 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V18 Blender file is on the **[V18 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v18-marunouchi-plaza)** as `Tokyo_Station_Plaza_V18.zip`. It contains the complete packed model, six plaza views, three matching before/after comparisons, scripts, validation records and asset credits. The [V17 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v17-connected-building), [V16 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture), [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground) remain available separately.
+The current V19 Blender file is on the **[V19 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v19-rear-concourse-streets)** as `Tokyo_Station_Connections_V19.zip`. It contains the complete packed model, seven views, matching comparisons, scripts, validation records and asset credits. The [V18 plaza release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v18-marunouchi-plaza) and earlier releases remain available.
 
-- Open `Tokyo_Station_Plaza_V18.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
-- The main scene contains the whole model; its default V18 camera shows the Marunouchi station building and revised plaza. Other viewpoints are in the camera collections.
-- The underground station lies below the display base. Use the underground cameras to look at it.
+- Open `Tokyo_Station_Connections_V19.blend` with **Blender 5.2 LTS**. Textures and fonts are packed.
+- The default V19 camera shows the revised streets. The V19 camera collection includes the rear concourse and a covered passage view.
+- Underground cameras remain available below the display base.
+
 
 ## Gallery
 

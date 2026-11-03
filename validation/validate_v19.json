@@ -1,0 +1,66 @@
+{
+  "revision": 19,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V18 source object retained with identical geometry and materials",
+      "pass": true,
+      "failures": [],
+      "objects": 36790
+    },
+    {
+      "name": "Unrelated buildings trains tracks platforms and underground objects unchanged",
+      "pass": true,
+      "failures": [],
+      "objects": 36774
+    },
+    {
+      "name": "All replaced sources isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "objects": 16
+    },
+    {
+      "name": "Asphalt is one connected mesh with uncapped outline holes",
+      "pass": true,
+      "failures": [],
+      "area_m2": 14116.970993147232,
+      "components": 1
+    },
+    {
+      "name": "New streets and footways remain on the existing site footprint",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Actual road lanes have ground support and no retained curb steps",
+      "pass": true,
+      "failures": [],
+      "samples": 2856
+    },
+    {
+      "name": "Both M7 and M8 underground entrances remain open",
+      "pass": true,
+      "failures": [],
+      "samples": 42
+    },
+    {
+      "name": "Rear concourse floor continuous with a clear walking corridor",
+      "pass": true,
+      "failures": [],
+      "samples": 257
+    },
+    {
+      "name": "Rear skylight and roof cover all bays including former gaps",
+      "pass": true,
+      "failures": [],
+      "bays": 155
+    },
+    {
+      "name": "Finite geometry and packed or resolving image dependencies",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "limits": "Geometric connectivity and preservation checks, not surveyed placement or current traffic-operation certification."
+}
