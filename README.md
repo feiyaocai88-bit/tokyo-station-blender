@@ -14,6 +14,12 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## Surface catenary position audit of V15
+
+The central and north platform-area masts are **still inherited procedural positions, not individually photo-calibrated coordinates**. A read-only audit now records all 175 independent surface mast shafts: 162 inherited positions and the 13 south masts from V14. The latter retain their distinctions between ten masts on photo-estimated chainages, two adapted to the cropped model end and one required by model curvature. No mast is promoted to a surveyed coordinate and no `.blend` geometry changes in this audit.
+
+Six model checks pass for shaft clearances, selected platform/roof/rooftop-room intersections and footing/side-bracket connections. These checks establish model relationships, not agreement with every real-world mast. See the [Chinese findings and photographic limits](SURFACE_CATENARY_CHECK.md), [numbered model plan](images/catenary_audit/plan.png), [175-mast CSV](validation/surface_catenary_masts.csv) and [machine-readable audit](validation/surface_catenary_audit.json). The existing V15 release remains the current model download.
+
 ## V15 open-side underground stations
 
 Both underground stations now have their side enclosures removed from the active geometry in the **complete main scene**, so their interiors are visible in Solid viewport mode as well as in renders. JR Sobu/Yokosuka B5–B1 perimeter walls, track-wall finishes, equipment-room partitions and tunnel side/end walls are opened. Marunouchi M17 track walls, B1 side walls and transfer branches are opened, along with the M7/M8 stairwell and connecting-passage walls. Wall-only posters, lights and tile grout are removed with their walls.

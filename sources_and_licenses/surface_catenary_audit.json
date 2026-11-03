@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-03",
+  "scope": "Read-only audit of native independent surface mast meshes in the complete V15 model; no new surveyed or photo-verified coordinates",
+  "reference_images_redistributed": false,
+  "sources": [
+    {
+      "title": "GSI seamlessphoto tile catalogue",
+      "url": "https://maps.gsi.go.jp/development/ichiran.html",
+      "credit": "国土地理院 / Geospatial Information Authority of Japan",
+      "use": "Overlay current model mast positions on the existing z18 mosaic (232844..232849, 103223..103229), using scripts/relayout/georef.py and subtracting 512,768 pixels. This overlay is an analysis aid, not new pole-coordinate measurement.",
+      "limitations": "Individual imagery dates are not established. Inherited model registration, aerial parallax, roof occlusion and insufficient detail prevent one-to-one identification of every mast footing."
+    },
+    {
+      "title": "Tokyo Station overhead 2020-10-25",
+      "url": "https://commons.wikimedia.org/wiki/File:Tokyo_Station_overhead_2020-10-25.jpg",
+      "credit": "pelican, CC BY-SA 2.0",
+      "use": "Visible support families and south-platform/throat relationships. It does not show all central/north mast bases; no coordinates extracted in this audit."
+    },
+    {
+      "title": "JR East Tokyo station official map",
+      "url": "https://www.jreast.co.jp/estation/stations/1039.html",
+      "use": "Track-number and level grouping; the map does not specify individual catenary mast locations."
+    }
+  ],
+  "evidence_status": {
+    "inherited_procedural_unverified": 162,
+    "V14_photo_chainage_estimate_lateral_fitted": 10,
+    "model_end_adaptation": 2,
+    "curve_constraint_unverified": 1,
+    "surveyed_coordinates": 0
+  },
+  "new_geometry": false,
+  "model_diagram": "Drawn only from native model coordinates and the repository's existing GSI-derived track/platform alignment. Existing repository source acknowledgements and licences continue to apply. Reference-photo pixels are not included."
+}

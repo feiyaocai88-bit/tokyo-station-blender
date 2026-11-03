@@ -1,0 +1,5085 @@
+{
+  "audit_date": "2026-11-03",
+  "input_file": "Tokyo_Station_Cutaway_V15.blend",
+  "input_sha256": "6379e41cd353d5f4b9c576503c954f16192096ec3d56f4663156ee4d1b1aad6e",
+  "geometry_changed": false,
+  "real_world_coordinates_verified": false,
+  "purpose": "Model geometry audit and evidence classification, not a pole-location survey.",
+  "counts": {
+    "Chuo": 40,
+    "conventional": 122,
+    "Shinkansen": 13
+  },
+  "evidence_counts": {
+    "V14_photo_chainage_estimate_lateral_fitted": 10,
+    "curve_constraint_unverified": 1,
+    "inherited_procedural_unverified": 162,
+    "model_end_adaptation": 2
+  },
+  "checks": [
+    {
+      "name": "native_shafts_extracted",
+      "count": 175,
+      "pass": true
+    },
+    {
+      "name": "model_shaft_clearance_targets",
+      "pass": true
+    },
+    {
+      "name": "shafts_vs_selected_platform_facilities",
+      "pass": true
+    },
+    {
+      "name": "shafts_vs_roof_skins",
+      "candidate_pairs": 79,
+      "pass": true
+    },
+    {
+      "name": "portal_steel_vs_rooftop_equipment_rooms",
+      "rooms": 8,
+      "pass": true
+    },
+    {
+      "name": "footings_or_existing_side_brackets",
+      "pass": true
+    }
+  ],
+  "masts": [
+    {
+      "object": "V6 OCS | masts",
+      "component": 32,
+      "x": -202.0,
+      "y": 34.132503509521484,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.761731550832813,
+      "shaft_face_clearance_m": 2.5867284990750004,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.28672849907500053,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M001"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 42,
+      "x": -202.0,
+      "y": 43.882503509521484,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7602828328096076,
+      "shaft_face_clearance_m": 2.585279781051795,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2852797810517953,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M002"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 102,
+      "x": -180.0,
+      "y": 32.08635330200195,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7542781851345577,
+      "shaft_face_clearance_m": 2.579275133376745,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.27927513337674537,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M003"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 112,
+      "x": -180.0,
+      "y": 42.191287994384766,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.768440347097857,
+      "shaft_face_clearance_m": 2.5934372953400446,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2934372953400448,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M004"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 172,
+      "x": -158.0,
+      "y": 28.6993408203125,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7436317844977296,
+      "shaft_face_clearance_m": 2.568628732739917,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2686287327399173,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M005"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 182,
+      "x": -158.0,
+      "y": 34.829444885253906,
+      "base_z": 14.899999618530273,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.3166125275597045,
+      "shaft_face_clearance_m": 3.141609475801892,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.8416094758018922,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M006"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 190,
+      "x": -158.0,
+      "y": 40.95954895019531,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7659118589266414,
+      "shaft_face_clearance_m": 2.590908807168829,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29090880716882905,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M007"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 250,
+      "x": -136.0,
+      "y": 25.508689880371094,
+      "base_z": 13.300000190734863,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7396195228612013,
+      "shaft_face_clearance_m": 2.5646164711033888,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.26461647110338893,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M008"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 260,
+      "x": -136.0,
+      "y": 32.06052780151367,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.72949043855358,
+      "shaft_face_clearance_m": 3.5544873867957674,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.2544873867957675,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M009"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 269,
+      "x": -136.0,
+      "y": 38.61236572265625,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7620683047114376,
+      "shaft_face_clearance_m": 2.587065252953625,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2870652529536253,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M010"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 339,
+      "x": -114.0,
+      "y": 21.67145538330078,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7422727096821085,
+      "shaft_face_clearance_m": 2.567269657924296,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.26726965792429613,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M011"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 358,
+      "x": -114.0,
+      "y": 36.98943328857422,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7691552574981673,
+      "shaft_face_clearance_m": 2.5941522057403548,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29415220574035494,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M012"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 349,
+      "x": -113.0,
+      "y": 29.330442428588867,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.810055496860903,
+      "shaft_face_clearance_m": 4.63505244510309,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.3350524451030905,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M013"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 430,
+      "x": -97.0,
+      "y": 27.214820861816406,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.983295795506446,
+      "shaft_face_clearance_m": 4.808292743748633,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.5082927437486333,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M014"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 420,
+      "x": -92.0,
+      "y": 18.805315017700195,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7545298473273854,
+      "shaft_face_clearance_m": 2.579526795569573,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.27952679556957305,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M015"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 439,
+      "x": -92.0,
+      "y": 35.624324798583984,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7705056232427197,
+      "shaft_face_clearance_m": 2.595502571484907,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29550257148490733,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M016"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 501,
+      "x": -70.0,
+      "y": 16.197702407836914,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.755703294725137,
+      "shaft_face_clearance_m": 2.5807002429673247,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2807002429673249,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M017"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 511,
+      "x": -70.0,
+      "y": 25.530460357666016,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.512113585183955,
+      "shaft_face_clearance_m": 6.337110533426142,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.037110533426143,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M018"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 520,
+      "x": -70.0,
+      "y": 34.86322021484375,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7742442491001205,
+      "shaft_face_clearance_m": 2.599241197342308,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29924119734230814,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M019"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 582,
+      "x": -48.0,
+      "y": 13.944890975952148,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7681884177379703,
+      "shaft_face_clearance_m": 2.593188227003107,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2931882270031072,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M020"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 592,
+      "x": -48.0,
+      "y": 24.1196346282959,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.380432433951881,
+      "shaft_face_clearance_m": 7.2054331968913345,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.905433196891335,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M021"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 601,
+      "x": -48.0,
+      "y": 34.294376373291016,
+      "base_z": 13.29999828338623,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.7741750717525906,
+      "shaft_face_clearance_m": 2.5991758346920437,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2991758346920439,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M022"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 671,
+      "x": -26.0,
+      "y": 13.113931655883789,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7745524537886994,
+      "shaft_face_clearance_m": 2.599552263053836,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2995522630538363,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M023"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 681,
+      "x": -26.0,
+      "y": 23.49491310119629,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.6040349721627285,
+      "shaft_face_clearance_m": 7.429035735102182,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.129035735102182,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M024"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 690,
+      "x": -26.0,
+      "y": 33.875892639160156,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.774295002551987,
+      "shaft_face_clearance_m": 2.59929576549144,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2992957654914403,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M025"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 757,
+      "x": -4.0000001192092896,
+      "y": 12.979536056518555,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7745397509154044,
+      "shaft_face_clearance_m": 2.599539560180541,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2995395601805413,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M026"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 775,
+      "x": -4.0000001192092896,
+      "y": 33.46138381958008,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17500007152557373,
+      "track_center_distance_m": 2.774991002085456,
+      "shaft_face_clearance_m": 2.599990930559882,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29999093055988224,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M027"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 767,
+      "x": -2.0,
+      "y": 23.220460891723633,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17499995231628418,
+      "track_center_distance_m": 7.427527402249719,
+      "shaft_face_clearance_m": 7.252527449933435,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.952527449933435,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M028"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 855,
+      "x": 15.999999523162842,
+      "y": 23.42013168334961,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499971389770508,
+      "track_center_distance_m": 7.242809354051966,
+      "shaft_face_clearance_m": 7.067809640154261,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.767809640154261,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M029"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 845,
+      "x": 18.0,
+      "y": 13.396820068359375,
+      "base_z": 13.29999828338623,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7743552415474206,
+      "shaft_face_clearance_m": 2.5993550508125574,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29935505081255753,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M030"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 864,
+      "x": 18.0,
+      "y": 33.443443298339844,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.7749858540184884,
+      "shaft_face_clearance_m": 2.5999866169579415,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2999866169579417,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M031"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 936,
+      "x": 39.0,
+      "y": 23.706933975219727,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.007748178866792,
+      "shaft_face_clearance_m": 6.832748941806245,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.532748941806245,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M032"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 926,
+      "x": 40.0,
+      "y": 13.927460670471191,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7735276458258302,
+      "shaft_face_clearance_m": 2.598527455090967,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2985274550909671,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M033"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 945,
+      "x": 40.0,
+      "y": 33.48640823364258,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.774982371678643,
+      "shaft_face_clearance_m": 2.599983134618096,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.29998313461809634,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M034"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1017,
+      "x": 58.0,
+      "y": 24.585777282714844,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 6.2457149881598175,
+      "shaft_face_clearance_m": 6.070715751099271,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.770715751099271,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M035"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1007,
+      "x": 62.0,
+      "y": 15.446829795837402,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 2.7620950133722233,
+      "shaft_face_clearance_m": 2.58709482263736,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2870948226373602,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M036"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1026,
+      "x": 62.0,
+      "y": 33.72472381591797,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.773093456291163,
+      "shaft_face_clearance_m": 2.598094219230616,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2980942192306162,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M037"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1103,
+      "x": 106.0,
+      "y": 20.144716262817383,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.749532515701518,
+      "shaft_face_clearance_m": 2.5745294639437053,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2745294639437055,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 01 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M038"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1113,
+      "x": 106.0,
+      "y": 28.224489212036133,
+      "base_z": 16.510000228881836,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "01",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.25491522977028,
+      "shaft_face_clearance_m": 5.079912178012467,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.7799121780124674,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 01-02 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 01-02 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M039"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1122,
+      "x": 106.0,
+      "y": 36.304264068603516,
+      "base_z": 13.299999237060547,
+      "top_z": 23.549999237060547,
+      "zone": "Chuo",
+      "nearest_track": "02",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7631038875295246,
+      "shaft_face_clearance_m": 2.588100835771712,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2881008357717123,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 02 curved viaduct",
+          "bracket_triangle_pairs": 4
+        }
+      ],
+      "base_attachment": "existing_side_brackets_intersect_viaduct",
+      "obstacle_hits": [],
+      "id": "M040"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 0,
+      "x": -202.0,
+      "y": 47.089683532714844,
+      "base_z": 4.59999942779541,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.54782707850106,
+      "shaft_face_clearance_m": 6.372824026743247,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.072824026743247,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M041"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 8,
+      "x": -202.0,
+      "y": 61.80276107788086,
+      "base_z": 4.600000858306885,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.6304601057143375,
+      "shaft_face_clearance_m": 3.455457053956525,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1554570539565252,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M042"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 16,
+      "x": -202.0,
+      "y": 73.02982330322266,
+      "base_z": 4.600000381469727,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.5966369702089067,
+      "shaft_face_clearance_m": 3.421633918451094,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1216339184510944,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M043"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 24,
+      "x": -202.0,
+      "y": 84.39937591552734,
+      "base_z": 4.599999904632568,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.7673098874640973,
+      "shaft_face_clearance_m": 3.592306835706285,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.292306835706285,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M044"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 52,
+      "x": -180.0,
+      "y": 45.86327362060547,
+      "base_z": 4.600000858306885,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.1347824149951995,
+      "shaft_face_clearance_m": 5.959779363237387,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.659779363237387,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M045"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 60,
+      "x": -180.0,
+      "y": 54.67060852050781,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.6440586066606016,
+      "shaft_face_clearance_m": 2.469055554902789,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.16905555490278923,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M046"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 68,
+      "x": -180.0,
+      "y": 61.557167053222656,
+      "base_z": 4.599999904632568,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.223529801151366,
+      "shaft_face_clearance_m": 4.048526749393553,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.7485267493935535,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M047"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 76,
+      "x": -180.0,
+      "y": 73.409912109375,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.6088356929589693,
+      "shaft_face_clearance_m": 3.433832641201157,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.133832641201157,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M048"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 85,
+      "x": -180.0,
+      "y": 85.68714904785156,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.291324140776571,
+      "shaft_face_clearance_m": 4.116321089018759,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.8163210890187589,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M049"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 94,
+      "x": -180.0,
+      "y": 92.79962921142578,
+      "base_z": 4.60599946975708,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.773491997793782,
+      "shaft_face_clearance_m": 2.5984889460359697,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.28609724262290026,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M050"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 122,
+      "x": -158.0,
+      "y": 44.29520797729492,
+      "base_z": 4.59999942779541,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.005395688549614,
+      "shaft_face_clearance_m": 5.830392636791801,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.5303926367918015,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M051"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 130,
+      "x": -158.0,
+      "y": 52.83518981933594,
+      "base_z": 4.59999942779541,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.504133035280739,
+      "shaft_face_clearance_m": 2.3291299835229267,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.02912998352292684,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M052"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 138,
+      "x": -158.0,
+      "y": 60.61876678466797,
+      "base_z": 4.599999904632568,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.245488156062857,
+      "shaft_face_clearance_m": 5.070485104305044,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.7704851043050445,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M053"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 146,
+      "x": -158.0,
+      "y": 74.11347961425781,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.049812708396516,
+      "shaft_face_clearance_m": 3.8748096566387034,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.5748096566387035,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M054"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 155,
+      "x": -158.0,
+      "y": 87.93455505371094,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.054146062895477,
+      "shaft_face_clearance_m": 4.879143011137664,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.5791430111376643,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M055"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 164,
+      "x": -158.0,
+      "y": 95.88688659667969,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.8072237186925952,
+      "shaft_face_clearance_m": 2.6322206669347827,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.3322206669347829,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M056"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 208,
+      "x": -136.0,
+      "y": 51.149227142333984,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.6891850832306017,
+      "shaft_face_clearance_m": 2.514182031472789,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.21418203147278936,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M057"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 216,
+      "x": -136.0,
+      "y": 59.58040237426758,
+      "base_z": 4.599999904632568,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.726650612713988,
+      "shaft_face_clearance_m": 5.551647560956176,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.251647560956176,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M058"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 224,
+      "x": -136.0,
+      "y": 74.67507934570312,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.664933139468583,
+      "shaft_face_clearance_m": 4.48993008771077,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.1899300877107706,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M059"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 233,
+      "x": -136.0,
+      "y": 90.34949493408203,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.984814029632799,
+      "shaft_face_clearance_m": 5.809810977874987,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.509810977874987,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M060"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 242,
+      "x": -136.0,
+      "y": 99.05172729492188,
+      "base_z": 4.606000900268555,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.617878922015036,
+      "shaft_face_clearance_m": 2.4428758702572235,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.1428758702572237,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M061"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 200,
+      "x": -135.0,
+      "y": 42.38459396362305,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.965385182296904,
+      "shaft_face_clearance_m": 5.790382130539092,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.490382130539092,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M062"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 288,
+      "x": -114.0,
+      "y": 49.53377151489258,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.1971134865260007,
+      "shaft_face_clearance_m": 3.022110434768188,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.7221104347681884,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M063"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 305,
+      "x": -114.0,
+      "y": 67.47981262207031,
+      "base_z": 4.59999942779541,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.4975788941375034,
+      "shaft_face_clearance_m": 2.322575842379691,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.022575842379691125,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M064"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 313,
+      "x": -114.0,
+      "y": 75.22518920898438,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.240905928239066,
+      "shaft_face_clearance_m": 5.065902876481253,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.7659028764812534,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M065"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 322,
+      "x": -114.0,
+      "y": 83.1249008178711,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.6454357775102575,
+      "shaft_face_clearance_m": 2.470432725752445,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.17043272575244517,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M066"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 330,
+      "x": -114.0,
+      "y": 92.75565338134766,
+      "base_z": 6.210000038146973,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.905518250166695,
+      "shaft_face_clearance_m": 6.730515198408883,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.430515198408883,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M067"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 296,
+      "x": -112.0,
+      "y": 58.8635139465332,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.130402428550644,
+      "shaft_face_clearance_m": 5.9553993767928315,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.6553993767928317,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M068"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 279,
+      "x": -111.0,
+      "y": 40.574947357177734,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.465522964554084,
+      "shaft_face_clearance_m": 5.290519912796271,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.9905199127962714,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M069"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 411,
+      "x": -98.0,
+      "y": 94.70924377441406,
+      "base_z": 6.210000038146973,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.917453334190452,
+      "shaft_face_clearance_m": 6.74245028243264,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.44245028243264,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M070"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 377,
+      "x": -92.0,
+      "y": 48.756202697753906,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.613102099831344,
+      "shaft_face_clearance_m": 3.4380990480735316,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1380990480735318,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M071"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 403,
+      "x": -92.0,
+      "y": 84.4195327758789,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.8139621011858393,
+      "shaft_face_clearance_m": 2.638959049428027,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.338959049428027,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M072"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 394,
+      "x": -91.0,
+      "y": 75.77532958984375,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.825686966119328,
+      "shaft_face_clearance_m": 5.650683914361515,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.3506839143615155,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M073"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 385,
+      "x": -90.0,
+      "y": 58.74919128417969,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.389770869888585,
+      "shaft_face_clearance_m": 6.214767818130772,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.9147678181307723,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M074"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 368,
+      "x": -83.0,
+      "y": 39.295616149902344,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.702318138281165,
+      "shaft_face_clearance_m": 5.527315086523353,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.227315086523353,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M075"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 475,
+      "x": -73.0,
+      "y": 76.26227569580078,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.222315082424374,
+      "shaft_face_clearance_m": 6.0473120306665615,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.7473120306665617,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M076"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 466,
+      "x": -72.0,
+      "y": 58.651405334472656,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.569826472796774,
+      "shaft_face_clearance_m": 6.394823421038962,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.094823421038962,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M077"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 449,
+      "x": -70.0,
+      "y": 38.7894172668457,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.115179856020684,
+      "shaft_face_clearance_m": 5.9401768042628715,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.6401768042628717,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M078"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 458,
+      "x": -70.0,
+      "y": 48.47903060913086,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.5725237322322747,
+      "shaft_face_clearance_m": 3.397520680474462,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.0975206804744624,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M079"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 484,
+      "x": -70.0,
+      "y": 85.36475372314453,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7989937065404913,
+      "shaft_face_clearance_m": 2.623990654782679,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.32399065478267897,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M080"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 492,
+      "x": -70.0,
+      "y": 95.9437484741211,
+      "base_z": 6.210000038146973,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.7666735064202195,
+      "shaft_face_clearance_m": 7.591670454662407,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.291670454662407,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M081"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 573,
+      "x": -53.0,
+      "y": 96.51549530029297,
+      "base_z": 6.2099995613098145,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.870125280280271,
+      "shaft_face_clearance_m": 7.695122228522458,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.3951222285224585,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M082"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 530,
+      "x": -48.0,
+      "y": 38.637672424316406,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 6.44281729189944,
+      "shaft_face_clearance_m": 6.2678180548388935,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.9678180548388937,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M083"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 539,
+      "x": -48.0,
+      "y": 48.40827941894531,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 3.3258577398438307,
+      "shaft_face_clearance_m": 3.150858502783284,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.850858502783284,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M084"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 547,
+      "x": -48.0,
+      "y": 58.55362319946289,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 6.818487892696344,
+      "shaft_face_clearance_m": 6.643488655635797,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.343488655635797,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M085"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 556,
+      "x": -48.0,
+      "y": 76.374267578125,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.410845901244027,
+      "shaft_face_clearance_m": 6.235842849486215,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.9358428494862148,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M086"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 565,
+      "x": -48.0,
+      "y": 85.70540618896484,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.919992391956885,
+      "shaft_face_clearance_m": 2.7449893401990724,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.44498934019907255,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M087"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 611,
+      "x": -26.0,
+      "y": 38.49182891845703,
+      "base_z": 6.210000514984131,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 6.789148657304653,
+      "shaft_face_clearance_m": 6.6141494202441065,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.314149420244107,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M088"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 620,
+      "x": -26.0,
+      "y": 48.348777770996094,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 3.0657686079254938,
+      "shaft_face_clearance_m": 2.890769370864947,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.5907693708649471,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M089"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 628,
+      "x": -26.0,
+      "y": 58.40113830566406,
+      "base_z": 6.210000514984131,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 6.985533379097723,
+      "shaft_face_clearance_m": 6.810534142037176,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.5105341420371765,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M090"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 637,
+      "x": -26.0,
+      "y": 76.46654510498047,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.459097673656158,
+      "shaft_face_clearance_m": 6.284094621898346,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.984094621898346,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M091"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 646,
+      "x": -26.0,
+      "y": 85.83385467529297,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.9081815831466473,
+      "shaft_face_clearance_m": 2.733178531388835,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.433178531388835,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M092"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 654,
+      "x": -26.0,
+      "y": 96.56122589111328,
+      "base_z": 6.210000514984131,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.819063561106184,
+      "shaft_face_clearance_m": 7.644060509348371,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.344060509348371,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M093"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 663,
+      "x": -26.0,
+      "y": 106.86466217041016,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.4842726594295366,
+      "shaft_face_clearance_m": 2.309269607671724,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.009256674855799396,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M094"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 700,
+      "x": -9.0,
+      "y": 38.38218307495117,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.17500019073486328,
+      "track_center_distance_m": 7.035352278380912,
+      "shaft_face_clearance_m": 6.860352087646048,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.560352087646049,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M095"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 708,
+      "x": -4.0000001192092896,
+      "y": 48.29411315917969,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17500007152557373,
+      "track_center_distance_m": 2.824177669449069,
+      "shaft_face_clearance_m": 2.649177597923495,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.34917759792349523,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M096"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 725,
+      "x": -4.0000001192092896,
+      "y": 76.4383316040039,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.411722823867276,
+      "shaft_face_clearance_m": 6.236719772109463,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.9367197721094636,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M097"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 733,
+      "x": -4.0000001192092896,
+      "y": 85.84952545166016,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.999322089903977,
+      "shaft_face_clearance_m": 2.8243190381461645,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.5243190381461647,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M098"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 749,
+      "x": -4.0000001192092896,
+      "y": 106.88452911376953,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.5137931567538545,
+      "shaft_face_clearance_m": 2.338790104996042,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.038785661904581215,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M099"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 741,
+      "x": 0.0,
+      "y": 96.60982513427734,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.746809869043125,
+      "shaft_face_clearance_m": 7.571806817285313,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.271806817285313,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M100"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 716,
+      "x": 4.0000001192092896,
+      "y": 58.223838806152344,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.17500007152557373,
+      "track_center_distance_m": 7.084922518552024,
+      "shaft_face_clearance_m": 6.90992244702645,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.609922447026451,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M101"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 785,
+      "x": 18.0,
+      "y": 38.4762077331543,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.204167183896424,
+      "shaft_face_clearance_m": 7.029167946835877,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.729167946835878,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M102"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 794,
+      "x": 18.0,
+      "y": 48.25653839111328,
+      "base_z": 4.599999904632568,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 2.575597687326233,
+      "shaft_face_clearance_m": 2.400598450265686,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.10059845026568626,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M103"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 820,
+      "x": 18.0,
+      "y": 85.84207916259766,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.06405179075159,
+      "shaft_face_clearance_m": 2.8890487389937776,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.5890487389937777,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M104"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 828,
+      "x": 18.0,
+      "y": 96.62352752685547,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.717344216190441,
+      "shaft_face_clearance_m": 7.542341164432629,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.242341164432629,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M105"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 837,
+      "x": 18.0,
+      "y": 106.92664337158203,
+      "base_z": 4.60599946975708,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.5857318834856025,
+      "shaft_face_clearance_m": 2.41072883172779,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.11052184304194901,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M106"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 811,
+      "x": 21.0,
+      "y": 76.42477416992188,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.342093515320043,
+      "shaft_face_clearance_m": 6.16709046356223,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.8670904635622305,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M107"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 802,
+      "x": 23.0,
+      "y": 58.05350112915039,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.2086540437944855,
+      "shaft_face_clearance_m": 7.033654806733939,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.733654806733939,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M108"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 874,
+      "x": 39.0,
+      "y": 38.596763610839844,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.2516184048716,
+      "shaft_face_clearance_m": 7.076619167811053,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.776619167811053,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M109"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 892,
+      "x": 39.0,
+      "y": 76.40214538574219,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.295869355380158,
+      "shaft_face_clearance_m": 6.120866303622345,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.8208663036223456,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M110"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 883,
+      "x": 40.0,
+      "y": 57.896705627441406,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.344870565033773,
+      "shaft_face_clearance_m": 7.169871327973226,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.869871327973226,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M111"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 901,
+      "x": 40.0,
+      "y": 85.834228515625,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.1379435131918894,
+      "shaft_face_clearance_m": 2.962940461434077,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.662940461434077,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M112"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 918,
+      "x": 40.0,
+      "y": 107.06182861328125,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.7406560946876093,
+      "shaft_face_clearance_m": 2.565653042929797,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2654178760527066,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M113"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 909,
+      "x": 42.0,
+      "y": 96.64668273925781,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.668451636750465,
+      "shaft_face_clearance_m": 7.493448584992652,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.193448584992653,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M114"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 955,
+      "x": 58.0,
+      "y": 38.60279083251953,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.089499511753407,
+      "shaft_face_clearance_m": 6.91450027469286,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.61450027469286,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M115"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 990,
+      "x": 58.0,
+      "y": 96.66983795166016,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.635180273582252,
+      "shaft_face_clearance_m": 7.4601772218244395,
+      "minimum_margin_to_all_same_level_track_targets_m": 5.16017722182444,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M116"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 964,
+      "x": 62.0,
+      "y": 57.77556610107422,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.17499923706054688,
+      "track_center_distance_m": 7.461945225246349,
+      "shaft_face_clearance_m": 7.286945988185802,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.986945988185802,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M117"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 973,
+      "x": 62.0,
+      "y": 76.39400482177734,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.221220458853946,
+      "shaft_face_clearance_m": 6.046217407096133,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.7462174070961334,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M118"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 982,
+      "x": 62.0,
+      "y": 85.82675170898438,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.211458436597779,
+      "shaft_face_clearance_m": 3.0364553848399667,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.7364553848399669,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M119"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 999,
+      "x": 62.0,
+      "y": 107.16766357421875,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.866230036941658,
+      "shaft_face_clearance_m": 2.6912269851838455,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.3912269851838457,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M120"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1036,
+      "x": 106.0,
+      "y": 39.80775833129883,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.539523334028836,
+      "shaft_face_clearance_m": 5.364520282271023,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.0645202822710234,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 03-04 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 03-04 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M121"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1045,
+      "x": 106.0,
+      "y": 47.96217346191406,
+      "base_z": 4.600000381469727,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.5876234197850247,
+      "shaft_face_clearance_m": 2.4126203680272122,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.11262036802721243,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M122"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1053,
+      "x": 106.0,
+      "y": 54.65092849731445,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.099237859581951,
+      "shaft_face_clearance_m": 3.9242348078241385,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.6242348078241386,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M123"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1061,
+      "x": 106.0,
+      "y": 67.9350357055664,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.6805747455672053,
+      "shaft_face_clearance_m": 2.505571693809393,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.205571693809393,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M124"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1069,
+      "x": 106.0,
+      "y": 76.65213012695312,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.031721247672766,
+      "shaft_face_clearance_m": 5.8567181959149535,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.5567181959149536,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M125"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1078,
+      "x": 106.0,
+      "y": 85.94253540039062,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.2551520548171884,
+      "shaft_face_clearance_m": 3.080149003059376,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.7801490030593761,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M126"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1095,
+      "x": 106.0,
+      "y": 107.06904602050781,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.8431952989860148,
+      "shaft_face_clearance_m": 2.6681922472282023,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.36819224722820243,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M127"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1086,
+      "x": 112.0,
+      "y": 96.71176147460938,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.359773500142374,
+      "shaft_face_clearance_m": 7.184770448384562,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.884770448384562,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M128"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1164,
+      "x": 123.0,
+      "y": 77.24674987792969,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.569108727528756,
+      "shaft_face_clearance_m": 5.394105675770944,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.094105675770944,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 07-08 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 07-08 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M129"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1140,
+      "x": 128.0,
+      "y": 48.68653106689453,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.8041463375482865,
+      "shaft_face_clearance_m": 2.629143285790474,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.32914328579047414,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M130"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1148,
+      "x": 128.0,
+      "y": 58.387882232666016,
+      "base_z": 6.210000514984131,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.874837349307747,
+      "shaft_face_clearance_m": 6.699834297549934,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.399834297549934,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M131"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1156,
+      "x": 128.0,
+      "y": 68.45618438720703,
+      "base_z": 4.6060004234313965,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.1680346706425,
+      "shaft_face_clearance_m": 2.9930316188846877,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.6930316188846879,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M132"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1173,
+      "x": 128.0,
+      "y": 86.01258850097656,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.152646500919552,
+      "shaft_face_clearance_m": 2.9776434491617394,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.6776434491617396,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M133"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1181,
+      "x": 128.0,
+      "y": 96.2171401977539,
+      "base_z": 6.2099995613098145,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 7.041117198819088,
+      "shaft_face_clearance_m": 6.866114147061276,
+      "minimum_margin_to_all_same_level_track_targets_m": 4.566114147061276,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M134"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1190,
+      "x": 128.0,
+      "y": 106.55219268798828,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.278348447745647,
+      "shaft_face_clearance_m": 3.1033453959878345,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.8033453959878347,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M135"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1132,
+      "x": 129.0,
+      "y": 41.47722244262695,
+      "base_z": 4.599999904632568,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.254629567181425,
+      "shaft_face_clearance_m": 4.079626515423612,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.7796265154236126,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M136"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1198,
+      "x": 150.0,
+      "y": 44.11326217651367,
+      "base_z": 4.600000381469727,
+      "top_z": 14.350000381469727,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.8156895134035484,
+      "shaft_face_clearance_m": 3.640686461645736,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.3406864616457361,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M137"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1206,
+      "x": 150.0,
+      "y": 50.713809967041016,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.690176029854038,
+      "shaft_face_clearance_m": 2.5151729780962255,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.2151729780962257,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M138"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1214,
+      "x": 150.0,
+      "y": 59.72392654418945,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.244617025840856,
+      "shaft_face_clearance_m": 6.069613974083044,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.769613974083044,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 05-06 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 05-06 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M139"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1222,
+      "x": 150.0,
+      "y": 69.91014862060547,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.882058863300898,
+      "shaft_face_clearance_m": 3.7070558115430856,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.4070558115430858,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M140"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1238,
+      "x": 150.0,
+      "y": 86.04815673828125,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 2.9673129830333385,
+      "shaft_face_clearance_m": 2.792309931275526,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.49230993127552614,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M141"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1254,
+      "x": 150.0,
+      "y": 105.72085571289062,
+      "base_z": 4.605999946594238,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.024648920801866,
+      "shaft_face_clearance_m": 3.8496458690440534,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.5496458690440535,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M142"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1230,
+      "x": 151.0,
+      "y": 78.44302368164062,
+      "base_z": 4.599999904632568,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.531017034149791,
+      "shaft_face_clearance_m": 4.356013982391978,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.0560139823919785,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M143"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1246,
+      "x": 151.0,
+      "y": 95.35039520263672,
+      "base_z": 6.210000038146973,
+      "top_z": 13.25,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.25542516514841,
+      "shaft_face_clearance_m": 6.080422113390598,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.780422113390598,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 09-10 raised deck",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V11 09-10 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M144"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 48,
+      "x": 164.0,
+      "y": 79.4216079711914,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.214799142660023,
+      "shaft_face_clearance_m": 4.03979609090221,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.7397960909022103,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M145"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 56,
+      "x": 164.0,
+      "y": 94.76590728759766,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.814640356453218,
+      "shaft_face_clearance_m": 5.639637304695405,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.3396373046954055,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M146"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 0,
+      "x": 166.0,
+      "y": 47.18639373779297,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.554204514518692,
+      "shaft_face_clearance_m": 3.3792014627608795,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.0792014627608797,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M147"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 8,
+      "x": 166.0,
+      "y": 61.29384231567383,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.722699247977706,
+      "shaft_face_clearance_m": 5.547696196219894,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.247696196219894,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M148"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 96,
+      "x": 184.0,
+      "y": 81.05962371826172,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.5931369732216565,
+      "shaft_face_clearance_m": 3.418133921463844,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1181339214638442,
+      "model_clearance_target_m": 2.3,
+      "evidence": "curve_constraint_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M149"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1262,
+      "x": 194.0,
+      "y": 103.61172485351562,
+      "base_z": 4.605999946594238,
+      "top_z": 15.149999618530273,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.819038756202787,
+      "shaft_face_clearance_m": 5.644035704444975,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.344035704444975,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M150"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 16,
+      "x": 199.0,
+      "y": 53.60032653808594,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "03",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.555576237158847,
+      "shaft_face_clearance_m": 3.3805731854010346,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.0805731854010348,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M151"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 24,
+      "x": 199.0,
+      "y": 65.06800842285156,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "05",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.7983509995773486,
+      "shaft_face_clearance_m": 3.623347947819536,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.3233479478195362,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M152"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 64,
+      "x": 204.0,
+      "y": 82.10980224609375,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "08",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.59455863422154,
+      "shaft_face_clearance_m": 3.4195555824637274,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1195555824637275,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M153"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 72,
+      "x": 204.0,
+      "y": 93.7926254272461,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.619852572687421,
+      "shaft_face_clearance_m": 3.4448495209296084,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1448495209296086,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M154"
+    },
+    {
+      "object": "V8 OCS | masts at the level change",
+      "component": 0,
+      "x": 215.74000549316406,
+      "y": 103.32823944091797,
+      "base_z": 4.610000133514404,
+      "top_z": 15.131999969482422,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.279998779296875,
+      "track_center_distance_m": 6.297961984449011,
+      "shaft_face_clearance_m": 6.017963205152136,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.7179632051521363,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.004
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.01
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M155"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1310,
+      "x": 216.0,
+      "y": 120.3320083618164,
+      "base_z": 6.499999523162842,
+      "top_z": 15.149999618530273,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 23.29899251381914,
+      "shaft_face_clearance_m": 23.123989462061328,
+      "minimum_margin_to_all_same_level_track_targets_m": 20.671515986978743,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 21 curved viaduct",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M156"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 32,
+      "x": 237.0,
+      "y": 58.62110137939453,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "04",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.575027508696982,
+      "shaft_face_clearance_m": 3.4000244569391693,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1000244569391695,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M157"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 40,
+      "x": 237.0,
+      "y": 69.80795288085938,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "06",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.5784567890804913,
+      "shaft_face_clearance_m": 3.4034537373226788,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.103453737322679,
+      "model_clearance_target_m": 2.3,
+      "evidence": "V14_photo_chainage_estimate_lateral_fitted",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M158"
+    },
+    {
+      "object": "V8 OCS | masts at the level change",
+      "component": 1,
+      "x": 237.74000549316406,
+      "y": 103.28059387207031,
+      "base_z": 4.610000133514404,
+      "top_z": 15.131999969482422,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.279998779296875,
+      "track_center_distance_m": 6.523150077951585,
+      "shaft_face_clearance_m": 6.24315129865471,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.94315129865471,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.004
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.01
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M159"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1350,
+      "x": 238.0,
+      "y": 118.72103118896484,
+      "base_z": 6.499999523162842,
+      "top_z": 15.149999618530273,
+      "zone": "conventional",
+      "nearest_track": "10",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 21.952797954871887,
+      "shaft_face_clearance_m": 21.777794903114074,
+      "minimum_margin_to_all_same_level_track_targets_m": 19.328324041390186,
+      "model_clearance_target_m": 2.3,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Track 21 curved viaduct",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M160"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 80,
+      "x": 241.0,
+      "y": 82.0641098022461,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "07",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.588094326957575,
+      "shaft_face_clearance_m": 3.4130912751997626,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1130912751997628,
+      "model_clearance_target_m": 2.3,
+      "evidence": "model_end_adaptation",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M161"
+    },
+    {
+      "object": "V14 south OCS mast",
+      "component": 88,
+      "x": 241.0,
+      "y": 93.2601089477539,
+      "base_z": 4.605999946594238,
+      "top_z": 14.300000190734863,
+      "zone": "conventional",
+      "nearest_track": "09",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.588636951584311,
+      "shaft_face_clearance_m": 3.4136338998264986,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.1136338998264987,
+      "model_clearance_target_m": 2.3,
+      "evidence": "model_end_adaptation",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        },
+        {
+          "object": "V14 south mast plinths and bonding straps",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M162"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1270,
+      "x": 194.0,
+      "y": 116.4612045288086,
+      "base_z": 6.499999523162842,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "21",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 6.71876111843458,
+      "shaft_face_clearance_m": 6.543758066676768,
+      "minimum_margin_to_all_same_level_track_targets_m": 3.9437580666767675,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M163"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1278,
+      "x": 194.0,
+      "y": 132.2224884033203,
+      "base_z": 6.500000476837158,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "23",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.578216705502807,
+      "shaft_face_clearance_m": 4.403213653744994,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.803213653744994,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M164"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1286,
+      "x": 194.0,
+      "y": 142.01519775390625,
+      "base_z": 6.506000518798828,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "14",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 5.118891865144873,
+      "shaft_face_clearance_m": 4.94388881338706,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.34388881338706,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M165"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1294,
+      "x": 194.0,
+      "y": 151.95455932617188,
+      "base_z": 8.403999328613281,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "15",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.662082658950791,
+      "shaft_face_clearance_m": 4.487079607192978,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.887079607192978,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V3 Platform 14-15 raised deck",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V11 14-15 recessed platform core and piers",
+          "vertical_gap_m": 0.23
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M166"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1302,
+      "x": 194.0,
+      "y": 159.86903381347656,
+      "base_z": 6.505999565124512,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "15",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.0928175846861774,
+      "shaft_face_clearance_m": 2.917814532928365,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.3178145329283648,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": -0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M167"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1318,
+      "x": 216.0,
+      "y": 148.1083526611328,
+      "base_z": 6.5,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "15",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.071993183174557,
+      "shaft_face_clearance_m": 3.8969901314167448,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.2969901314167447,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M168"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1326,
+      "x": 216.0,
+      "y": 155.679443359375,
+      "base_z": 6.50600004196167,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "15",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.3384372267959765,
+      "shaft_face_clearance_m": 3.163434175038164,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.563434175038164,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M169"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1334,
+      "x": 216.0,
+      "y": 163.84100341796875,
+      "base_z": 6.5,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "17",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.617895123655687,
+      "shaft_face_clearance_m": 4.442892071897875,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.8428920718978747,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M170"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1342,
+      "x": 216.0,
+      "y": 177.98292541503906,
+      "base_z": 6.5,
+      "top_z": 16.25,
+      "zone": "Shinkansen",
+      "nearest_track": "19",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.84331933146803,
+      "shaft_face_clearance_m": 4.668316279710218,
+      "minimum_margin_to_all_same_level_track_targets_m": 2.0683162797102175,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M171"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1358,
+      "x": 238.0,
+      "y": 144.781494140625,
+      "base_z": 6.499999523162842,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "14",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.7710199263953217,
+      "shaft_face_clearance_m": 3.596016874637509,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.9960168746375091,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": -0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M172"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1366,
+      "x": 238.0,
+      "y": 151.78163146972656,
+      "base_z": 6.506000518798828,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "16",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 3.161020503256604,
+      "shaft_face_clearance_m": 2.9860174514987916,
+      "minimum_margin_to_all_same_level_track_targets_m": 0.3860174514987915,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V5 relayout deck infill between separated islands",
+          "vertical_gap_m": 0.0
+        },
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.006
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M173"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1374,
+      "x": 238.0,
+      "y": 159.1543426513672,
+      "base_z": 6.5,
+      "top_z": 15.149999618530273,
+      "zone": "Shinkansen",
+      "nearest_track": "17",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.088889420277219,
+      "shaft_face_clearance_m": 3.9138863685194067,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.3138863685194067,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M174"
+    },
+    {
+      "object": "V6 OCS | masts",
+      "component": 1382,
+      "x": 238.0,
+      "y": 171.97186279296875,
+      "base_z": 6.500000476837158,
+      "top_z": 16.25,
+      "zone": "Shinkansen",
+      "nearest_track": "19",
+      "shaft_radius_or_halfwidth": 0.1750030517578125,
+      "track_center_distance_m": 4.187456758452363,
+      "shaft_face_clearance_m": 4.012453706694551,
+      "minimum_margin_to_all_same_level_track_targets_m": 1.4124537066945506,
+      "model_clearance_target_m": 2.6,
+      "evidence": "inherited_procedural_unverified",
+      "surveyed_coordinate": false,
+      "base_supports": [
+        {
+          "object": "V4_Structure_Deck_infill_and_edge_ledges",
+          "vertical_gap_m": 0.0
+        }
+      ],
+      "base_attachment": "footing_on_model_surface",
+      "obstacle_hits": [],
+      "id": "M175"
+    }
+  ],
+  "roof_hits": [],
+  "rooftop_room_hits": [],
+  "tested_obstacle_meshes": [
+    "V5 Shinkansen roofs | hanger rods for platform-number signs",
+    "V10 01-02 differentiated roof skin",
+    "V10 03-04 differentiated roof skin",
+    "V10 07-08 differentiated roof skin",
+    "V10 09-10 differentiated roof skin",
+    "V11 01-02 recessed platform core and piers",
+    "V11 01-02 open edge service recess and brackets",
+    "V11 09-10 recessed platform core and piers",
+    "V11 09-10 open edge service recess and brackets",
+    "V11 20-21 recessed platform core and piers",
+    "V11 20-21 open edge service recess and brackets",
+    "V11 14-15 recessed platform core and piers",
+    "V11 14-15 open edge service recess and brackets",
+    "V11 01-02 modern canopy columns",
+    "V11 03-04 round canopy columns",
+    "V11 05-06 modern canopy columns",
+    "V11 07-08 paired_channel canopy columns",
+    "V11 09-10 portal_pair canopy columns",
+    "V11 20-21 Shinkansen column finishes",
+    "V11 05-06 curved green roof with low side wings",
+    "V11 service block entrance canopies drainpipes and electrical cupboards"
+  ],
+  "limitations": [
+    "The 162 inherited masts retain procedural chainages. None is promoted to a photo-verified coordinate by this audit.",
+    "V14 has 10 masts on five photo-interpreted longitudinal rows (legacy +/-3 m estimate), two on a cropped-end adaptation and one extra for model curvature. All lateral coordinates are fitted to model tracks.",
+    "Roof-hung and viaduct-soffit contact-wire registrations are not standalone masts and are excluded from the count of 175.",
+    "2.30/2.60 m are inherited model design targets, not a claim of compliance with a railway engineering standard.",
+    "Tests cover native shaft surfaces against listed platform meshes, roof skins, eight rooftop rooms and model bases; they are not an exhaustive evaluated-scene collision or structural analysis.",
+    "Available aerial/oblique photographs do not reveal every mast footing; roof frames, shadows and overhead conductors must not be treated as surveyed mast coordinates."
+  ]
+}
