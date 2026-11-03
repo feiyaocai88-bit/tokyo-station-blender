@@ -1,0 +1,28 @@
+{
+  "revision": 12,
+  "checked_on": "2026-11-03",
+  "scope": "Surface rolling stock, family-specific interiors, glazing, Green cars and exterior details",
+  "reference_usage": "Visual observation only. Reference photographs are neither redistributed nor embedded as textures.",
+  "references": [
+    {"url":"https://media.jreast.co.jp/articles/1713", "author":"JR East / JRE Media", "observed":"E233-0 exterior photograph (retina_CE201915-62__1_.webp): tapered black face, white centre below the windscreen, orange corner patches, round upper lamps and pale split obstacle deflector. Visually inspected in browser."},
+    {"url":"https://www.uraken.net/rail/alltrain/uratetsu233.html", "author":"Urabe Research Laboratory / Keihin-Tohoku photo by Rin", "observed":"E233-1000 front photograph (233c.jpg): blue centre band, white cheeks, round lamps, split pale skirt; E233 side waist bands continue across passenger doors. Visually inspected in browser."},
+    {"url":"https://style.design-the-sight.com/?p=8562", "author":"Style -Train Graphics- / soseki", "observed":"Photographs of E233-0 orange backs/dark cushions, E233-1000 blue seating, E233-3000 grey-blue seating and semi-cross layout, white partitions and black straps. Images visually inspected in browser."},
+    {"url":"https://www.j-trec.co.jp/jr-east-e233/", "author":"J-TREC", "observed":"Manufacturer photograph jr-east-e233-02.jpg: E233-3000 raked front mask, white cheeks, orange-over-green central band, round upper lights, pale split skirt and stainless side body. Visually inspected."},
+    {"url":"https://www.uraken.net/rail/alltrain/uratetsu235.html", "author":"Urabe Research Laboratory / 裏辺金好", "observed":"E235-0 photographs e235c.JPG and e235.jpg: upright rounded lime front frame, square upper lamps, larger display, lower front halftone, dark-grey apron, vertical passenger-door bands and stainless driver door; green grab handles and overhead displays. Visually inspected."},
+    {"url":"https://rail.hobidas.com/feature/482473/", "author":"Rail Magazine / RM, photographed 2023-10-18 at Toyoda", "observed":"Chuo Green double doors, broad centre orange band, clear centre roof, low end roof equipment, purple seating with grey upper backs and white head covers, upper and lower decks. Exterior and both interior photos visually inspected. Article describes ten rows in double-deck section; model end seating remains approximate."},
+    {"url":"https://nukezo.sakura.ne.jp/train/shanai/jr/j-east/e233_3000.html", "author":"抜け蔵", "observed":"E233-3000 Green-car upper and lower deck seating reference index."},
+    {"url":"https://www.jreast.co.jp/train/shinkan/e5.html", "author":"JR East", "observed":"Official E5 formation and seating class reference. Ordinary, Green car 9, GranClass car 10."},
+    {"url":"https://www.uraken.net/rail/alltrain/uratetsu-e5.html", "author":"Urabe Research Laboratory / ordinary-car photo by daikiti", "observed":"E5 ordinary grey-brown seating, large light head covers and overhead luggage-rack/ceiling arrangement. Ordinary interior photograph visually inspected; Green image on this page failed to load and was not used."},
+    {"url":"https://nukezo.sakura.ne.jp/2025/05/04/e5_1/", "author":"抜け蔵, photographs dated December 2024", "observed":"E5 Green-car ochre/brown moquette and 2+2 interior photograph, visually inspected."},
+    {"url":"https://www.n-sharyo.co.jp/business/tetsudo/pages/jrcn700a.htm", "author":"Nippon Sharyo", "observed":"Manufacturer N700 family reference; V12 door joints conform to the inherited downloaded N700 body, not a conversion to N700A."}
+  ],
+  "geometry": "All new V12 passenger furnishings and exterior additions are native procedural meshes. Existing source meshes, including the original CC-BY subway interior and N700 asset, are retained with their prior credits.",
+  "limitations": [
+    "Dimensions and small fittings are inferred and fitted to existing model envelopes, not manufacturer CAD.",
+    "Source car positions, formations and wheelbases are retained. Model seat totals are not certified capacities.",
+    "E233-3000 cab templates use representative semi-cross seating; formations and year-specific variants are not individually surveyed.",
+    "E5 special cars retain inherited window distributions; detailed seat design and spacing are simplified.",
+    "N700 interior is retained; V12 adds exterior door outlines, not a complete N700 cabin rebuild.",
+    "Photo dates differ; this is not a single-date digital twin."
+  ]
+}

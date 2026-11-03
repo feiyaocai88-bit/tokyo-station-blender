@@ -14,6 +14,35 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V12 surface trains and visible interiors
+
+V12 replaces the uniform green passenger interiors with separate Chuo, Keihin-Tohoku, Yamanote and Tokaido palettes and native furnishings. It adds individual cushions, priority seating, partitions, grab handles, luggage racks, lighting and family-specific door displays. Neutral transparent side glazing and opened cab windscreens expose the interior, with new window seals, door thresholds, buttons, wipers and gangway fittings outside.
+
+![Four surface commuter families](images/v12/fleet.jpg)
+
+The front shapes and paint boundaries follow real train photographs: Chuo has orange corner patches and a white centre, Keihin-Tohoku a blue centre band, and Tokaido an orange-over-green centre band. These share the E233 raked mask, round lamp optics and pale split apron. E235 has a separate upright rounded lime frame, larger black mask, square LED optics, halftone lower face and dark-grey apron. E233 waist bands continue across the doors; E235 has lime passenger-door headers and stainless driver doors. Lower sloping HVAC shells replace the old rectangular blocks.
+
+![Same-angle cab comparison](images/v12/front_comparison.jpg)
+
+Chuo Green cars receive a new double-deck shell, broad orange band, low end roof equipment, exposed bogies and two furnished decks. Tokaido Green cars gain upper/lower interiors. E5 receives simplified 3+2, 2+2 and 1+2 cabin layouts, and the inherited N700 formations gain 60 surface-conforming door joints. The N700 interior is retained, not rebuilt.
+
+| | |
+|---|---|
+| ![Chuo interior](images/v12/chuo_interior.jpg) | ![Keihin interior](images/v12/keihin_interior.jpg) |
+| Orange backs and dark cushions | Blue seating and black grab handles |
+| ![Green-car cutaway](images/v12/green_cutaway.jpg) | ![Yamanote exterior](images/v12/yamanote.jpg) |
+| Separate study scene exposing both decks | Clear cab glazing, wipers and lower-front halftone |
+
+The full station remains in the main scene. Eleven separate V12 study scenes and 20 cameras provide cabin and exterior views, including a labelled front comparison. All original objects are retained; only the 86 surface instancers switch to independent V12 templates. Underground trains keep their original collections. Use Material Preview or Rendered shading to see transparent glazing.
+
+This is a photo-informed interpretation. Seat counts, year-specific variants and special-car window distributions remain approximate, and existing wheelbases and train positions are retained. See [Chinese V12 guide](README_V12.txt) and [references and limits](sources_and_licenses/train_refinement_v12.json).
+
+```sh
+blender -b out/Tokyo_Station_Detailed_V11.blend --python-exit-code 1 -P scripts/mod12_surface_trains.py -- out/Tokyo_Station_Trains_V12.blend validation/build_v12.json validation/baseline_v11.json
+blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/validate12_surface_trains.py -- validation/baseline_v11.json validation/validate_v12.json
+blender -b out/Tokyo_Station_Trains_V12.blend --python-exit-code 1 -P scripts/render_review_cams_v12.py -- out/previews 64
+```
+
 ## V11 photographic detail and Marunouchi Line
 
 V11 opens the edges beneath all ten platform decks and adds recessed supports, brackets and service trays. Platform groups now have H-section, round, paired-channel, portal-pair, box-clad and stone/stainless-clad columns. The 5/6 roof has a rounded green centre with low side wings, and the two conserved cast-iron columns are represented separately at the south end.
