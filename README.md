@@ -1,6 +1,6 @@
 # Tokyo Station – Blender model
 
-![Overview of the model](images/v21/overview.jpg)
+![Continuous Chuo canopy and connected equipment](images/v22/overview.jpg)
 
 A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 
@@ -13,6 +13,28 @@ A diorama-style 3D model of Tokyo Station, made in Blender 5.2. It covers:
 The model is built with Blender Python scripts. Automatic checks test clearances, headroom and train placement.
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
+
+## V22 continuous Chuo roof and connections to the lower canopy
+
+V22 corrects the Chuo 1/2 roof silhouette using the user's new oblique aerial photograph. A broad, shallow mint-green roof meets continuous dark curved side panels. Twenty-five complete metal frames follow the enclosure across its crown. A raised white transverse cover sits approximately beside the central station pavilion; its function is unverified. The former generic Chuo rooftop house is retained as a hidden original.
+
+![Matched before and after roof views](images/v22/comparison.jpg)
+
+The user also confirmed the equipment connecting the elevated Chuo structure to the lower 3/4 canopy. Eight assemblies now have access panels, louvres, handles, continuous rectangular risers, collars, service conduit, upper portal brackets and support rails ending on bearings fitted to the actual sloped roof. These quantities and positions are visual model choices, not a surveyed equipment schedule.
+
+![Equipment and supports connecting the two levels](images/v22/equipment.jpg)
+
+The existing columns, slatted soffit, lights, CCTV, staff room, covered end passage and platform fittings remain. Original mast, contact-wire, messenger, dropper, insulator and lower steady-arm geometry stays unchanged. The Chuo portion of the exposed transverse trusses becomes curved internal support beams; only the hanger upper ends and mounting plates change to meet those beams without crossing the new shell.
+
+Fifteen checks cover preservation of the 37,767 V21 source objects, hidden originals, unchanged electrical geometry, train clearance, actual shell/OCS intersections, continuous roof joints, mast apertures, all 44 hanger mounting points, existing stairs and passages, the white cover's bearings, all eight interlevel connections, and file resources. The source photograph has no supplied date, author or measured dimensions. Its silhouette guides the model; precise heights, spacing, material properties and white-cover placement remain estimates. The source image is not redistributed or used as a texture.
+
+See the [Chinese guide](README_V22.txt), [reference record](sources_and_licenses/chuo_roof_v22.json), [build record](validation/build_v22.json), [validation report](validation/validate_v22.json), and [V22 model download](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v22-chuo-roof).
+
+```sh
+blender -b out/Tokyo_Station_Platforms_V21.blend --python-exit-code 1 -P scripts/mod22_chuo_roof.py -- out/Tokyo_Station_Chuo_Roof_V22.blend validation/build_v22.json validation/baseline_v21.json
+blender -b out/Tokyo_Station_Chuo_Roof_V22.blend --python-exit-code 1 -P scripts/validate22_chuo_roof.py -- validation/baseline_v21.json validation/validate_v22.json
+blender -b out/Tokyo_Station_Chuo_Roof_V22.blend --python-exit-code 1 -P scripts/render_review_cams_v22.py -- out/previews 24 01,02,03,04,05,06,07 1800 1200
+```
 
 ## V21 individual platform structures and fittings
 

@@ -1,0 +1,102 @@
+{
+  "revision": 22,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V21 source remains unchanged or preserved as an original",
+      "pass": true,
+      "failures": [],
+      "source_objects": 37767
+    },
+    {
+      "name": "Replaced sources are isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "objects": 10
+    },
+    {
+      "name": "Mast and electrical wire fitting meshes keep their exact V21 geometry and coordinates",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Lower hanger clamps steady arms and all fittings outside the roof remain exact",
+      "pass": true,
+      "failures": [],
+      "retained_vertices": 25452
+    },
+    {
+      "name": "Catenary steel outside the edited Chuo span has exactly the same vertices",
+      "pass": true,
+      "failures": [],
+      "retained_vertices": 92284
+    },
+    {
+      "name": "New roof and fittings clear both train bodies and upper electrical corridors",
+      "pass": true,
+      "failures": [],
+      "samples": 296606,
+      "body_half_width": 1.6,
+      "upper_half_width": 0.78,
+      "upper_clear_z": 22.2
+    },
+    {
+      "name": "Actual envelope meshes do not intersect retained electrical or mast meshes",
+      "pass": true,
+      "failures": [],
+      "pairs": 18
+    },
+    {
+      "name": "Both curved shoulders are continuous and meet the mint roof along their crowns",
+      "pass": true,
+      "failures": [],
+      "samples": 670
+    },
+    {
+      "name": "Green-roof openings preserve clear space around the existing mast shafts",
+      "pass": true,
+      "failures": [],
+      "samples": 55,
+      "openings": 11
+    },
+    {
+      "name": "Every adapted hanger mounting point reaches a curved internal support beam",
+      "pass": true,
+      "failures": [],
+      "attachments": 44
+    },
+    {
+      "name": "Existing stairs staff-room side routes and covered end passage remain clear",
+      "pass": true,
+      "failures": [],
+      "samples": 230
+    },
+    {
+      "name": "Raised white transverse cover has supported bearing points and an intact shell",
+      "pass": true,
+      "failures": [],
+      "bearings": 6
+    },
+    {
+      "name": "Each interlevel assembly joins a real lower-roof bearing cabinet riser and upper portal",
+      "pass": true,
+      "failures": [],
+      "units": 8,
+      "bearing_corners": 32,
+      "mesh_connections": 48
+    },
+    {
+      "name": "Interlevel equipment and supports avoid the actual overhead-line meshes",
+      "pass": true,
+      "failures": [],
+      "pairs": 232
+    },
+    {
+      "name": "Finite native geometry and resolving image resources",
+      "pass": true,
+      "failures": [],
+      "mesh_objects": 56
+    }
+  ],
+  "limits": "An interpretation of the supplied aerial photograph. Roof dimensions and internal support arrangements are model adaptations, not measured engineering data. Original wire, insulator, mast and lower hanger coordinates stay; only upper hanger ends and mounting plates adapt to the curved support beams. No inherited positions are claimed to be surveyed."
+}

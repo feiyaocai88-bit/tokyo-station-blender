@@ -1,0 +1,42 @@
+{
+  "revision": 22,
+  "observed": "2026-11-03",
+  "scope": "Chuo 1/2 canopy envelope and east-side equipment connections to the lower 3/4 canopy",
+  "sources": [
+    {
+      "id": "USER_AERIAL_CHUO",
+      "provider": "User-supplied oblique photograph",
+      "filename": "照片 1.jpg",
+      "sha256": "098d3b4e8fed1d8eab0d61b45296e7219d1ffd35c95fdfdfd5e2d884d7cc8938",
+      "author": "not supplied",
+      "capture_date": "not supplied",
+      "url": null,
+      "observations": [
+        "Broad, shallow mint-green central roof panels form one continuous canopy.",
+        "Dark curved shoulders continue from the acoustic-screen sides to the green central roof.",
+        "Repeated light metal frames pass across the full roof and down the outer sides.",
+        "A raised white transverse cover is approximately aligned with the central station pavilion.",
+        "The former generic Chuo rooftop equipment house is not supported by this view."
+      ],
+      "use": "Visual reference only. Neither redistributed nor used as a texture."
+    },
+    {
+      "id": "USER_INTERLEVEL_CONFIRMATION",
+      "provider": "User direction with a crop of the model preview",
+      "filename": "codex-clipboard-59b720f3-24b5-48a5-b393-29104d2d4982.png",
+      "observation": "User explicitly confirmed equipment boxes and vertical supports connecting the Chuo viaduct's outer side to the lower platform canopy.",
+      "evidence_limit": "The crop locates the requested edit in the model; it is not an independent real-world photograph or a measured equipment schedule.",
+      "use": "Location and scope guidance only. Not redistributed."
+    }
+  ],
+  "inferred_model_choices": {
+    "roof_height_and_profile": "Adapted to the inherited tracks, existing lower soffit, wire heights and photo silhouette; not measured dimensions.",
+    "dark_shoulders": "Modelled as dark tinted glazed panels. Exact real material and optical properties are unverified.",
+    "portal_spacing": "25 full-width frames, with 11 tied to the existing hanger bays and intermediate visual frames; not surveyed positions.",
+    "white_cover": "22 m longitudinal length and approximately central placement. Function and precise dimensions cannot be established from the photograph.",
+    "interlevel_equipment": "Eight assemblies with cabinets, rectangular risers, support rails, conduit and sloped roof bearings. Count, positions, section sizes and service function are interpreted.",
+    "catenary_adaptation": "Chuo exposed transverse steel is replaced inside the new shell. Hanger upper ends and mounting plates join curved internal support beams. Wire, mast, insulator and lower steady-arm coordinates remain unchanged."
+  },
+  "preserved_context": "All V21 source objects remain unchanged or preserved as hidden originals. Previous V20/V21 street-view sources continue to support the retained platform interiors and other platforms.",
+  "accuracy": "Visual model, not a surveyed reconstruction. Native geometry checks establish continuity and clearance within this model, not real-world engineering certification."
+}
