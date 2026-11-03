@@ -14,11 +14,36 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
-## Surface catenary position audit of V15
+## V16 Marunouchi architecture compared with restoration photographs
+
+The complete station now includes revised Marunouchi architecture based on the official Kajima restoration album and Tokyo Station City facade details. The central niche has deeper connected returns and a shallow inner arch, with a thick layered copper pediment above it. Flat attic-turret cornices replace the hip roofs, and two round attic dormers replace rectangular windows.
+
+![Central station building from pedestrian level](images/v16/central.jpg)
+
+Both dome clock gables gain projecting metal archivolts and stone voussoirs. Their octagonal window drums receive brick piers and copper trim; sixteen roof dormers gain scrolls and crowns. Four tall round stone corner ornaments, fine iron balcony rails, carved pilaster capitals, frieze medallions and painted sashes improve the facade at closer distances.
+
+| | |
+|---|---|
+| ![South dome facade](images/v16/south.jpg) | ![Dome roof details](images/v16/roof.jpg) |
+| Layered clock hood, stone corner ornaments and balcony | Copper profiles and round-dormer ornament |
+| ![Wing facade details](images/v16/facade.jpg) | ![Central before and after](images/v16/comparison.jpg) |
+| Carved capitals, window heads and painted sashes | V15 and V16 rendered with the same camera |
+
+All replaced source objects are retained in `V16_Replaced_hidden`. Validation checks mesh, curve, text and transform preservation; unchanged unrelated objects; actual central openings; consistent window setback; visible clock faces; flat turret caps; and packed images. Eight review cameras are included. Existing trains, platforms, ground details and open underground stations are preserved.
+
+This is a photographic interpretation fitted to the inherited plan and floor heights. Fine carving and dimensions remain approximate. The documented 46.1 m dome-plus-finial height is retained. Reference photographs are not redistributed. See the [Chinese V16 guide](README_V16.txt), [reference evidence and limits](sources_and_licenses/marunouchi_architecture_v16.json), and [validation results](validation/validate_v16.json).
+
+```sh
+blender -b out/Tokyo_Station_Cutaway_V15.blend --python-exit-code 1 -P scripts/mod16_marunouchi_architecture.py -- out/Tokyo_Station_Architecture_V16.blend validation/build_v16.json validation/baseline_v15.json
+blender -b out/Tokyo_Station_Architecture_V16.blend --python-exit-code 1 -P scripts/validate16_marunouchi_architecture.py -- validation/baseline_v15.json validation/validate_v16.json
+blender -b out/Tokyo_Station_Architecture_V16.blend --python-exit-code 1 -P scripts/render_review_cams_v16.py -- out/previews 48 01,02,03,06,07 1440 1100
+```
+
+## Surface catenary position audit of V15 (retained in V16)
 
 The central and north platform-area masts are **still inherited procedural positions, not individually photo-calibrated coordinates**. A read-only audit now records all 175 independent surface mast shafts: 162 inherited positions and the 13 south masts from V14. The latter retain their distinctions between ten masts on photo-estimated chainages, two adapted to the cropped model end and one required by model curvature. No mast is promoted to a surveyed coordinate and no `.blend` geometry changes in this audit.
 
-Six model checks pass for shaft clearances, selected platform/roof/rooftop-room intersections and footing/side-bracket connections. These checks establish model relationships, not agreement with every real-world mast. See the [Chinese findings and photographic limits](SURFACE_CATENARY_CHECK.md), [numbered model plan](images/catenary_audit/plan.png), [175-mast CSV](validation/surface_catenary_masts.csv) and [machine-readable audit](validation/surface_catenary_audit.json). The existing V15 release remains the current model download.
+Six model checks pass for shaft clearances, selected platform/roof/rooftop-room intersections and footing/side-bracket connections. These checks establish model relationships, not agreement with every real-world mast. See the [Chinese findings and photographic limits](SURFACE_CATENARY_CHECK.md), [numbered model plan](images/catenary_audit/plan.png), [175-mast CSV](validation/surface_catenary_masts.csv) and [machine-readable audit](validation/surface_catenary_audit.json). V16 preserves this geometry and its accuracy limits.
 
 ## V15 open-side underground stations
 
@@ -182,7 +207,7 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V15 Blender file is on the **[V15 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway)** as `Tokyo_Station_Cutaway_V15.zip`. It contains the packed complete model, five new rendered views, matching before/after comparisons, build/restoration scripts, validation records and asset credits. The [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground), with the original underground walls, remains available separately.
+The current V16 Blender file is on the **[V16 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v16-marunouchi-architecture)** as `Tokyo_Station_Architecture_V16.zip`. It contains the packed complete model, architectural views, matching before/after comparisons, scripts, validation records and asset credits. The [V15 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway) and the [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground), with the original underground walls, remain available separately.
 
 - Open `Tokyo_Station_Ground_V14.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
 - The main scene contains the whole model; its default V14 camera faces the south ground and viaduct. Other viewpoints are in the camera collections.

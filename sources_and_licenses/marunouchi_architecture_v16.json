@@ -1,0 +1,43 @@
+{
+  "revision": 16,
+  "accessed": "2026-11-03",
+  "method": "Human visual comparison of official photographs; new native mesh geometry. Reference photographs are neither textures nor redistributed assets.",
+  "sources": [
+    {
+      "publisher": "Kajima Corporation",
+      "title": "Tokyo Station Marunouchi Building restoration completion exterior album",
+      "url": "https://www.kajima.co.jp/tech/tokyo_station/album/index-j.html",
+      "images_viewed": ["img_ex_01.jpg", "img_ex_02.jpg", "img_ex_04.jpg", "img_ex_06.jpg", "img_ex_08.jpg", "img_ex_09.jpg", "img_ex_13.jpg"],
+      "supports": ["Layered curved copper cornices", "Central recess and flat attic-turret cornices", "Dome drum finish, dormer ornaments and outer corner stone ornaments", "Window sash finish, carved capitals and balcony details"],
+      "copyright": "Kajima reference photographs viewed only; not included in repository or release"
+    },
+    {
+      "publisher": "Tokyo Station City",
+      "title": "Station building learning / external walls",
+      "url": "https://www.tokyostationcity.com/learning/station_building/",
+      "images_viewed": ["gaiheki_img_main.png", "gaiheki_img_05.png"],
+      "supports": ["Relative building silhouettes and annotated approximate heights", "Restored third-floor column and facade ornament"],
+      "copyright": "Official reference photographs viewed only; not redistributed"
+    },
+    {
+      "publisher": "JR East Design Corporation",
+      "title": "Tokyo Station Marunouchi Building preservation and restoration",
+      "url": "https://www.jred.co.jp/projects/p007.html",
+      "supports": ["Restoration project description and architectural context"],
+      "note": "Text consulted; image requests unavailable, so not a visual-comparison source"
+    },
+    {
+      "publisher": "Kajima Corporation",
+      "title": "Restoration project data",
+      "url": "https://www.kajima.co.jp/tech/tokyo_station/data/index-j.html",
+      "supports": ["46.1 m maximum height including finial; inherited dome/spire height retained"]
+    }
+  ],
+  "limitations": [
+    "Photograph-informed fitting to inherited station footprint and storey heights; not a measured reconstruction.",
+    "Recess setback, cornice profiles and carving dimensions are model estimates.",
+    "Copper hue represents a plausible finish under the reference lighting; not a survey of present-day patina.",
+    "Completion aerial photography predates the present plaza, which is not rebuilt from it.",
+    "Catenary audit classifications, all rolling stock and the V15 underground cutaway remain unchanged."
+  ]
+}

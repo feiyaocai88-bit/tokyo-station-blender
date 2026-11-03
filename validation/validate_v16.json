@@ -1,0 +1,74 @@
+{
+  "revision": 16,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V15 source mesh curve text and transform is retained unchanged",
+      "pass": true,
+      "failures": [],
+      "objects": 34503
+    },
+    {
+      "name": "Replaced originals are isolated and hidden",
+      "pass": true,
+      "failures": [],
+      "retained": 2309
+    },
+    {
+      "name": "All other source objects retain geometry materials visibility and collection links",
+      "pass": true,
+      "failures": [],
+      "objects": 32194
+    },
+    {
+      "name": "New native architectural meshes are finite and remain above ground",
+      "pass": true,
+      "failures": [],
+      "vertices": 379088,
+      "faces": 361230
+    },
+    {
+      "name": "Central niche and circular window are actual openings in the new masonry",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Central inset wall glazing and frame parts move together into the niche",
+      "pass": true,
+      "failures": [],
+      "parts": 39
+    },
+    {
+      "name": "Both original clock faces remain visible in front of the new gables",
+      "pass": true,
+      "failures": [],
+      "ray_hits": [
+        "V3 NORTH clock dial 1.442m",
+        "V3 NORTH clock dial 1.442m",
+        "V3 NORTH clock dial 1.442m",
+        "V3 SOUTH clock dial 1.442m",
+        "V3 SOUTH clock dial 1.442m",
+        "V3 SOUTH clock dial 1.442m"
+      ]
+    },
+    {
+      "name": "Frieze medallions remain visible and concealed inherited bays receive no relief",
+      "pass": true,
+      "failures": [],
+      "rays": 204,
+      "visible_relief_samples": 195,
+      "concealed_bay_samples": 9
+    },
+    {
+      "name": "Central turret caps have flat continuous upper surfaces and no floating old finials",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Image dependencies are packed or resolve",
+      "pass": true,
+      "failures": []
+    }
+  ],
+  "limits": "Geometry checks establish consistency and preservation, not survey accuracy."
+}
