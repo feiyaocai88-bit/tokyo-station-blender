@@ -1,0 +1,42 @@
+{
+  "revision": 15,
+  "passed": true,
+  "checks": [
+    {
+      "name": "Every V14 source object retains its original geometry transform and materials",
+      "pass": true,
+      "failures": [],
+      "count": 34481
+    },
+    {
+      "name": "JR floor and roof surfaces and existing openings survive the wall removal",
+      "pass": true,
+      "failures": [],
+      "samples": 1242,
+      "surfaces": 1221,
+      "openings": 21
+    },
+    {
+      "name": "Both sides and end enclosures are geometrically open through the occupied levels",
+      "pass": true,
+      "failures": [],
+      "rays": 172
+    },
+    {
+      "name": "Wall originals are isolated and Metro passage meshes contain only their roofs",
+      "pass": true,
+      "failures": []
+    },
+    {
+      "name": "Underground trains platforms stairs entrances and equipment remain available",
+      "pass": true,
+      "failures": [],
+      "active_unchanged_objects": 218
+    },
+    {
+      "name": "Image assets are packed or resolve",
+      "pass": true,
+      "failures": []
+    }
+  ]
+}

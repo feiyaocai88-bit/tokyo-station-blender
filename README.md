@@ -14,6 +14,29 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## V15 open-side underground stations
+
+Both underground stations now have their side enclosures removed from the active geometry in the **complete main scene**, so their interiors are visible in Solid viewport mode as well as in renders. JR Sobu/Yokosuka B5–B1 perimeter walls, track-wall finishes, equipment-room partitions and tunnel side/end walls are opened. Marunouchi M17 track walls, B1 side walls and transfer branches are opened, along with the M7/M8 stairwell and connecting-passage walls. Wall-only posters, lights and tile grout are removed with their walls.
+
+![Complete model with exposed underground levels](images/v15/main.jpg)
+
+| | |
+|---|---|
+| ![JR underground opposite side](images/v15/jr.jpg) | ![Marunouchi station open sides](images/v15/metro.jpg) |
+| Five JR levels, with trains and equipment retained | M17 platform, columns, train and B1 concourse |
+| ![M8 exposed staircase](images/v15/access.jpg) | ![Matching before and after](images/v15/comparison.jpg) |
+| Stair flights and continuous B1 passage | Identical camera on V14 and V15 |
+
+Floor and roof slabs, their existing openings, platforms, tracks, trains, columns, stairs, escalators, gates, overhead signs and equipment remain. The surface model includes all V14 work. Two linked inspection scenes and five cameras are included. The original meshes are preserved in `V15_Replaced_hidden`; a restoration script saves a separate copy with the original walls. See the [Chinese V15 guide](README_V15.txt) and [validation results](validation/validate_v15.json). This is an exhibition cutaway; the existing model's accuracy limits still apply.
+
+```sh
+blender -b out/Tokyo_Station_Ground_V14.blend --python-exit-code 1 -P scripts/mod15_underground_cutaway.py -- out/Tokyo_Station_Cutaway_V15.blend validation/build_v15.json validation/baseline_v14.json
+blender -b out/Tokyo_Station_Cutaway_V15.blend --python-exit-code 1 -P scripts/validate15_underground_cutaway.py -- validation/baseline_v14.json validation/validate_v15.json
+blender -b out/Tokyo_Station_Cutaway_V15.blend --python-exit-code 1 -P scripts/render_review_cams_v15.py -- out/previews 64 01,02,03,05 1600 760
+blender -b out/Tokyo_Station_Cutaway_V15.blend --python-exit-code 1 -P scripts/render_review_cams_v15.py -- out/previews 64 04 1600 1000
+blender -b out/Tokyo_Station_Cutaway_V15.blend --python-exit-code 1 -P scripts/restore15_underground_walls.py -- out/Tokyo_Station_Walls_Restored.blend
+```
+
 ## V14 south ground details and south catenary positions
 
 V14 fills the bare ground below the south approach with a brick-arch frontage, recessed Hato Bus ticket windows, shutters, service doors, louvres, downpipes and lamps. The longitudinal street gains raised paving, joints, kerbs, drainage grates, inspection covers, stop flags, utility cabinets and a parked yellow sightseeing coach. Two old schematic transverse sidewalk strips are replaced, and the undercroft receives floors, ceilings, partitions and pier fittings.
@@ -153,7 +176,7 @@ The V10 validator checks sampled vertices, triangle centres and edge midpoints a
 
 ## Download
 
-The current V14 Blender file is on the **[V14 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground)** as `Tokyo_Station_Ground_V14.zip`. It contains the packed complete model, six new rendered views, before/after comparisons, pole-change diagram, build scripts, validation records and asset credits. The [V13 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v13-site-details) remains available separately.
+The current V15 Blender file is on the **[V15 release page](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v15-underground-cutaway)** as `Tokyo_Station_Cutaway_V15.zip`. It contains the packed complete model, five new rendered views, matching before/after comparisons, build/restoration scripts, validation records and asset credits. The [V14 release](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/v14-south-ground), with the original underground walls, remains available separately.
 
 - Open `Tokyo_Station_Ground_V14.blend` with **Blender 5.2 LTS**. Textures and fonts are packed into the file.
 - The main scene contains the whole model; its default V14 camera faces the south ground and viaduct. Other viewpoints are in the camera collections.

@@ -1,0 +1,303 @@
+{
+  "revision": 15,
+  "retained": [
+    {
+      "original": "V9 Sobu | box west wall (hide for the cutaway view)",
+      "retained": "V9 Sobu | box west wall (hide for the cutaway view) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | box structure (slabs, walls, end walls, tunnel stubs, ventilation shaft)",
+      "retained": "V9 Sobu | box structure (slabs, walls, end walls, tunnel stubs, ventilation shaft) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | B5 ceilings, bulkheads, track walls, soffit beams",
+      "retained": "V9 Sobu | B5 ceilings, bulkheads, track walls, soffit beams [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | B5 light fittings",
+      "retained": "V9 Sobu | B5 light fittings [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | signs (station names, departure boards, track numbers, exits, stop boards, signals)",
+      "retained": "V9 Sobu | signs (station names, departure boards, track numbers, exits, stop boards, signals) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | B4 concourse (ceiling, partitions, doors)",
+      "retained": "V9 Sobu | B4 concourse (ceiling, partitions, doors) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | B1 concourse (ceiling, walls, ticket gates, ventilation-shaft cladding)",
+      "retained": "V9 Sobu | B1 concourse (ceiling, walls, ticket gates, ventilation-shaft cladding) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V9 Sobu | B2-B3 machine rooms (partitions, switchgear, tanks, fans)",
+      "retained": "V9 Sobu | B2-B3 machine rooms (partitions, switchgear, tanks, fans) [before V15]",
+      "links": [
+        {
+          "collection": "V9_Sobu_Underground_Station"
+        }
+      ]
+    },
+    {
+      "original": "V11 M17 track walls with red band and station names",
+      "retained": "V11 M17 track walls with red band and station names [before V15]",
+      "links": [
+        {
+          "collection": "V11_Metro_Walls"
+        }
+      ]
+    },
+    {
+      "original": "V11 M17 B1 concourse roof and side walls",
+      "retained": "V11 M17 B1 concourse roof and side walls [before V15]",
+      "links": [
+        {
+          "collection": "V11_Metro_Ceiling"
+        }
+      ]
+    },
+    {
+      "original": "V11 M17 B1 concourse ticket gates balustrades and transfer branches",
+      "retained": "V11 M17 B1 concourse ticket gates balustrades and transfer branches [before V15]",
+      "links": [
+        {
+          "collection": "V11_Metro_Concourse"
+        },
+        {
+          "scene": "V13 Metro access cutaway"
+        }
+      ]
+    },
+    {
+      "original": "V13 M7 tiled stairwell retaining walls",
+      "retained": "V13 M7 tiled stairwell retaining walls [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Shell"
+        }
+      ]
+    },
+    {
+      "original": "V13 M7 B1 passage walls and roof",
+      "retained": "V13 M7 B1 passage walls and roof [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Shell"
+        }
+      ]
+    },
+    {
+      "original": "V13 M7 handrails stair nosings tactile paving and lights",
+      "retained": "V13 M7 handrails stair nosings tactile paving and lights [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Detail"
+        },
+        {
+          "scene": "V13 Metro access cutaway"
+        }
+      ]
+    },
+    {
+      "original": "V13 M8 tiled stairwell retaining walls",
+      "retained": "V13 M8 tiled stairwell retaining walls [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Shell"
+        }
+      ]
+    },
+    {
+      "original": "V13 M8 B1 passage walls and roof",
+      "retained": "V13 M8 B1 passage walls and roof [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Shell"
+        }
+      ]
+    },
+    {
+      "original": "V13 M8 handrails stair nosings tactile paving and lights",
+      "retained": "V13 M8 handrails stair nosings tactile paving and lights [before V15]",
+      "links": [
+        {
+          "collection": "V13_Metro_Access_Detail"
+        },
+        {
+          "scene": "V13 Metro access cutaway"
+        }
+      ]
+    }
+  ],
+  "edits": [
+    {
+      "object": "V9 Sobu | box west wall (hide for the cutaway view)",
+      "reason": "JR west exterior diaphragm wall",
+      "whole_object": true,
+      "removed_vertices": 48,
+      "remaining_vertices": 0
+    },
+    {
+      "object": "V9 Sobu | box structure (slabs, walls, end walls, tunnel stubs, ventilation shaft)",
+      "reason": "JR east/end walls, upper perimeter and tunnel side/end enclosures",
+      "removed_components": 281,
+      "kept_components": 999,
+      "removed_vertices": 1124,
+      "remaining_vertices": 3996
+    },
+    {
+      "object": "V9 Sobu | B5 ceilings, bulkheads, track walls, soffit beams",
+      "reason": "B5 track-wall cladding; retain ceiling and beams",
+      "removed_components": 4,
+      "kept_components": 494,
+      "removed_vertices": 32,
+      "remaining_vertices": 2320
+    },
+    {
+      "object": "V9 Sobu | B5 light fittings",
+      "reason": "Fixtures attached only to the removed track walls",
+      "removed_components": 96,
+      "kept_components": 3120,
+      "removed_vertices": 768,
+      "remaining_vertices": 24960
+    },
+    {
+      "object": "V9 Sobu | signs (station names, departure boards, track numbers, exits, stop boards, signals)",
+      "reason": "Track-wall posters/name boards and corridor end-wall sign; retain overhead and column signs",
+      "removed_components": 181,
+      "kept_components": 398,
+      "removed_vertices": 1084,
+      "remaining_vertices": 2912
+    },
+    {
+      "object": "V9 Sobu | B4 concourse (ceiling, partitions, doors)",
+      "reason": "B4 perimeter partitions and their doors; preserve ceiling",
+      "removed_components": 266,
+      "kept_components": 100,
+      "removed_vertices": 1136,
+      "remaining_vertices": 400
+    },
+    {
+      "object": "V9 Sobu | B1 concourse (ceiling, walls, ticket gates, ventilation-shaft cladding)",
+      "reason": "B1 perimeter and end walls; preserve gates, ceiling and ventilation duct",
+      "removed_components": 27,
+      "kept_components": 103,
+      "removed_vertices": 108,
+      "remaining_vertices": 700
+    },
+    {
+      "object": "V9 Sobu | B2-B3 machine rooms (partitions, switchgear, tanks, fans)",
+      "reason": "Equipment-room partition walls; preserve all switchgear, tanks, fans and ducts",
+      "removed_components": 1056,
+      "kept_components": 236,
+      "removed_vertices": 4224,
+      "remaining_vertices": 5280
+    },
+    {
+      "object": "V11 M17 track walls with red band and station names",
+      "reason": "M17 both trackside walls and wall decoration",
+      "whole_object": true,
+      "removed_vertices": 5686,
+      "remaining_vertices": 0
+    },
+    {
+      "object": "V11 M17 B1 concourse roof and side walls",
+      "reason": "M17 B1 side walls; retain roof and access apertures",
+      "removed_components": 6,
+      "kept_components": 1,
+      "removed_vertices": 48,
+      "remaining_vertices": 24
+    },
+    {
+      "object": "V11 M17 B1 concourse ticket gates balustrades and transfer branches",
+      "reason": "JR transfer-branch side walls; preserve gates, floor, roof and hanging signs",
+      "removed_components": 4,
+      "kept_components": 141,
+      "removed_vertices": 32,
+      "remaining_vertices": 1532
+    },
+    {
+      "object": "V13 M7 tiled stairwell retaining walls",
+      "reason": "M7 underground stairwell retaining walls",
+      "whole_object": true,
+      "removed_vertices": 35,
+      "remaining_vertices": 0
+    },
+    {
+      "object": "V13 M7 B1 passage walls and roof",
+      "reason": "M7 passage perimeter; preserve continuous roof",
+      "removed_components": 2,
+      "kept_components": 1,
+      "removed_vertices": 44,
+      "remaining_vertices": 8
+    },
+    {
+      "object": "V13 M7 handrails stair nosings tactile paving and lights",
+      "reason": "M7 tile grout on removed stairwell walls",
+      "removed_components": 46,
+      "kept_components": 237,
+      "removed_vertices": 368,
+      "remaining_vertices": 3080
+    },
+    {
+      "object": "V13 M8 tiled stairwell retaining walls",
+      "reason": "M8 underground stairwell retaining walls",
+      "whole_object": true,
+      "removed_vertices": 35,
+      "remaining_vertices": 0
+    },
+    {
+      "object": "V13 M8 B1 passage walls and roof",
+      "reason": "M8 passage perimeter; preserve continuous roof",
+      "removed_components": 2,
+      "kept_components": 1,
+      "removed_vertices": 177,
+      "remaining_vertices": 20
+    },
+    {
+      "object": "V13 M8 handrails stair nosings tactile paving and lights",
+      "reason": "M8 tile grout on removed stairwell walls",
+      "removed_components": 46,
+      "kept_components": 237,
+      "removed_vertices": 368,
+      "remaining_vertices": 3080
+    }
+  ],
+  "presentation": "Both underground stations have native open side enclosures in the main scene.",
+  "preserved": "Complete V14 source geometry retained, including trains, floors, stairs, columns, surface buildings and ground details. Hidden originals are restoration sources."
+}
