@@ -20,7 +20,7 @@ The complete Marunouchi building is now a single printable solid on a 4 mm base,
 
 ![Printable Marunouchi building](images/fdm_marunouchi/overview.png)
 
-The single-color edition strengthens small details, fills inaccessible interiors, restores the central recessed windows and connects floating chimney bases. The final STL is watertight and one connected component after serialization. Bambu Studio H2C slicing passed with no warnings using 0.4 mm / PLA / 0.12 mm layers; physical fit has not been test-printed. See the [Chinese printing and assembly guide](README_FDM_MARUNOUCHI.md) and [download files](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/fdm-marunouchi-v1).
+The single-color edition strengthens small details, fills inaccessible interiors, restores the central recessed windows and connects floating chimney bases. The final STL is watertight and one connected component after serialization. Bambu Studio H2C slicing passed with no warnings using 0.4 mm / PLA / 0.12 mm layers; physical fit has not been test-printed. See the [Chinese printing and assembly guide](README_FDM_MARUNOUCHI.md) and [interface coordinates](validation/fdm_assembly_interfaces_v1.json). Binary print files are delivered locally; the guide includes commands to generate them.
 
 ## V22 continuous Chuo roof and connections to the lower canopy
 
