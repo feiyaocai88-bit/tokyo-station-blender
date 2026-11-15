@@ -14,6 +14,14 @@ The model is built with Blender Python scripts. Automatic checks test clearances
 
 > This is an interpretive model, not survey data. Track and platform positions are matched to GSI (Geospatial Information Authority of Japan) data and OpenStreetMap. Heights, interiors and many details are estimates. See [Accuracy and limitations](#accuracy-and-limitations).
 
+## Marunouchi FDM print edition, 1:1000
+
+The complete Marunouchi building is now a single printable solid on a 4 mm base, with four underside sockets for future plaza and railway modules. The 334.424 × 64.946 × 50.100 mm part fits the H2C shared build area when rotated 42 degrees. Separate connector keys and a small fit coupon are included.
+
+![Printable Marunouchi building](images/fdm_marunouchi/overview.png)
+
+The single-color edition strengthens small details, fills inaccessible interiors, restores the central recessed windows and connects floating chimney bases. The final STL is watertight and one connected component after serialization. Bambu Studio H2C slicing passed with no warnings using 0.4 mm / PLA / 0.12 mm layers; physical fit has not been test-printed. See the [Chinese printing and assembly guide](README_FDM_MARUNOUCHI.md) and [download files](https://github.com/feiyaocai88-bit/tokyo-station-blender/releases/tag/fdm-marunouchi-v1).
+
 ## V22 continuous Chuo roof and connections to the lower canopy
 
 V22 corrects the Chuo 1/2 roof silhouette using the user's new oblique aerial photograph. A broad, shallow mint-green roof meets continuous dark curved side panels. Twenty-five complete metal frames follow the enclosure across its crown. A raised white transverse cover sits approximately beside the central station pavilion; its function is unverified. The former generic Chuo rooftop house is retained as a hidden original.
